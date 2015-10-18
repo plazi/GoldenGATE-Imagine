@@ -1,0 +1,4 @@
+annotationType = "traitTerm";
+csvDataName = "EnvoTraitOntology.csv";
+EnvoURI.attributeName = "termUri";
+Term.lookupMode = "Token, Full Sequence (Exact Match)";

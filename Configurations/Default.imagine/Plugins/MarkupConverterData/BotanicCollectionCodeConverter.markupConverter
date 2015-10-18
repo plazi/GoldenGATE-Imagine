@@ -1,0 +1,8 @@
+FILTER0 = "botanicCollectionCode[./#last = '.']";
+FILTER1 = "botanicCollectionCodeGroup/botanicCollectionCode";
+FILTER2 = "botanicCollectionCodeGroup";
+FILTER3 = "botanicCollectionCode";
+TARGET0 = "";
+TARGET1 = "collectionCode";
+TARGET2 = "";
+TARGET3 = "";

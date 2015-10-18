@@ -1,0 +1,73 @@
+<html><head><title>Pipelines</title></head><body><h3><font face="Verdana">The Pipelines</font></h3><font face="Verdana" size="2">The
+Pipelines are document processoers that allow sequencing other document
+processors (including other Pipelines) so they are accessible as one.</font>
+<h4><font face="Verdana">The Pipelines Menu</font></h4>
+<font size="2" face="Verdana">The Pipelines menu provides access to functions
+for managing and applying Pipelines, and instant access to a set of built-in Pipelines:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Create:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new Pipeline by sequencing some document processors.</font></li>
+  <li><b><font face="Verdana" size="2">Edit:</font></b><font face="Verdana" size="2">&nbsp;Open
+    the Pipeline management dialog.</font></li>
+  <li><b><font face="Verdana" size="2">Run:</font></b><font face="Verdana" size="2">&nbsp;Select
+    an Pipeline from a list and apply it to the document currently selected.
+    This function is also available through the&nbsp;<b>Run Pipeline </b>option
+    in the Tools menu.</font></li>
+</ul>
+<h4><font face="Verdana">The Edit Pipelines Dialog</font></h4>
+<font face="Verdana" size="2">The dialog for Pipeline management is accessible
+through the Edit function in the Pipelines menu. On the right of the dialog, a
+list displays all existing Pipelines. In the middle, a table displays the
+individual document processors in the order they are applied by the Pipeline
+currently selected in that list. Below and to the left of the table, there are
+several buttons for managing the document processors that are part of the
+Pipeline:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Remove:</font></b><font face="Verdana" size="2">&nbsp;Remove
+    the document processor(s) currently selected in the table.</font></li>
+  <li><b><font face="Verdana" size="2">&quot;Add ...&quot; Buttons:</font></b><font face="Verdana" size="2"><b>
+    </b>For every type of document processor accessible to GoldenGATE, a button
+    exists which opens a dialog for selecting a processor from a list and adding
+    it to the end of the Pipeline. If the new document processor is a Pipeline
+    itself, an automated cycle detection will ensure that no cycles occur.</font></li>
+  <li><b><font face="Verdana" size="2">Interactivity Level:</font></b><font face="Verdana" size="2">&nbsp;Below
+    the buttons, there is a selector for the Pipeline's interactivity level,
+    i.e. the frequency documents running through the Pipeline are presented to
+    the user for manual interventions. There are five different interactivity
+    levels:</font><ul>
+  <li><font face="Verdana" size="2"><b>Feedback / Editing after each step:</b>
+    Allow the document processors to prompt the user whenever necessary, display
+    the document for manual editing after each individual document processor.</font></li>
+  <li><font face="Verdana" size="2"><b>Feedback / Editing of result:</b> Allow
+    the document processors to prompt the user whenever necessary, display the
+    document for manual editing after the Pipeline has finished its work. This
+    is the default.</font></li>
+  <li><font face="Verdana" size="2"><b>Feedback only:</b> Allow the document
+    processors to prompt the user whenever necessary, do not display the
+    document for manual editing.</font></li>
+  <li><font face="Verdana" size="2"><b>Editing of result only:</b> Force the
+    document processors to work autonomously, but display the document for
+    manual editing after the Pipeline has finished its work.</font></li>
+  <li><font face="Verdana" size="2"><b>No interactivity:</b> Force the document
+    processors to work autonomously, do not display the document for manual
+    editing.</font></li>
+  </ul>
+  </li>
+  <li><font size="2" face="Verdana"><b>Up:</b>&nbsp;Move the document processor
+    currently selected in the table up by one row.</font></li>
+  <li><font size="2" face="Verdana"><b>Down:</b>&nbsp;Move the document
+    processor currently selected in the table down by one row.</font></li>
+</ul>
+<font face="Verdana" size="2">At the top of the dialog, a
+line of buttons provides the functionality for managing the Pipelines:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Create:</font></b><font face="Verdana" size="2">&nbsp;Open
+    a sub-dialog for creating a new Pipeline by sequencing some document processors.</font></li>
+  <li><b><font face="Verdana" size="2">Clone:</font></b><font face="Verdana" size="2">&nbsp;Clone
+    the Pipeline currently selected. This is pretty much the same as creating a
+    new one, beside the fact that document processor sequence is copied.</font></li>
+  <li><b><font face="Verdana" size="2">Delete:</font></b><font face="Verdana" size="2">&nbsp;Delete
+    the Pipeline currently selected. This operation does not delete the document
+    processors forming the Pipeline.</font></li>
+</ul>
+</body></html>

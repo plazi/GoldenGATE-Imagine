@@ -1,0 +1,3 @@
+CLASS = "de.uka.ipd.idaho.plugins.quantityTagger.QuantityTagger";
+CLASS_PATH = "QuantityTagger.jar";
+DATA_PATH = "QuantityTaggerData/";

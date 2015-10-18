@@ -1,0 +1,8 @@
+FILTER0 = "collectionCode";
+FILTER1 = "geoCoordinate";
+FILTER2 = "geoCoordinate[not(./@ANNOTATION_ID = /treatment/geoCoordinate/@ANNOTATION_ID)]";
+FILTER3 = "collectionCode[not(./@ANNOTATION_ID = /treatment/collectionCode/@ANNOTATION_ID)]";
+TARGET0 = "#R-NCI treatment";
+TARGET1 = "#R-NCI treatment";
+TARGET2 = "";
+TARGET3 = "";

@@ -1,0 +1,1 @@
+(<<LowerCaseFull>>(\s\(<<TaxonNameAuthor>>(\s[0-9]{4}(\s[a-z])?)?\)))

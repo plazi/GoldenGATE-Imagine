@@ -1,0 +1,1 @@
+((<<referenceNumber>>)\s+(<<authorLastNameFirst>>|<<authorLastNameLast>>)(<<authorListSeparator>>\s(<<authorLastNameFirst>>|<<authorLastNameLast>>|<<nobleTitleName>>))*(\,|\.|\:))

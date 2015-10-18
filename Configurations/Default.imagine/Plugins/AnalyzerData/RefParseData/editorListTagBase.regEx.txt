@@ -1,0 +1,1 @@
+(([Ee]d(s|s\.|\.|itors|itor)?)|([Rr]ed(s|s\.|\.|acteurs|acteur)?)|(Hrsg\.?|Hg\.?))

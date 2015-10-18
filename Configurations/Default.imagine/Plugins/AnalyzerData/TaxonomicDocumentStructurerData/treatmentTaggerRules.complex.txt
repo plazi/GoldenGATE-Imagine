@@ -1,0 +1,12 @@
+./#first = 'Abstract' or ./#first = 'ABSTRACT' ==> Start 'abstract' SubSection
+./#first = 'Introduction' or ./#first = 'INTRODUCTION' ==> Start 'introduction' SubSection
+(./#first = 'Materials' or ./#first = 'MATERIALS' or ./#first = 'Material' or ./#first = 'MATERIAL') and not(./#[2] = 'examined' or ./#[2] = 'EXAMINED' or ./#[2] = 'examined') ==> Start 'materials_methods' SubSection
+./#first = 'References' or ./#first = 'REFERENCES' ==> Start 'reference_group' SubSection
+./#first = 'Literature' or ./#first = 'LITERATURE' ==> Start 'reference_group' SubSection
+./#first = 'Bibliography' or ./#first = 'BIBLIOGRAPHY' ==> Start 'reference_group' SubSection
+./#first[matches(. , 'Acknowledg(e)?ment(s)?')]or ./#first[matches(. , 'ACKNOWLEDG(E)?MENT(S)?')] ==> Start 'acknowledgments' SubSection
+(./#first = 'Key' or ./#first = 'KEY') and not(./# = 'words' or ./# = 'Words' or ./# = 'WORDS') ==> Start 'key' SubSection
+$rule < 9 ==> Continue SubSection
+./taxonomicName[./@START_INDEX < 3] and ./taxonomicNameLabel ==> Start 'treatment' SubSection
+./taxonomicName[./@START_INDEX < 3]and not(./#[matches(., '[0-9]{4}')]) ==> Start 'treatment' SubSection
+$position = 1 ==> Start 'document_head' SubSection

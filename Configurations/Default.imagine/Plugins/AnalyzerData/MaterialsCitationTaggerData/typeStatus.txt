@@ -1,0 +1,49 @@
+androtype
+androtypen ==> androtype
+androtypes ==> androtype
+androtypus ==> androtype
+
+gynotype
+gynotypen ==> gynotype
+gynotypes ==> gynotype
+gynotypus ==> gynotype
+
+holotype
+holotypen ==> holotype
+holotypes ==> holotype
+holotypus ==> holotype
+
+lectotype
+lectotypen ==> lectotype
+lectotypes ==> lectotype
+lectotypus ==> lectotype
+
+neotype
+neotypen ==> neotype
+neotypes ==> neotype
+neotypus ==> neotype
+
+nidotype
+nidotypen ==> nidotype
+nidotypes ==> nidotype
+nidotypus ==> nidotype
+
+paralectotype
+paralectotypen ==> paralectotype
+paralectotypes ==> paralectotype
+paralectotypus ==> paralectotype
+
+paratype
+paratypen ==> paratype
+paratypes ==> paratype
+paratypus ==> paratype
+
+syntype
+syntypen ==> syntype
+syntypes ==> syntype
+syntypus ==> syntype
+
+type
+typen
+types
+typus

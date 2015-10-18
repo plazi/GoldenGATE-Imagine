@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='utf-8'?>
+<archive xmlns="http://rs.tdwg.org/dwc/text/" metadata="metadata.xml">
+  <core encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='' ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Taxon">
+    <!-- one row per taxon im nomenclature -->
+    <files>
+      <location>taxa.txt</location>
+    </files>
+    <id index="0" />
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/taxonID"/> <!-- treatment ID + ".taxon" -->
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/namePublishedIn"/> <!-- reference string of original description --> ==> ADD THIS
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/acceptedNameUsageID"/> <!-- blank --> WHAT'S THIS GOOD FOR? ==> BLANK, ONLY FOR NEW JUNIOR SYNONYMS POINT TO NEW SENIOR SYNONYM
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/parentNameUsageID"/> <!-- blank --> WHAT'S THIS GOOD FOR? ==> FOR HIERARCHY, LEAVE BLANK
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/originalNameUsageID"/> <!-- pointer to original description article record ID in references.txt, if available --> ==> LEAVE BLANK
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/kingdom"/> <!-- taxon@kingdom -->
+    <field index="6" term="http://rs.tdwg.org/dwc/terms/phylum"/> <!-- taxon@phylum -->
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/class"/> <!-- taxon@class -->
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/order"/> <!-- taxon@order -->
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/family"/> <!-- taxon@family -->
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/genus"/> <!-- taxon@genus -->
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/taxonRank"/> <!-- taxon@rank -->
+    <field index="12" term="http://rs.tdwg.org/dwc/terms/scientificName"/> <!-- taxon name -->
+    <field index="13" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus"/> <!-- taxon status: accepted, synonym, homotypicSynonym, heterotypicSynonym --> WHAT TO PUT HERE IF NONE GIVEN EXPLICITLY, I.E. IN NON-ORIGINAL-DESCRIPTIONS? ==> SEE BELOW
+    <field index="14" term="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"/> <!-- "accepted" for original descriptions, "nom illig", "invalid", otherwise blank --> WHERE TO GET THIS FROM? ==> ALWAYS LEAVE BLANK
+    <field index="15" term="http://purl.org/dc/terms/references"/> <!-- HTTP URI of treatment -->
+	
+	for newly established synonymies, add record for every taxon name in nomenclature, using respective ID suffixes, and pointing to new senior synonym (taxon at top of nomenclature, new valid name):
+		<field index="0" term="http://rs.tdwg.org/dwc/terms/taxonID"/> <!-- treatment ID + ".syn<orderpos>" -->
+		<field index="1" term="http://rs.tdwg.org/dwc/terms/namePublishedIn"/> <!-- reference string of original description --> ==> ADD THIS (TREATMENT CITATION)
+		<field index="2" term="http://rs.tdwg.org/dwc/terms/acceptedNameUsageID"/> <!-- treatment ID + ".taxon" -->
+		<field index="3" term="http://rs.tdwg.org/dwc/terms/parentNameUsageID"/> <!-- blank -->
+		<field index="4" term="http://rs.tdwg.org/dwc/terms/originalNameUsageID"/> <!-- blank --> ==> LEAVE BLANK
+		<field index="5" term="http://rs.tdwg.org/dwc/terms/kingdom"/> <!-- taxon@kingdom -->
+		<field index="6" term="http://rs.tdwg.org/dwc/terms/phylum"/> <!-- taxon@phylum -->
+		<field index="7" term="http://rs.tdwg.org/dwc/terms/class"/> <!-- taxon@class -->
+		<field index="8" term="http://rs.tdwg.org/dwc/terms/order"/> <!-- taxon@order -->
+		<field index="9" term="http://rs.tdwg.org/dwc/terms/family"/> <!-- taxon@family -->
+		<field index="10" term="http://rs.tdwg.org/dwc/terms/genus"/> <!-- taxon@genus -->
+		<field index="11" term="http://rs.tdwg.org/dwc/terms/taxonRank"/> <!-- taxon@rank -->
+		<field index="12" term="http://rs.tdwg.org/dwc/terms/scientificName"/> <!-- taxon name -->
+		<field index="13" term="http://rs.tdwg.org/dwc/terms/taxonomicStatus"/> <!-- "synonym", "homotypicSynonym" is we have a syntype -->
+		<field index="14" term="http://rs.tdwg.org/dwc/terms/nomenclaturalStatus"/> <!-- blank --> WHERE TO GET THIS FROM? ==> ALWAYS LEAVE BLANK
+		<field index="15" term="http://purl.org/dc/terms/references"/> <!-- HTTP URI of treatment -->
+  </core>
+
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='' ignoreHeaderLines="1" rowType="http://rs.tdwg.org/dwc/terms/Occurrence">
+    <!-- one row per materials citation -->
+    <files>
+      <location>occurrences.txt</location>
+    </files>
+    <coreid index="1" />
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/occurrenceID"/> <!-- treatment ID + ".mc." + mc ID --> WHAT IF THEY CHANGE OR DISAPPEAR AFTER CORRECTIONS TO TREATMENT? ==> AVOID CHNAGE IF POSSIBLE, BUT IT WON'T BREAK ANYTHING
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/taxonID"/> <!-- treatment ID + ".taxon" -->
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/catalogNumber"/> <!-- mc@specimenCode (consider one record per specimen code) --> WHAT TO DO WITH MULTIPLE SPECIMEN CODES? ==> EXPLODE IF POSSIBLE
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/collectionCode"/> <!-- mc@collectionCode --> WHAT TO DO WITH MULTIPLE COLLECTION CODES? ==> EXPLODE IF POSSIBLE
+    <field index="4" term="http://rs.tdwg.org/dwc/terms/institutionCode"/> <!-- blank --> RARELY GIVEN EXPLICITLY, BUT IMPLICIT IN COLLECTION CODE
+    <field index="5" term="http://rs.tdwg.org/dwc/terms/typeStatus"/> <!-- mc@typeStatus --> WHAT TO PUT HERE IF NONE GIVEN? ==> LEAVE BLANK
+    <field index="6" term="http://rs.gbif.org/terms/1.0/verbatimLabel"/> <!-- mc text --> IS THAT ASSIGNMENT OK? ==> OK
+    <field index="7" term="http://rs.tdwg.org/dwc/terms/sex"/> <!-- mc@sex --> IS QUEEN A SEX? HOW ABOUT WORKER? ==> JUST PUT IT HERE
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/individualCount"/> <!-- mc@specimenCount --> WHAT TO DO WITH "5 workers, 2 females", ETC.?
+    <field index="9" term="http://rs.tdwg.org/dwc/terms/eventDate"/> <!-- mc@collectingDate -->
+    <field index="10" term="http://rs.tdwg.org/dwc/terms/recordedBy"/> <!-- mc@collectorName -->
+    <field index="11" term="http://rs.tdwg.org/dwc/terms/recordNumber"/> <!-- blank --> WHAT TO PUT HERE?
+    <field index="12" term="http://rs.tdwg.org/dwc/terms/decimalLatitude"/> <!-- mc@latitude -->
+    <field index="13" term="http://rs.tdwg.org/dwc/terms/decimalLongitude"/> <!-- mc@longitude -->
+    <field index="14" term="http://rs.tdwg.org/dwc/terms/minimumElevationInMeters"/> <!-- mc@elevation, or mc@elevationMin if given -->
+    <field index="15" term="http://rs.tdwg.org/dwc/terms/maximumElevationInMeters"/> <!-- mc@elevationMax if given -->
+    <field index="16" term="http://rs.tdwg.org/dwc/terms/country"/> <!-- mc@collectingCountry -->
+    <field index="17" term="http://rs.tdwg.org/dwc/terms/stateProvince"/> <!-- mc@stateProvince or mc@collectingRegion -->
+    <field index="18" term="http://rs.tdwg.org/dwc/terms/municipality"/> <!-- mc@collectingMunicipality -->
+    <field index="19" term="http://rs.tdwg.org/dwc/terms/locality"/> <!-- mc@location -->
+  </extension>
+
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='' ignoreHeaderLines="1" rowType="http://rs.gbif.org/terms/1.0/Description">
+    <!-- one row per relevant treatment sub section -->
+    <files>
+      <location>description.txt</location>
+    </files>
+    <coreid index="0" />
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/taxonID"/> <!-- treatment ID + ".taxon" -->
+    <field index="1" term="http://purl.org/dc/terms/type"/> <!-- subSubSection@type -->
+    <field index="2" term="http://purl.org/dc/terms/description"/> <!-- subSubSection text -->
+    <field index="3" term="http://purl.org/dc/terms/language"/> <!-- blank until we have language detection (might be reusable from spell checker) --> WHAT HAPPENS IF WRONG LANGUAGE INDICATED? ==> LEAVE BLANK BEFORE INDICATING WRONG LANGUAGE
+    <field default="article citation" term="http://purl.org/dc/terms/source"/>
+  </extension>
+
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='' ignoreHeaderLines="1" rowType="http://rs.gbif.org/terms/1.0/Distribution">
+    <!-- one row per distribution area (currently not marked) -->
+    <files>
+      <location>distribution.txt</location>
+    </files>
+    <coreid index="1" />
+    <field index="0" term="http://rs.tdwg.org/dwc/terms/locationID"/> <!-- treatment ID + "." + location ID-->
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/taxonID"/> <!-- treatment ID + ".taxon" -->
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/country"/> <!-- mc@collectinCountry -->
+    <field index="3" term="http://rs.tdwg.org/dwc/terms/locality"/> <!-- mc@location -->
+    <field index="4" default="present" term="http://rs.tdwg.org/dwc/terms/occurrenceStatus"/> <!-- mc@typeStatus -->
+  </extension>
+
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='' ignoreHeaderLines="1" rowType="http://eol.org/schema/media/Document">
+    <!-- one row per treatment, supplementing the full HTML -->
+    <files>
+      <location>media.txt</location>
+    </files>
+    <coreid index="1"/>
+    <field index="0" term="http://purl.org/dc/terms/identifier"/> <!-- treatment ID + ".text" -->
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/taxonID"/> <!-- treatment ID + ".taxon" -->
+    <field index="2" term="http://purl.org/dc/terms/type"/> <!-- "http://purl.org/dc/dcmitype/Text" -->
+    <field index="3" term="http://iptc.org/std/Iptc4xmpExt/1.0/xmlns/CVterm"/> <!-- "http://rs.tdwg.org/ontology/voc/SPMInfoItems#GeneralDescription" -->
+    <field index="4" term="http://purl.org/dc/terms/format"/> <!-- "text/html" -->
+    <field index="5" term="http://purl.org/dc/terms/language"/> <!-- two-letter language code -->
+    <field index="6" term="http://purl.org/dc/terms/title"/> <!-- taxon + author + year -->
+    <field index="7" term="http://purl.org/dc/terms/description"/> <!-- treatment HTML -->
+    <field index="8" term="http://rs.tdwg.org/dwc/terms/additionalInformationURL"/> <!-- treatment HTTP URI --> ==> USE TERM additionalInformationURL
+    <field index="9" term="http://ns.adobe.com/xap/1.0/rights/UsageTerms"/> <!-- "Public Domain" -->
+    <field index="10" term="http://purl.org/dc/terms/rights"/> <!-- "No known copyright restrictions apply. See Agosti, D., Egloff, W., 2009. Taxonomic information exchange and copyright: the Plazi approach. BMC Research Notes 2009, 2:53 for further explanation." -->
+    <field index="11" term="http://ns.adobe.com/xap/1.0/rights/Owner"/> <!-- blank -->
+    <field index="12" term="http://purl.org/dc/terms/contributor"/> <!-- "((Pensoft|Zootaxa) via )?Plazi" -->
+    <field index="13" term="http://purl.org/dc/terms/creator"/> <!-- author list, semicolon separated -->
+    <field index="14" term="http://purl.org/dc/terms/bibliographicCitation"/> <!-- bibliographic reference string -->
+  </extension>
+
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='' ignoreHeaderLines="1" rowType="http://eol.org/schema/reference/Reference">
+    <!-- one row per treatment -->
+    <files>
+      <location>references.txt</location>
+    </files>
+    <coreid index="1" /> IS IT OK FOR CONSUMERS TO RESOLVE IDS HERE BY THEMSELVES? ==> WE ONLY WANT TREATMENT REFERENCES HERE
+    <field index="0" term="http://purl.org/dc/terms/identifier"/> <!-- treatment ID + ".ref" for article (treatment) reference, cited treatment ID (from treatmentCitation@httpUri) + ".ref" for original description reference -->
+    <field index="1" term="http://rs.tdwg.org/dwc/terms/taxonID"/> <!-- treatment ID + ".taxon" -->
+    <field index="2" term="http://eol.org/schema/reference/publicationType"/> <!-- bibRef@type --> CONTROLED VOLABULARY? ==> NO, USE INTERNAL TYPES
+    <field index="3" term="http://eol.org/schema/reference/full_reference"/> <!-- reference text --> ISN'T THERE A BIBO ELEMENT FOR THIS?
+    <field index="4" term="http://eol.org/schema/reference/primaryTitle"/> <!-- bibRef@title -->
+    <field index="5" term="http://purl.org/dc/terms/title"/> <!-- bibRef@title --> THIS SHOULD BE PRIMARY TITLE, SHOULDN'T IT? ==> NOPE, JOURNAL GOES HERE, AND VOLUME TITLE
+    <field index="6" term="http://purl.org/ontology/bibo/pages"/> <!-- bibRef@pagination --> ==> LEAVE THIS OUT OR BLANK
+    <field index="7" term="http://purl.org/ontology/bibo/pageStart"/> <!-- treatment first page -->
+    <field index="8" term="http://purl.org/ontology/bibo/pageEnd"/> <!-- treatment last page -->
+    <field index="9" term="http://purl.org/ontology/bibo/volume"/> <!-- bibRef@part -->
+    <field index="10" term="http://purl.org/ontology/bibo/journal"/> <!-- bibRef@journal -->
+    <field index="11" term="http://purl.org/dc/terms/publisher"/> <!-- bibRef@publisher -->
+    <field index="12" term="http://purl.org/ontology/bibo/authorList"/> <!-- bibRef@author, semicolon separated -->
+    <field index="13" term="http://purl.org/ontology/bibo/editorList"/> <!-- bibRef@editor, semicolon separated -->
+    <field index="14" term="http://purl.org/dc/terms/created"/> <!-- bibRef@year -->
+    <field index="15" term="http://purl.org/dc/terms/language"/> <!-- blank -->
+    <field index="16" term="http://purl.org/ontology/bibo/uri"/> <!-- bibRef@URL, if available -->
+    <field index="17" term="http://purl.org/ontology/bibo/doi"/> <!-- bibRef@DOI, if available -->
+  </extension>
+
+  <extension encoding="UTF-8" fieldsTerminatedBy="\t" linesTerminatedBy="\n" fieldsEnclosedBy='' ignoreHeaderLines="1" rowType="http://rs.gbif.org/terms/1.0/VernacularName">
+    <!-- one row per treatment (currently not available) -->
+    <files>
+      <location>vernaculars.txt</location>
+    </files>
+    <coreid index="0" /> <!-- treatment ID + ".taxon" -->
+    <field index="1" term="http://purl.org/dc/terms/language"/> <!-- "en" -->
+    <field index="2" term="http://rs.tdwg.org/dwc/terms/vernacularName"/> <!-- vernacular name -->
+  </extension>
+</archive>

@@ -1,0 +1,6 @@
+ALLOW_OVERLAP = "FALSE";
+ANNOTATION_TYPE = "femaleSymbol";
+ANNOTATOR_NAME = "FemaleSymbolRegex.regEx";
+IGNORE_LINE_BREAKS = "FALSE";
+MAX_TOKENS = "1";
+PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.regExes.RegExManager";

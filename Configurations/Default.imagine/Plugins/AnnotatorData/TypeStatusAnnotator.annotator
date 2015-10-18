@@ -1,0 +1,5 @@
+ALLOW_OVERLAP = "FALSE";
+ANNOTATION_TYPE = "typeStatus";
+ANNOTATOR_NAME = "TypeStatusList.list";
+CASE_SENSITIVE = "FALSE";
+PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.lists.ListManager";

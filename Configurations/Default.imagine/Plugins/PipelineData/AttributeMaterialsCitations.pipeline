@@ -1,0 +1,17 @@
+INTERACTIVITY_LEVEL = "Feedback only";
+PART_0.PART_NAME = "MCT.MaterialsCitationParserOnline.analyzer";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_1.PART_NAME = "AbbreviatedMaterialsCitationAugmenter.filteredDp";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager";
+PART_2.PART_NAME = "AH.AbbreviationReferenceResolver.analyzer";
+PART_2.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_3.PART_NAME = "AbbreviatedMaterialsCitationCleaner.markupConverter";
+PART_3.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager";
+PART_4.PART_NAME = "AbbreviatedCollectingLocationTransformer.gScript";
+PART_4.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.gScript.GScriptManager";
+PART_5.PART_NAME = "AbbreviatedMaterialsCitationAugmenter.gScript";
+PART_5.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.gScript.GScriptManager";
+PART_6.PART_NAME = "TaxonListMaterialsCitationMarker.gScript";
+PART_6.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.gScript.GScriptManager";
+PART_7.PART_NAME = "MaterialsCitationDetailCleanup.markupConverter";
+PART_7.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager";

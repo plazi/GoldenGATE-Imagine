@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>GoldenGATE</title>
+</head>
+<body>
+
+
+<h3><font face="Verdana">Plug-In Resources</font></h3>
+<font face="Verdana" size="2">As opposed to the built-in resources, plug-in ones
+are not vital for the GoldenGATE editor to be operational. Yet they can strongly
+improve the functionality of the editor, e.g. providing markup automation and
+thus reducing the manual effort for document markup. All resources in the
+GoldenGATE editor are managed by&nbsp;<b>resoure providers</b></font><font face="Verdana" size="2">, which
+provide and manage them. They all extend the abstract superclass&nbsp;</font><font size="2" face="Courier New">de.goldenGate.resourceManagement.ResourceManager</font><font face="Verdana" size="2">.
+In order to create a new type of resources, write a new implementation of this
+abstract class, pack it into a jar file along with auxilliary classes, and
+deposit the jar in the Resources folder, which is a sub-folder of the GoldenGATE
+main folder. GoldenGATE will automatically include the new resource provider at
+the time of the next startup. The help pages for these plugged-in resources will
+be integrated as subnodes of the node displaying this introduction page.</font></body>
+</html>

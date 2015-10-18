@@ -1,0 +1,6 @@
+FILTER0 = "treatment/subSubSection[./@type = 'materials_examined']/abbreviationReference";
+FILTER1 = "subSection[./@type = 'taxon_list']/abbreviationReference";
+FILTER2 = "abbreviationReference";
+TARGET0 = "collectingLocation";
+TARGET1 = "collectingLocation";
+TARGET2 = "";

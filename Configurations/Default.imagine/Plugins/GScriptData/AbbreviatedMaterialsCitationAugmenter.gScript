@@ -1,0 +1,10 @@
+for $mc {treatment/subSubSection/materialsCitation[./collectingLocation]}
+
+  -- transfer attributes to enclosing materials citation
+  for $cl {$mc/collectingLocation}
+    copyAttributes $cl $mc
+  end $cl
+
+  -- clean up
+  remove {$mc/collectingLocation}
+end $mc

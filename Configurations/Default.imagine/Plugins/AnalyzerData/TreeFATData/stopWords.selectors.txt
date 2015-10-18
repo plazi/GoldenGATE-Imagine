@@ -1,0 +1,2 @@
+/bibRef/author/#first
+/bibRef/editor/#first

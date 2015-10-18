@@ -1,0 +1,1 @@
+(<<GenusSubgenus>>\s(<<LowerCaseAbbreviation>>|(<<LowerCaseFull>>(\,?\s<<TaxonNameAuthor>>)?))(\s(<<LowerCaseAbbreviation>>|<<LowerCaseFull>>|(<<subSpeciesLabel>>\s<<LowerCaseFull>>(\,?\s<<TaxonNameAuthor>>)?)))?\s((<<varietyLabel>>\s<<LowerCaseFull>>(\,?\s<<TaxonNameAuthor>>)?)|<<LowerCaseFull>>))

@@ -1,0 +1,6 @@
+FILTER0 = "taxonomicName";
+FILTER1 = "labelledTN";
+FILTER2 = "tnCandidate";
+TARGET0 = "#R-I";
+TARGET1 = "#R";
+TARGET2 = "#R";

@@ -1,0 +1,5 @@
+genus.REG_EX_0 = "((n(\\.|ew)\\sgen(\\.|us))|(gen(\\.|us)\\sn(\\.|ov\\.|ovus)))";
+subGenus.REG_EX_0 = "((n(\\.|ew)\\ssubgen(\\.|us))|(subgen(\\.|us)\\sn(\\.|ov\\.|ovus)))";
+species.REG_EX_0 = "((n(\\.|ew)\\ssp(\\.|ec\\.|ecies))|(sp(\\.|ec\\.|ecies)\\sn(\\.|ov\\.|ova)))";
+subSpecies.REG_EX_0 = "((n(\\.|ew)\\s(ssp\\.|subsp\\.|subspec\\.|subspecies|r\\.|race|sd\\.|sdirps))|((ssp\\.|subsp\\.|subspec\\.|subspecies|r\\.|race|sd\\.|sdirps)\\sn(\\.|ov\\.|ova)))";
+variety.REG_EX_0 = "((n(\\.|ew)\\svar(\\.|iety))|(var(\\.|iatio)\\sn(\\.|ova)))";

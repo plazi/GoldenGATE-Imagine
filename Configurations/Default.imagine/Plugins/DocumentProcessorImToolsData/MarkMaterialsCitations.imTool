@@ -1,0 +1,7 @@
+FILTER0 = "treatment";
+FILTER1 = "treatment/paragraph";
+LABEL = "Mark Materials Citations";
+LOCATION = "Tools Menu & Selection Actions";
+PROCESSOR_NAME = "MaterialsCitations.pipeline@de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";
+TOOLTIP = "Mark materials citations in a treatments";
+XML_WRAPPER_FLAGS = "30";

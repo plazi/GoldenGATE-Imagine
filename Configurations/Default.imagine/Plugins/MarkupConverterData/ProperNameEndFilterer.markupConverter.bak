@@ -1,0 +1,10 @@
+FILTER0 = "properName";
+FILTER1 = "person";
+FILTER2 = "organization";
+FILTER3 = "officialPosition";
+FILTER4 = "location";
+TARGET0 = "#R";
+TARGET1 = "#R";
+TARGET2 = "#R";
+TARGET3 = "#R";
+TARGET4 = "#R-NCI treatment";

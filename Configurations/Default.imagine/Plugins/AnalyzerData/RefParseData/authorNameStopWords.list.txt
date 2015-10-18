@@ -1,0 +1,31 @@
+// English
+of
+the
+
+// French
+de
+du
+le
+la
+les
+des
+
+// German / Dutch
+von
+van
+vom
+zu
+der
+die
+das
+den
+dem
+
+// Spanish / Italian
+do
+da
+del
+della
+degli
+di
+el

@@ -1,0 +1,3 @@
+CLASS = "de.uka.ipd.idaho.plugin.materialsCitations.CollectingCountryTagger";
+CLASS_PATH = "MaterialsCitationTagger.jar";
+DATA_PATH = "MaterialsCitationTaggerData/";

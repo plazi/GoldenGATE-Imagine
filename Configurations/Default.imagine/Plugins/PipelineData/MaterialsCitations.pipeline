@@ -1,0 +1,9 @@
+INTERACTIVITY_LEVEL = "Feedback only";
+PART_0.PART_NAME = "MaterialsCitationsPreprocessor.filteredDp";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager";
+PART_1.PART_NAME = "MaterialsCitationsAbbreviationTagger.filteredDp";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager";
+PART_2.PART_NAME = "AbbreviatedMaterialsCitationTagger.filteredDp";
+PART_2.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager";
+PART_3.PART_NAME = "MCT.MaterialsCitationTaggerOnline.analyzer";
+PART_3.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";

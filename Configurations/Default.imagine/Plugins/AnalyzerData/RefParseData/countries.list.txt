@@ -1,0 +1,1050 @@
+//actual countries
+Abessinien
+Abisinia
+Abissinia
+Abyssinie
+Acerbaiyan
+Afeganistao
+Afganistan
+Afghanistan
+Africa do Sul
+Afrique du Sud
+Agypten
+≈land Islands
+Alanda
+Aland-Inseln
+Albania
+Albanie
+Albanien
+Alemanha
+Alemania
+Algeria
+Algerie
+Algerien
+Allemagne
+Alto Volta
+American Samoa
+Amerikanische Jungferninseln
+Amerikanisch-Samoa
+Andorra
+Andorre
+Angola
+Anguila
+Anguilha
+Anguilla
+Antiga e Barbuda
+Antigua and Barbuda
+Antigua e Barbuda
+Antigua und Barbuda
+Antigua y Barbuda
+Antigua-et-Barbuda
+Antilhas Holandesas
+Antillas Holandesas
+Apostolischer Stuhl
+Aquatorialguinea
+Arabia Saudita
+Arabie Saoudite
+Argelia
+Argentina
+Argentine
+Argentinien
+Armenia
+Armenie
+Armenien
+Aruba
+Aserbaidschan
+Athiopien
+Australia
+Australie
+Australien
+Austria
+Autriche
+Azerbaidjan
+Azerbaigian
+Azerbaijan
+Azerbaijao
+Azerbeijao
+Baamas
+Bahamas
+Baharem
+Bahrain
+Bahrein
+Bangladeche
+Bangladesch
+Bangladesh
+Barbade
+Barbados
+Barein
+Bareine
+Barem
+Belarus
+Belgica
+Belgien
+Belgio
+Belgique
+Belgium
+Belice
+Belize
+Benim
+Benin
+Bermuda
+Bermudas
+Bermude
+Bhoutan
+Bhutan
+Bielorrusia
+Bielorrussia
+Bielorussia
+Bielo-Russia
+Bielorussie
+Birma
+Birmania
+Birmanie
+Bolivia
+Bolivie
+Bolivien
+Bosnia e Herzegovina
+Bosnia y Herzegovina
+Bosnia-Erzegovina
+Bosnia-Herzegovina
+Bosnie-Herzegovine
+Bosnien und Herzegowina
+Bosnien-Herzegowina
+Botsuana
+Botswana
+Brasil
+Brasile
+Brasilien
+Brazil
+Bresil
+Britische Jungferninseln
+Britisch-Honduras
+British Virgin Islands
+Brunei
+Bulgaria
+Bulgarie
+Bulgarien
+Burkina Faso
+Burma
+Burquina Faso
+Burundi
+Butan
+Butao
+Cabo Verde
+Caiman
+Camaroes
+Cambodge
+Cambodia
+Cambogia
+Camboja
+Camboya
+Cameroon
+Cameroun
+Camerun
+Canada
+Cape Verde
+Capo Verde
+Cap-Vert
+Casaquistao
+Catar
+Cayman Islands
+Cazaquistao
+Cechia
+Ceilan
+Ceilao
+Central African Republic
+Ceylan
+Ceylon
+Chad
+Chade
+Chile
+Chili
+China
+Chine
+Chipre
+Christmas Island
+Chypre
+Ciad
+Cidade do Vaticano
+Cile
+Cina
+Cingapura
+Cipro
+Cocos
+Colombia
+Colombie
+Comoras
+Comore
+Comores
+Comoros
+Congo
+Cook Islands
+Cook-Inseln
+Corea
+Corea del Nord
+Corea del Norte
+Corea del Sud
+Corea del Sur
+Coree
+Coree du Nord
+Coree du Sud
+Coreia
+Coreia do Norte
+Coreia do Sul
+Costa d'Avorio
+Costa de Marfil
+Costa do Marfim
+Costa Rica
+Cote d'Ivoire
+CÙte d'Ivoire
+Coveite
+Croacia
+Croatia
+Croatie
+Croazia
+Cuba
+Cyprus
+Czech Republic
+Dahomey
+Danemark
+Danimarca
+Daome
+Deitschland
+Denmark
+Deutschland
+Dinamarca
+Djibouti
+Djibuti
+Dominica
+Dominican Republic
+Dominikanische Republik
+Dschibuti
+East Timor
+Ecosse
+Ecuador
+Egipto
+Egito
+Egitto
+Egypt
+Egypte
+Eire
+El Salvador
+Elfenbeinkuste
+Emirados Arabes Unidos
+Emirati Arabi Uniti
+Emiratos Arabes Unidos
+Emirats arabes unis
+England
+Equador
+Equateur
+Equatorial Guinea
+Eritrea
+Eritreia
+Erythree
+Escocia
+Eslovaquia
+Eslovenia
+Espagne
+Espana
+Espanha
+Estados Unidos
+Estados Unidos da America (EUA)
+Estados Unidos de America
+Estland
+Estonia
+Estonie
+Etats-Unis
+Etats-Unis d'Amerique
+Ethiopia
+Ethiopie
+Etiopia
+Falkland Islands
+Falklandinseln
+Faroe Islands
+Faroer
+Fidgi
+Fidji
+Fidschi
+Fiji
+Filipinas
+Filippine
+Finland
+Finlande
+Finlandia
+Finnland
+Formosa
+Franca
+France
+Francia
+Frankreich
+Franzosische Sud- und Antarktisgebiete
+Franzosisch-Guayana
+Franzosisch-Polynesien
+French Guiana
+French Polynesia
+French Southern and Antarctic Lands
+Furstentum Monaco
+Gabao
+Gabon
+Gabun
+Gales
+Galles
+Gambia
+Gambie
+Gana
+Georgia
+Georgia del Sud e Isole Sandwich Australi
+Georgie
+Georgien
+Germania
+Germany
+Ghana
+Giamaica
+Giappone
+Gibraltar
+Gibuti
+Giordania
+Granada
+Grece
+Grecia
+Greece
+Greenland
+Grenada
+Grenade
+Griechenland
+Groelandia
+Groenland
+Groenlandia
+Gronelandia
+Gronland
+Guadalupa
+Guadalupe
+Guadeloupe
+Guam
+Guatemala
+Guayana Francesa
+Guiana
+Guiana Francesa
+Guine Equatorial
+Guinea
+Guinea Ecuatorial
+Guinea Equatoriale
+Guinea-Bissau
+Guine-Bissau
+Guine-Conakri
+Guinee
+Guinee equatoriale
+Guinee-Bissau
+Guyana
+Guyana Francese
+Guyana Olandese
+Guyane
+Haiti
+Haute-Volta
+Hellade
+Holanda
+Holland
+Hollande
+Holy See
+Honduras
+Honduras Britanica
+Honduras Britanicas
+Honduras Britannico
+Honduras britannique
+Hong Kong
+Hongkong
+Hongrie
+Hongue Congue
+Hungary
+Hungria
+Iceland
+Iemen
+Iles Feroe
+Iles Malouines
+Iles Marshall
+Iles Salomon
+Ilha Christmas
+Ilha do Natal
+Ilha Norfolk
+Ilhas Cocos (Keeling)
+Ilhas Cook
+Ilhas Faroe
+Ilhas Feroe
+Ilhas Georgia do Sul e Sandwich do Sul
+Ilhas Malvinas
+Ilhas Marianas do Norte
+Ilhas Marshall
+Ilhas Salomao
+Ilhas Virgens Americanas
+Ilhas Virgens Britanicas
+Inde
+India
+Indien
+Indonesia
+Indonesie
+Indonesien
+Ira
+Irak
+Iran
+Irao
+Iraq
+Iraque
+Ireland
+Irland
+Irlanda
+Irlande
+Island
+Islanda
+Islande
+Islandia
+Islas Aland
+Islas Cocos
+Islas Feroe
+Islas Malvinas
+Islas Marshall
+Islas Salomon
+Isole Far Oer
+Isole Marshall
+Isole Pitcairn
+Isole Salomone
+Isole Vergini Americane
+Israel
+Israele
+Italia
+Italie
+Italien
+Italy
+Jamaica
+Jamaique
+Japan
+Japao
+Japon
+Jemen
+Jibuti
+Jordan
+Jordania
+Jordanie
+Jordanien
+Kaimaninseln
+Kambodscha
+Kamerun
+Kanada
+Kap Verde
+Kasachstan
+Katar
+Kazajstan
+Kazakhstan
+Kazakistan
+Kenia
+Kenya
+Kirghizia
+Kirghizistan
+Kirgisistan
+Kirguisia
+Kiribati
+Kokosinseln
+Kolumbien
+Komoren
+Kongo
+Korea
+Koweit
+Kroatien
+Kuba
+Kuwait
+Kyrgyzstan
+Laos
+Latvia
+Lebanon
+Lesotho
+Lesoto
+Letonia
+Lettland
+Lettonia
+Lettonie
+Liban
+Libano
+Libanon
+Liberia
+Libia
+Libya
+Libye
+Libyen
+Liechtenstein
+Listenstaina
+Listenstaine
+Litauen
+Lithuania
+Lituania
+Lituanie
+L'Ossetie du Sud
+L'Ossezia del Sud
+Lussemburgo
+Luxembourg
+Luxemburg
+Luxemburgo
+Macao
+Macau
+Macedoine
+Macedonia
+Madagascar
+Madagaskar
+Malaisia
+Malaisie
+Malasia
+Malaui
+Malavi
+Malavia
+Malawi
+Malaysia
+Maldivas
+Maldive
+Maldives
+Malediven
+Malesia
+Mali
+Malta
+Malte
+Malvine
+Marianas Setentrionais
+Maroc
+Marocco
+Marokko
+Marrocos
+Marruecos
+Marshall
+Marshall Islands
+Marshallinseln
+Martinica
+Martinique
+Mauretanien
+Maurice
+Mauricia
+Mauricias
+Mauricio
+Mauritania
+Mauritanie
+Mauritius
+Mayotte
+Mazedonien
+Mejico
+Messico
+Mexico
+Mexiko
+Mexique
+Mianma
+Mianmar
+Micronesia
+Micronesia, Federated States of
+Micronesie
+Mikronesien
+Mocambique
+Moldau
+Moldavia
+Moldavie
+Moldawien
+Moldova
+Monaco
+Mongolei
+Mongolia
+Mongolie
+Monserrate
+Montenegro
+Montserrat
+Morocco
+Mosambik
+Mozambico
+Mozambique
+Myanmar
+Namibia
+Namibie
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+Neue Hebriden
+Neukaledonien
+Neuseeland
+New Caledonia
+New Zealand
+Nicaragua
+Niederlande
+Niederlandische Antillen
+Niederlandisch-Guyana
+Niger
+Nigeria
+Niue
+Nordkorea
+Nordliche Marianen
+Norfolk Island
+Norfolkinsel
+North Korea
+Northern Cyprus
+Northern Mariana Islands
+Noruega
+Norvege
+Norvegia
+Norway
+Norwegen
+Nouvelle-Caledonie
+Nouvelles-Hebrides
+Nouvelle-Zelande
+Nova Caledonia
+Nova Zelandia
+Nueva Caledonia
+Nueva Zelanda
+Nueva Zelandia
+Nuevas Hebridas
+Nuova Zelanda
+Nuove Ebridi
+Obervolta
+Olanda
+Oma
+Oman
+Omao
+Ossetia do Sul
+Osterreich
+Ouganda
+Ouroundi
+Ouzbekistan
+Paesi Bassi
+Pais de Gales
+Paises Baixos
+Paises Bajos
+Pakistan
+Palaos
+Palau
+Palestinian territories
+Panama
+Papouasie-Nouvelle-Guinee
+Papua New Guinea
+Papua Nueva Guinea
+Papua-Neuguinea
+Papua-Nova Guine
+Papua-Nuova Guinea
+Papuasia-Nova Guine
+Paquistao
+Paraguai
+Paraguay
+Pays de Galles
+Pays-Bas
+Perou
+Persia
+Persien
+Peru
+Philippinen
+Philippines
+Pitcairn
+Pitcairn Islands
+Poland
+Polen
+Polinesia Francesa
+Polinesia Francese
+Pologne
+Polonia
+Polynesie francaise
+Porto Rico
+Portogallo
+Portugal
+Principado de Monaco
+Principado do Monaco
+Principality of Monaco
+Principato di Monaco
+Principaute de Monaco
+Puerto Rico
+Qatar
+Quenia
+Quirguistao
+Quirguizia
+Quirguizistao
+Quiribati
+Regno Unito
+Regno Unito di Gran Bretagna e Irlanda del Nord
+Reino Unido
+Reino Unido da Gra-Bretanha e Irlanda do Norte
+Reino Unido de la Gran Bretana e Irlanda del Norte
+Repubblica Ceca
+Repubblica Centroafricana
+Repubblica Dominicana
+Repubblica Sudafricana
+Republica Arabe Saharaui Democratica
+Republica Centroafricana
+Republica Centro-Africana
+Republica Checa
+Republica de Osetia del Sur
+Republica Dominicana
+Republica Tcheca
+Republique centrafricaine
+Republique dominicaine
+Reuniao
+Reunion
+Riunione
+Romania
+Romenia
+Rouanda
+Roumanie
+Royaume-Uni
+Royaume-Uni de Grande-Bretagne et d'Irlande du Nord
+Ruanda
+Rumania
+Rumanien
+Rusia
+Russia
+Russia Branca
+Russie
+Russie Blanche
+Russland
+Rwanda
+Sahara Occidental
+Saint Helena
+Saint Kitts and Nevis
+Saint Kitts e Nevis
+Saint Kitts und Nevis
+Saint Lucia
+Saint Pierre and Miquelon
+Saint Pierre e Miquelon
+Saint Pierre und Miquelon
+Saint Vincent and the Grenadines
+Saint Vincent e Grenadine
+Saint Vincent und die Grenadinen
+Saint-Christophe-et-Nieves
+Sainte-Lucie
+Saint-Marin
+Saint-Siege
+Saint-Vincent-et-les Grenadines
+Salomonen
+Salvador
+Sambia
+Samoa
+Samoa Americana
+San Cristobal y Nieves
+San Marino
+San Vicente y las Granadinas
+Sankt Helena
+Santa Helena
+Santa Lucia
+Santa Se
+Santa Sede
+Santo Tome y Principe
+Sao Cristovao e Nevis
+Sao Marinho
+Sao Marino
+Sao Pedro e Miquelao
+S„o TomÈ and PrÌncipe
+Sao Tome e Principe
+Sao Tome und Principe
+Sao Tome-et-Principe
+Sao Vicente e as Granadinas
+Sara Ocidental
+Saudi Arabia
+Saudi-Arabien
+Schottland
+Schweden
+Schweiz
+Scotland
+Scozia
+Seicelle
+Seicheles
+Senegal
+Serbia
+Serbie
+Serbien
+Serra Leoa
+Servia
+Sese
+Seychellen
+Seychelles
+Siam
+Siao
+Sierra Leona
+Sierra Leone
+Simbabwe
+Singapore
+Singapour
+Singapur
+Singapura
+Siria
+Slovacchia
+Slovakia
+Slovaquie
+Slovenia
+Slovenie
+Slowakei
+Slowenien
+Solomon Islands
+Somalia
+Somalie
+Soria
+Soudan
+South Africa
+South Georgia and South Sandwich Islands
+South Korea
+South Ossetia
+Spagna
+Spain
+Spanien
+Sri Lanca
+Sri Lanka
+Stati Uniti
+Stati Uniti d'America
+Suazilandia
+Sud Africa
+Sudafrica
+Sudafrika
+Sudan
+Sudao
+Sudgeorgien und Sudliche Sandwichinseln
+Sudkorea
+Sudossetien
+Suecia
+Suede
+Suica
+Suisse
+Suiza
+Suriname
+Svezia
+Svizzera
+Swasiland
+Swaziland
+Swazilandia
+Sweden
+Switzerland
+Syria
+Syrie
+Syrien
+Tadiquistao
+Tadjikistan
+Tadjiquistao
+Tadschikistan
+Tagikistan
+Tailandia
+Taiua
+Taiwan
+Tajikistan
+Tajiquistao
+Tansania
+Tanzania
+Tanzanie
+Tayikistan
+Tchad
+Tchequie
+Terras Austrais e Antarticas Francesas
+Terres australes et antarctiques francaises
+Thailand
+Thailande
+The Gambia
+Tierras Australes y Antarticas Francesas
+Timor Est
+Timor Oriental
+Timor-Leste
+Togo
+Tokelau
+Tokelau Islands
+Tonga
+Toquelau
+Transdniestre
+Transgiordania
+Transjordania
+Transjordanie
+Transjordanien
+Transnistria
+Transnistrien
+Trindade e Tobago
+Trinidad and Tobago
+Trinidad e Tobago
+Trinidad und Tobago
+Trinidad y Tobago
+Trinite-et-Tobago
+Tschad
+Tschechische Republik
+Tunesien
+Tunez
+Tunisia
+Tunisie
+Turchia
+Turcomenia
+Turcomenistao
+Turkei
+Turkey
+Turkmenistan
+Turks &amp
+Turks e Caicos
+Turks- und Caicosinseln
+Turquemenia
+Turquemenistao
+Turquia
+Turquie
+Turquimenistao
+Tuvalu
+Ucraina
+Ucrania
+Uganda
+Ukraine
+Ungarn
+Ungheria
+United Arab Emirates
+United Kingdom
+U. K.
+U.K.
+UK
+United Kingdom of Great Britain and Northern Ireland
+United States
+U. S.
+U.S.
+US
+United States of America
+U. S. A.
+U.S.A.
+USA
+United States Virgin Islands
+Uruguai
+Uruguay
+Urundi
+Usbekistan
+Usbequistao
+Uzbekistan
+Uzbequistao
+Vanuatu
+Vatican
+Vatican City
+Vaticano
+Vatikanstadt
+Venezuela
+Vereinigte Arabische Emirate
+Vereinigte Staaten
+Vereinigte Staaten von Amerika
+Vereinigtes Konigreich
+Vereinigtes Konigreich Groﬂbritannien und Nordirland
+Vietna
+Vietnam
+Vietname
+Viti
+Wales
+Wallis and Futuna
+Wallis e Futuna
+Wallis und Futuna
+Weihnachtsinsel
+Weiﬂrussland
+Weiﬂruthenien
+Western Sahara
+West-Sahara
+Yemen
+Yibuti
+Zambia
+Zambie
+Zentralafrikanische Republik
+Zimbabue
+Zimbabwe
+Zypern
+
+//US states and respective two-letter codes
+Alabama 
+Alaska 
+Arizona 
+Arkansas 
+California 
+Colorado 
+Connecticut 
+Delaware 
+Florida 
+Georgia 
+Hawaii 
+Idaho 
+Illinois 
+Indiana 
+Iowa 
+Kansas 
+Kentucky
+Louisiana 
+Maine 
+Maryland 
+Massachusetts
+Michigan 
+Minnesota 
+Mississippi 
+Missouri 
+Montana 
+Nebraska 
+Nevada 
+New Hampshire 
+New Jersey 
+New Mexico 
+New York 
+North Carolina 
+North Dakota 
+Ohio 
+Oklahoma 
+Oregon 
+Pennsylvania
+Rhode Island
+South Carolina 
+South Dakota 
+Tennessee 
+Texas 
+Utah 
+Vermont 
+Virginia
+Washington 
+West Virginia 
+Wisconsin 
+Wyoming 
+AL 
+AK 
+AZ 
+AR 
+CA 
+CO 
+CT 
+DE 
+FL 
+GA 
+HI 
+ID 
+IL 
+IN 
+IA 
+KS 
+KY 
+LA 
+ME 
+MD 
+MA 
+MI 
+MN 
+MS 
+MO 
+MT 
+NE 
+NV 
+NH 
+NJ 
+NM 
+NY 
+NC 
+ND 
+OH 
+OK 
+OR 
+PA 
+RI 
+SC 
+SD 
+TN 
+TX 
+UT 
+VT 
+VA 
+WA 
+WV 
+WI 
+WY 
+D. C.
+N. H.
+N. J.
+N. M.
+N. Y.
+N. C.
+N. D.
+R. I.
+S. C.
+S. D.
+W. V.

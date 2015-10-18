@@ -1,0 +1,145 @@
+workers ==> worker
+arbeiter ==> worker
+
+sold. ==> soldier
+soldiers ==> soldier
+soldat ==> soldier
+soldaten ==> soldier
+
+exuv. ==> exuvia
+exuvien ==> exuvia
+exuvie ==> exuvia
+exuvias ==> exuvia
+
+eier ==> egg
+ei ==> egg
+eggs ==> egg
+
+♂ ==> male
+♂♂ ==> male
+m. ==> male
+males ==> male
+männchen ==> male
+mannchen ==> male
+maennchen ==> male
+
+♀ ==> female
+♀♀ ==> female
+f. ==> female
+females ==> female
+weibchen ==> female
+
+☿ ==> queen
+☿☿ ==> queens
+queens ==> queen
+königin ==> queen
+konigin ==> queen
+koenigin ==> queen
+königinnen ==> queen
+koniginnen ==> queen
+koeniginnen ==> queen
+gynes ==> queen
+gynen ==> queen
+
+ex. ==> generic
+exemplar ==> generic
+exemplare ==> generic
+
+sp. ==> generic
+specimens ==> generic
+specimen ==> generic
+
+ad. ==> adult
+adultes ==> adult
+adults ==> adult
+adulte ==> adult
+
+subad. ==> subadult
+subadultes ==> subadult
+subadults ==> subadult
+subadulte ==> subadult
+
+juv. ==> juvenile
+juveniles ==> juvenile
+
+n. ==> nymphe
+nymphes ==> nymphe
+nymphen ==> nymphe
+
+p. ==> pupa
+puppen ==> pupa
+puppe ==> pupa
+pupae ==> pupa
+pupas ==> pupa
+
+l. ==> larva
+larven ==> larva
+larve ==> larva
+larvae ==> larva
+larvas ==> larva
+
+interc. ==> intercalary
+interk. ==> intercalary
+interkalare ==> intercalary
+interkalar ==> intercalary
+intercalaries ==> intercalary
+
+androtype ==> generic
+androtypes ==> generic
+androtyp ==> generic
+androtypen ==> generic
+androtypus ==> generic
+
+gynotype ==> generic
+gynotypes ==> generic
+gynotyp ==> generic
+gynotypen ==> generic
+gynotypus ==> generic
+
+holotype ==> generic
+holotypes ==> generic
+holotyp ==> generic
+holotypen ==> generic
+holotypus ==> generic
+
+lectotype ==> generic
+lectotypes ==> generic
+lectotyp ==> generic
+lectotypen ==> generic
+lectotypus ==> generic
+
+neotype ==> generic
+neotypes ==> generic
+neotyp ==> generic
+neotypen ==> generic
+neotypus ==> generic
+
+niotype ==> generic
+niotypes ==> generic
+niotyp ==> generic
+niotypen ==> generic
+niotypus ==> generic
+
+paratype ==> generic
+paratypes ==> generic
+paratyp ==> generic
+paratypen ==> generic
+paratypus ==> generic
+
+paralectotype ==> generic
+paralectotypes ==> generic
+paralectotyp ==> generic
+paralectotypen ==> generic
+paralectotypus ==> generic
+
+syntype ==> generic
+syntypes ==> generic
+syntyp ==> generic
+syntypen ==> generic
+syntypus ==> generic
+
+type ==> generic
+types ==> generic
+typ ==> generic
+typen ==> generic
+typus ==> generic

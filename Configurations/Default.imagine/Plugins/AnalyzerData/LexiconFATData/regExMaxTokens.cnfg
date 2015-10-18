@@ -1,0 +1,7 @@
+5 GenusSubgenusRecall.regEx.txt
+10 SpeciesRecall-NoGenus.regEx.txt
+13 SpeciesRecall.regEx.txt
+5 SubGenusLabel.regEx.txt
+10 SubSpeciesRecall-NoGenus.regEx.txt
+10 SubSpeciesRecall-NoGenusSpecies.regEx.txt
+10 VarietyRecall-NoGenusSpecies.regEx.txt

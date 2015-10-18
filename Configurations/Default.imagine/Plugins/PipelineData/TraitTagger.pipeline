@@ -1,0 +1,5 @@
+INTERACTIVITY_LEVEL = "No interactivity";
+PART_0.PART_NAME = "Traits.ENVO.multiList";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.multiLists.MultiListManager";
+PART_1.PART_NAME = "Traits.HAO.multiList";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.multiLists.MultiListManager";

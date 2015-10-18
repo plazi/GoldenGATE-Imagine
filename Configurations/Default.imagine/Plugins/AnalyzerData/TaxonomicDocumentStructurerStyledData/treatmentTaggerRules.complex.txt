@@ -1,0 +1,15 @@
+./heading[./#first = 'Abstract' or ./#first = 'ABSTRACT'] ==> Start 'abstract' SubSection
+./heading[./#first = 'Introduction' or ./#first = 'INTRODUCTION'] ==> Start 'introduction' SubSection
+./heading[(./#first = 'Materials' or ./#first = 'MATERIALS' or ./#first = 'Material' or ./#first = 'MATERIAL') and not(./#[2] = 'examined' or ./#[2] = 'EXAMINED' or ./#[2] = 'examined')] ==> Start 'materials_methods' SubSection
+./heading[./#first = 'Methods' or ./#first = 'METHODS' or ./#first = 'Methodology' or ./#first = 'METHODOLOGY'] ==> Start 'materials_methods' SubSection
+./heading[./#first = 'References' or ./#first = 'REFERENCES'] ==> Start 'reference_group' SubSection
+./heading[./#first = 'Literature' or ./#first = 'LITERATURE'] ==> Start 'reference_group' SubSection
+./heading[./#first = 'Bibliography' or ./#first = 'BIBLIOGRAPHY'] ==> Start 'reference_group' SubSection
+./heading[./#first[matches(. , 'Acknowledg(e)?ment(s)?')]or ./#first[matches(. , 'ACKNOWLEDG(E)?MENT(S)?')]] ==> Start 'acknowledgments' SubSection
+./heading[(./#first = 'Key' or ./#first = 'KEY') and not (./# = 'words' or ./# = 'Words' or ./# = 'WORDS')] ==> Start 'key' SubSection
+./heading[./# = 'Synopsis' or ./# = 'SYNOPSIS' or ./# = 'Synoptic' or ./# = 'SYNOPSIC'] ==> Start 'synopsis' SubSection
+$rule < 11 ==> Continue SubSection
+./heading[./taxonomicName[./@START_INDEX < 2]and ./taxonomicNameLabel] ==> Start 'treatment' SubSection
+./heading[./taxonomicName[./@START_INDEX < 2]] ==> Start 'treatment' SubSection
+./heading ==> Start 'multiple' SubSection
+$position = 1 ==> Start 'document_head' SubSection

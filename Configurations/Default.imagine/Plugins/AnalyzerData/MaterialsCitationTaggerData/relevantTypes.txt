@@ -1,0 +1,19 @@
+collectionCode 66F
+specimenCount 88F
+specimenCode AAF
+typeStatus CCF
+
+collectingCountry F80
+collectingRegion FA0
+collectingMunicipality FC0
+collectingCounty FC0
+location FE0
+locationDeviation FF8
+
+collectorName 6F6
+collectingDate 8F8
+collectedFrom AFA
+collectingMethod CFC
+
+geoCoordinate F60
+elevation F40

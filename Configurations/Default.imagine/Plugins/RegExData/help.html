@@ -1,0 +1,92 @@
+<html><head><title>Regular Expressions</title></head><body><h3><font face="Verdana">The
+Regular Expressions</font></h3><font face="Verdana" size="2">Regular expressions
+are Annotation sources intended for structure-based annotation of documents,
+i.e. annotating all words / phrases in a document that match a particular regular
+expression. For details on the syntax of the regaulr expression, please refer to
+the corresponding page in the JAVA API documentation
+(http://java.sun.com/j2se/1.4.2/docs/api/java/util/regex/Pattern.html).</font>
+<h4><font face="Verdana">The Regular Expressions Menu</font></h4>
+<font size="2" face="Verdana">The regular expressions menu provides access to
+functions for managing and applying regular rxpressions:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Create:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new regular expression.</font></li>
+  <li><b><font face="Verdana" size="2">Load:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new regular expression loading it from a text file from the local file
+    system.</font></li>
+  <li><b><font face="Verdana" size="2">Edit:</font></b><font face="Verdana" size="2">&nbsp;Open
+    the regular expression editor dialog.</font></li>
+  <li><font face="Verdana" size="2"><b>Apply:</b> Select a regular expression
+    and use it to annotate all words / phrases in the document currently
+    selected that match that regular expression. This function is also available
+    through the&nbsp;<b>Apply Regular Expression</b>&nbsp;option in the Tools
+    menu.</font></li>
+</ul>
+<h4><font face="Verdana">The Edit Regular Expressions Dialog</font></h4>
+<font face="Verdana" size="2">The dialog for regular expression management is
+accessible through the Edit function in the regular expressions menu. On the
+right of the dialog, a list displays all existing regular expressions. In the
+middle, it displays the regular expression currently selected in that list for
+editing. The editor window allows line breaks and indentation in order to make
+complex regular expressions easier to handle. Below the editor, four buttons
+provide functions for editing the regular expression currently selected:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Refresh:</font></b><font face="Verdana" size="2">&nbsp;Refresh
+    the editor display. This will re-format the regular expression in order to
+    restore a clear view after more extensive editing.</font></li>
+  <li><b><font face="Verdana" size="2">Validate:</font></b><font face="Verdana" size="2">&nbsp;</font><font face="Verdana" size="2">Check
+    if the regular expression currently marked in the editor is a valid pattern.
+    If nothing is marked in the editor, the entire regular expression is
+    validated.</font></li>
+  <li><b><font face="Verdana" size="2">Test:</font></b><font face="Verdana" size="2">&nbsp;Test
+    the regular expression by applying it to the document currently selected in
+    the GoldenGATE main window. This function does not change the document in
+    any way, it just displays the Annotations the regular expression would
+    extract in its current status.</font></li>
+  <li><b><font face="Verdana" size="2">Enumeration</font></b><b><font face="Verdana" size="2">:</font></b><font face="Verdana" size="2">&nbsp;</font><font face="Verdana" size="2">Produce
+    an enumeration matcher from the part currently selected in the editor. An
+    enumeration matcher is a pattern that matches a number of matches of the
+    original pattern, separated by commas. <b> Example:</b> The pattern &quot;[A-Z][a-z]+&quot;
+    matches a capitalized word, e.g. a proper name like &quot;Jack&quot;,
+    &quot;John&quot;, and &quot;Jill&quot; in &quot;Jack, John and Jill&quot;.
+    The enumeration matcher &quot;((([A-Z][a-z]+)\,\s)*([A-Z][a-z]+)((\,?\sand\s([A-Z][a-z]+))))&quot;
+    would now match the entire enumeration as a whole.</font></li>
+</ul>
+<font face="Verdana" size="2">At the top of the dialog, a line of buttons
+provides the functionality for managing the regular expressions:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Create:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new regular expression.</font></li>
+  <li><b><font face="Verdana" size="2">Clone:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new regular expression, copying the one currently selected.</font></li>
+  <li><b><font face="Verdana" size="2">Load:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new regular expression loading a it from a text file from the local file system.</font></li>
+  <li><b><font face="Verdana" size="2">Delete:</font></b><font face="Verdana" size="2">&nbsp;Delete
+    the regular expression currently selected.</font></li>
+</ul>
+<h4><font face="Verdana">Applying Regular Expressions</font></h4>
+<font size="2" face="Verdana">Whenever a regular expression is to be applied,
+there are five additional parameters providing influence on the behavior of the regular expression
+based annotation:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Max Tokens:</font></b><font face="Verdana" size="2">&nbsp;Maximum
+    number of Tokens a match of the regular expression can comprise. 0 means no
+    limit. Attention: This will try to match any sub-sequence of the document's
+    Tokens, causing high computational effort in larger documents.</font></li>
+  <li><b><font face="Verdana" size="2">Start Exclude</font></b><b><font face="Verdana" size="2">:</font></b><font face="Verdana" size="2">&nbsp;A
+    gazetteer list (see Lists) containing Tokens a match must not start with.
+    Matches of the regular expression starting with a Token contained in this
+    list are excluded.</font></li>
+  <li><b><font face="Verdana" size="2">Exclude</font></b><b><font face="Verdana" size="2">:</font></b><font face="Verdana" size="2">&nbsp;A
+    gazetteer list (see Lists) containing Tokens a match must not contain.
+    Matches of the regular expression containing a Token contained in this list
+    are excluded.</font></li>
+  <li><b><font face="Verdana" size="2">Overlapping Matches:</font></b><font face="Verdana" size="2">&nbsp;If
+    checked, every word or phrase in the document is annotated if it is
+    contained in the regular expression, regardless of overlaps. Otherwise, only
+    the longest match is annotated from each set of overlapping matches.</font></li>
+  <li><b><font face="Verdana" size="2">Ignore Linebreaks</font></b><b><font face="Verdana" size="2">:</font></b><font face="Verdana" size="2">&nbsp;If
+    checked, line breaks are ignored while matching. Otherwise, matching stops
+    at the end of a line, starting off at the beginning of the next one.</font></li>
+</ul>
+</body></html>

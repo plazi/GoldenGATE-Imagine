@@ -1,0 +1,1 @@
+(([A-Z][a-z]?\.)((\s|\-)?[A-Z][a-z]?\.)*\s<<authorLastName>>)

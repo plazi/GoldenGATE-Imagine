@@ -1,0 +1,3 @@
+host = "plazi.cs.umb.edu/GgServer/proxy";
+http = "YES";
+port = "80";

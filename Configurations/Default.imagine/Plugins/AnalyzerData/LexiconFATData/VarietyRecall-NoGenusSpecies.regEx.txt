@@ -1,0 +1,1 @@
+(<<varietyLabel>>\s<<LowerCaseOrCapitalizedFull>>(\,?\s<<TaxonNameAuthor>>)?)

@@ -1,0 +1,5 @@
+INTERACTIVITY_LEVEL = "No interactivity";
+PART_0.PART_NAME = "TDS.TreatmentTaggerStyled.analyzer";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_1.PART_NAME = "TDS.TreatmentStructurerStyled.analyzer";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";

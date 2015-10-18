@@ -1,0 +1,7 @@
+LABEL = "Mark Treatments";
+LOCATION = "Tools Menu";
+PRECLUSION0FILTER = "not(./taxonomicName)";
+PRECLUSION0MESSAGE = "W:Taxonomic names are not marked in the document, so treatment detection might produce many errors";
+PROCESSOR_NAME = "TDS.TreatmentTaggerOnline.analyzer@de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+TOOLTIP = "Mark taxonomic treatments";
+XML_WRAPPER_FLAGS = "31";

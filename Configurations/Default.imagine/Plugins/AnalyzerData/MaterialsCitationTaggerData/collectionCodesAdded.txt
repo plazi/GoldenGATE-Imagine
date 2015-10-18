@@ -1,0 +1,39 @@
+ACIC U.S.A. Museum of Natural History, AlbertsonCollege of Idaho
+AKRI AKRI
+ALBRCIDA U.S.A. Albertson College of Idaho
+ALWC ALWC
+ASUC ASUC
+AVSC AVSC
+CAFR Canada A. Francoeur Collection, Université du Québec à Chicoutimi
+CASNT CASNT
+CEPLAC Comissão Executiva de Planejamento da Lavoura Cacaueira, Brazil
+CIQ Canada Collection des insectes du Québec, ministère des Resources Naturelles
+CSIRO Australia, Commonwealth Scientific and Industrial Research Organisation
+DECU U.S.A. Department of Entomology, Cornell University
+DEUI U.S.A. W.F BarrEntomological Collection, University of Idaho
+DEUM U.S.A. Department of Entomology, University of Minnesota
+EESC EESC
+ENHG ENHG
+ENT ENT
+HNU HNU
+IBNP IBNP
+ICIPE ICIPE
+IFML IFML
+INEEL U.S.A. National Engineering and Environmental Laboratory
+IRIPP IRIPP
+JDMP JDMP
+MAC MAC
+MCH MCH
+MHBU MHBU
+MNHU MNHU
+NHMV NHMV
+NHU NHU
+NMHB NMHB
+NMKC NMKC
+PCMB PCMB
+PSWC PSWC
+ROM Canada Entomology Department, Royal Ontario Museum
+SBSK U.S.A. State Biological Survey, University of Kansas
+SNSD SNSD
+UAEIC UAEIC
+WPMC WPMC

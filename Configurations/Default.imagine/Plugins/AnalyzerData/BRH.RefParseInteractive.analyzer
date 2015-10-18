@@ -1,0 +1,4 @@
+CLASS = "de.uka.ipd.idaho.plugins.bibRefs.refParse.RefParseInteractive";
+CLASS_PATH = "RefParse.jar";
+DATA_PATH = "RefParseData/";
+LIB_PATH = "";

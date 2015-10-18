@@ -1,0 +1,7 @@
+"DominanceID","DominanceClass","Fraction"
+"1","eudominant","32-100%"
+"2","dominant","10-31,99%"
+"3","subdominat","3,2-9,99%"
+"4","rezedent","1,0-3,1%"
+"5","subrezedent","0,32-0,99%"
+"6","sporadisch","0,0-0,31%"

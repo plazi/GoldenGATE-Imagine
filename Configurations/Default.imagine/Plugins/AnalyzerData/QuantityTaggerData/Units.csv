@@ -1,0 +1,19 @@
+Unit;MetricUnit;FactorToMetric;MagnitudesToMetric;Synonyms
+nm;m;1;-9;nanometer
+µm;m;1;-6;ym,micron,micrometer,mikrometer
+mm;m;1;-3;millimeter
+cm;m;1;-2;centimeter
+m;m;1;0;meter
+km;m;1;3;kilometer
+mi;m;1,609344;3;mile,miles
+ft;m;3,048;-1;foot,feet,fuss
+in;m;2,54;-2;inch,inches,zoll
+
+ng;kg;1;-12;nanogram,nanograms,nanogramme,nanogrammes,nanogramm
+µg;kg;1;-9;yg,microgram,micrograms,microgramme,microgrammes,mikrogramm
+mg;kg;1;-6;milligram,milligrams,milligramme,milligrammes,milligramm
+g;kg;1;-3;gram,grams,gramme,grammes,gramm
+kg;kg;1;0;kilogram,kilograms,kilogramme,kilogrammes,kilogramm
+t;kg;1;3;ton,tons,tonne,tonnes,tonnen,metric ton,metric tons,metric tonne,metric tonnes,
+oz;kg;28,3495231;-3;ounce,ounces
+lb;kg;4,5359237;-1;lbs,pound,pounds

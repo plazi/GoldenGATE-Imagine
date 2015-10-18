@@ -1,0 +1,1 @@
+materialsCitation[not(./geoCoordinate) or not(./date) or not(./collectingCountry)]

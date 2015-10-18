@@ -1,0 +1,4 @@
+CLASS = "de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentStructurerOnline";
+CLASS_PATH = "TaxonomicDocumentStructurer.jar";
+DATA_PATH = "TaxonomicDocumentStructurerData/";
+LIB_PATH = "";

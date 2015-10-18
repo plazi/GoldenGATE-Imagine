@@ -1,0 +1,5 @@
+LABEL = "Treatment Structure";
+LOCATION = "Tools Menu";
+PROCESSOR_NAME = "TDS.TreatmentStructurerOnline.analyzer@de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+TOOLTIP = "Mark or edit the inner structure of taxonomic treatments";
+XML_WRAPPER_FLAGS = "31";

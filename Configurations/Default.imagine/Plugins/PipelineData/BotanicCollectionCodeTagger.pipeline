@@ -1,0 +1,7 @@
+INTERACTIVITY_LEVEL = "No interactivity";
+PART_0.PART_NAME = "BotanicCollectionCodeGroup.annotator";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager";
+PART_1.PART_NAME = "BotanicCollectionCode.annotator";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager";
+PART_2.PART_NAME = "BotanicCollectionCodeConverter.markupConverter";
+PART_2.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager";

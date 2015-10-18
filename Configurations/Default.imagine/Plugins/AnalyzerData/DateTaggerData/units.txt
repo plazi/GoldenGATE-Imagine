@@ -1,0 +1,8 @@
+ft
+feet
+m
+meters
+yd
+yards
+mi
+miles

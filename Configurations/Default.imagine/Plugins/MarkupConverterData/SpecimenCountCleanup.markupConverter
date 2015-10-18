@@ -1,0 +1,10 @@
+FILTER0 = "maleSymbol";
+FILTER1 = "femaleSymbol";
+FILTER2 = "workerSymbol";
+FILTER3 = "soldierSymbol";
+FILTER4 = "specimenCount";
+TARGET0 = "";
+TARGET1 = "";
+TARGET2 = "";
+TARGET3 = "";
+TARGET4 = "#R";

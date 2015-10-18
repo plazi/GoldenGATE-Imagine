@@ -1,0 +1,5 @@
+// as requested, DwCA export ignores documents harvested from Pensoft
+(./@checkinUser = 'pensoft')
+
+// due to lack of actual content, DwCA export ignores ZooBank treatment stubs
+(./@checkinUser = 'ZooBank')

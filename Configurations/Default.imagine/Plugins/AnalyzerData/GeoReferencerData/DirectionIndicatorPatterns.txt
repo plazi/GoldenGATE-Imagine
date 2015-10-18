@@ -1,0 +1,6 @@
+\p{Punct}?[NSEOWnseow]\p{Punct}?
+\p{Punct}?(North|South|East|West|north|south|east|west)\p{Punct}?
+\p{Punct}?(Nord|Sued|Sud|S\u00FCd|Ost|West|nord|sued|sud|s\u00FCd|ost|west)\p{Punct}?
+\p{Punct}?(Nord|Sud|Est|Ouest|nord|sud|est|ouest)\p{Punct}?
+\p{Punct}?(Nord|Sud|Est|Ovest|nord|sud|est|ovest)\p{Punct}?
+\p{Punct}?(Norte|Sur|Este|Oeste|norte|sur|este|oeste)\p{Punct}?

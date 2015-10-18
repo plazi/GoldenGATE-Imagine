@@ -1,0 +1,5 @@
+[A-Z]\.\s+\&\s+[A-Z]\.\s+[A-Z][a-z]+
+[A-Z][a-z]+\,?\s+Inc\.
+[A-Z][a-z]+\,?\s+Ltd\.
+[A-Z][a-z]+\s+\&\s+Co\.
+J\.?\s+of\s+[A-Z][a-z]+

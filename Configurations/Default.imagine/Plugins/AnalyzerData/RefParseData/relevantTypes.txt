@@ -1,0 +1,19 @@
+author FFC800
+editor C09600
+
+title 00FF00
+volumeTitle 008000
+
+journalOrPublisher FFFF00
+journal 00FFFF
+publisher FFFF00
+location C0C000
+
+year FF0000
+part FFAFAF
+pagination FF00FF
+
+DOI 8888FF
+publicationUrl C0C0C0
+
+nextRef 444444

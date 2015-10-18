@@ -1,0 +1,1 @@
+([A-Z](([a-z\-]*[aeiouy][a-z]*)|([A-Z]*[AEIOUY][A-Z]*)))|([AEIOUY]([a-z\-]+|[A-Z]+))

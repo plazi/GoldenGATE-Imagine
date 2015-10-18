@@ -1,0 +1,1 @@
+(((<<referenceNumber>>)\s+)?(<<authorLastName>>\,(\s[A-Z][a-z]?\.?)((\s|(\s?\-\s?))?[A-Z][a-z]?\.?)*)(<<authorListSeparator>>\s(<<authorLastNameFirst>>|<<authorLastNameLast>>|<<nobleTitleName>>))*(\,|\.|\:))

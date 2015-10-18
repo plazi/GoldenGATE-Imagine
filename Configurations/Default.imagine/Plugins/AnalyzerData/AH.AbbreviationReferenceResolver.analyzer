@@ -1,0 +1,3 @@
+CLASS = "de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationReferenceResolver";
+CLASS_PATH = "AbbreviationHandler.jar";
+DATA_PATH = "AbbreviationHandlerData/";

@@ -1,0 +1,4 @@
+CLASS = "de.uka.ipd.idaho.plugins.bibRefs.taggers.BibRefTagger";
+CLASS_PATH = "BibRefHandler.jar";
+DATA_PATH = "BibRefHandlerData/";
+LIB_PATH = "";

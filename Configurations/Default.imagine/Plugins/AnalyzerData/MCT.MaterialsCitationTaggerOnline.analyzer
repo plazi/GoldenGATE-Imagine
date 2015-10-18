@@ -1,0 +1,4 @@
+CLASS = "de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationTaggerOnline";
+CLASS_PATH = "MaterialsCitationTagger.jar";
+DATA_PATH = "MaterialsCitationTaggerData/";
+LIB_PATH = "";

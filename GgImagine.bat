@@ -1,0 +1,1 @@
+java -jar -Xmx1024m GgImagine.jar RUN

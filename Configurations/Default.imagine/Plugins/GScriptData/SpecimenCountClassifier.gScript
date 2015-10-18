@@ -1,0 +1,46 @@
+for $sc {/specimenCount}
+  if (matches($sc/#last, '.*ype.*'))
+    setAttribute $sc 'type' 'generic'
+  elseIf (matches($sc/#last, '(A|a)d.*'))
+    setAttribute $sc 'type' 'adult'
+  elseIf (matches($sc/#last, '(S|s)ubad.*'))
+    setAttribute $sc 'type' 'subadult'
+  elseIf (matches($sc/#last, '(J|j)uv.*'))
+    setAttribute $sc 'type' 'juvenile'
+  elseIf (matches($sc/#last, '(N|n).*'))
+    setAttribute $sc 'type' 'nymphe'
+  elseIf (matches($sc/#last, '(P|p).*'))
+    setAttribute $sc 'type' 'pupa'
+  elseIf (matches($sc/#last, '(L|l).*'))
+    setAttribute $sc 'type' 'larva'
+  elseIf (matches($sc/#last, '(E|e)xuv.*'))
+    setAttribute $sc 'type' 'exuvia'
+  elseIf (matches($sc/#last, '(E|e)(i|gg).*'))
+    setAttribute $sc 'type' 'egg'
+  elseIf (matches($sc/#last, '(I|i)nter(c|k).*'))
+    setAttribute $sc 'type' 'intercalary'
+  elseIf (matches($sc/#last, '\u263F'))
+    setAttribute $sc 'type' 'worker'
+  elseIf (matches($sc/#last, '(W|w)ork.*'))
+    setAttribute $sc 'type' 'worker'
+  elseIf (matches($sc/#last, 'Arbeit.*'))
+    setAttribute $sc 'type' 'worker'
+  elseIf (matches($sc/#last, '(Q|q)uee.*'))
+    setAttribute $sc 'type' 'queen'
+  elseIf (matches($sc/#last, 'Koenig.*'))
+    setAttribute $sc 'type' 'queen'
+  elseIf (matches($sc/#last, '\u2643'))
+    setAttribute $sc 'type' 'soldier'
+  elseIf (matches($sc/#last, '(S|s)old.*'))
+    setAttribute $sc 'type' 'soldier'
+  elseIf (matches($sc/#last, '\u2642'))
+    setAttribute $sc 'type' 'male'
+  elseIf (matches($sc/#last, '(M|m).*'))
+    setAttribute $sc 'type' 'male'
+  elseIf (matches($sc/#last, '\u2640'))
+    setAttribute $sc 'type' 'female'
+  elseIf (matches($sc/#last, '(F|f|W).*'))
+    setAttribute $sc 'type' 'female'
+  else
+    setAttribute $sc 'type' 'generic'
+end $sc

@@ -1,0 +1,918 @@
+<configuration name="Default.imagine" basePath="" timestamp="1444012104423" isEditable="false" isMasterConfiguration="false">
+<description>
+Default.imagine (auto-generated configuration)
+</description>
+<data>
+<helpBasePath path="Documentation"/>
+<settingsPath path="GoldenGATE.cnfg"/>
+<iconImagePath path="Data/GoldenGATE.logo.gif"/>
+<dataItem path="GgImagine.cnfg" timestamp="1444012104423"/>
+<dataItem path="Plugins/Bin/AbbreviationUtils.jar" timestamp="1441469992529"/>
+<dataItem path="Plugins/Bin/BibRefUtils.jar" timestamp="1441469990468"/>
+<dataItem path="Plugins/Bin/DateTimeUtils.jar" timestamp="1441469992454"/>
+<dataItem path="Plugins/Bin/GamtaFeedbackAPI.jar" timestamp="1441469990135"/>
+<dataItem path="Plugins/Bin/GamtaImagingAPI.jar" timestamp="1441469990248"/>
+<dataItem path="Plugins/Bin/GeoUtils.jar" timestamp="1441469992406"/>
+<dataItem path="Plugins/Bin/GgServerClient.jar" timestamp="1399050945504"/>
+<dataItem path="Plugins/Bin/MaterialsCitationUtils.jar" timestamp="1441469992607"/>
+<dataItem path="Plugins/Bin/QuantityUtils.jar" timestamp="1441469992485"/>
+<dataItem path="Plugins/Bin/TableUtils.jar" timestamp="1441469992580"/>
+<dataItem path="Plugins/Bin/TaxonomicNameUtils.jar" timestamp="1441469990569"/>
+<dataItem path="README.txt" timestamp="1444012104423"/>
+</data>
+<plugins>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager" classPath="Plugins/Analyzer.jar" timestamp="1436565586924" dataPath="Plugins/AnalyzerData">
+<dataItem path="Analyzer.builtin.jar.gone" timestamp="1365694414949"/>
+<dataItem path="Analyzer.builtin.rar" timestamp="1315987373296"/>
+<dataItem path="BibRefHandler.bak.jar" timestamp="1347738214755"/>
+<dataItem path="CharacterNormalizer.zip" timestamp="1313500087406"/>
+<dataItem path="GR.GeoReferencer.analyzer.gone" timestamp="1216921321569"/>
+<dataItem path="ItisHierarchyData/de.uka.ipd.idaho.plugins.taxonomicNames.ItisHierarchyImporter.cnfg" timestamp="1255358829965"/>
+<dataItem path="MorphologicalTermTagger.zip" timestamp="1266600152515"/>
+<dataItem path="MyFirstAnalyzer.jar.off" timestamp="1266519692312"/>
+<dataItem path="PageStructurer.jar" timestamp="1375212208580"/>
+<dataItem path="RefParse.jar.noHints" timestamp="1382033417707"/>
+<dataItem path="SynonymLookup.jar" timestamp="1433964131616"/>
+<dataItem path="SynonymLookup/HNS.jar" timestamp="1434322929187"/>
+<dataItem path="SynonymLookup/NCBI.jar" timestamp="1434322965983"/>
+<dataItem path="list.txt" timestamp="1303309310281"/>
+<resource path="AH.AbbreviationAugmenter.analyzer" timestamp="1282053412125">
+<dataItem path="AbbreviationHandler.jar" timestamp="1399564594963"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangeEnumerationInfixes.list.txt" timestamp="1331660447562"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangeInfixes.list.txt" timestamp="1331660500109"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangePrefixPatterns.regEx.txt" timestamp="1331661192484"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationAugmenter.cnfg" timestamp="1339786127275"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationRangeTagger.cnfg" timestamp="1339786127353"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationReferenceResolver.cnfg" timestamp="1339786127431"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationTaggerOnline.cnfg" timestamp="1339786127509"/>
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+</resource>
+<resource path="AH.AbbreviationRangeTagger.analyzer" timestamp="1331660822187">
+<dataItem path="AbbreviationHandler.jar" timestamp="1399564594963"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangeEnumerationInfixes.list.txt" timestamp="1331660447562"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangeInfixes.list.txt" timestamp="1331660500109"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangePrefixPatterns.regEx.txt" timestamp="1331661192484"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationAugmenter.cnfg" timestamp="1339786127275"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationRangeTagger.cnfg" timestamp="1339786127353"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationReferenceResolver.cnfg" timestamp="1339786127431"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationTaggerOnline.cnfg" timestamp="1339786127509"/>
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+</resource>
+<resource path="AH.AbbreviationReferenceResolver.analyzer" timestamp="1282053412078">
+<dataItem path="AbbreviationHandler.jar" timestamp="1399564594963"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangeEnumerationInfixes.list.txt" timestamp="1331660447562"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangeInfixes.list.txt" timestamp="1331660500109"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangePrefixPatterns.regEx.txt" timestamp="1331661192484"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationAugmenter.cnfg" timestamp="1339786127275"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationRangeTagger.cnfg" timestamp="1339786127353"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationReferenceResolver.cnfg" timestamp="1339786127431"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationTaggerOnline.cnfg" timestamp="1339786127509"/>
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+</resource>
+<resource path="AH.AbbreviationTaggerOnline.analyzer" timestamp="1282053412046">
+<dataItem path="AbbreviationHandler.jar" timestamp="1399564594963"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangeEnumerationInfixes.list.txt" timestamp="1331660447562"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangeInfixes.list.txt" timestamp="1331660500109"/>
+<dataItem path="AbbreviationHandlerData/abbreviationRangePrefixPatterns.regEx.txt" timestamp="1331661192484"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationAugmenter.cnfg" timestamp="1339786127275"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationRangeTagger.cnfg" timestamp="1339786127353"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationReferenceResolver.cnfg" timestamp="1339786127431"/>
+<dataItem path="AbbreviationHandlerData/de.uka.ipd.idaho.plugins.abbreviationHandling.AbbreviationTaggerOnline.cnfg" timestamp="1339786127509"/>
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+</resource>
+<resource path="BRH.BibRefTagger.analyzer" timestamp="1365678213272">
+<dataItem path="BibRefHandler.jar" timestamp="1442506481621"/>
+<dataItem path="BibRefHandlerData/AuthorLastFirst-Text-Year.regEx.txt" timestamp="1180988737708"/>
+<dataItem path="BibRefHandlerData/BibRefCitationAuthorsCommaYear.regEx.brc.txt" timestamp="1381250126910"/>
+<dataItem path="BibRefHandlerData/BibRefCitationRoundAuthorsInside.regEx.brc.txt" timestamp="1381250141931"/>
+<dataItem path="BibRefHandlerData/BibRefCitationRoundAuthorsOutside.regEx.brc.txt" timestamp="1381250189866"/>
+<dataItem path="BibRefHandlerData/BibRefCitationSquareAuthorsInside.regEx.brc.txt" timestamp="1381250180469"/>
+<dataItem path="BibRefHandlerData/BibRefCitationSquareAuthorsOutside.regEx.brc.txt" timestamp="1381250167751"/>
+<dataItem path="BibRefHandlerData/BibRefCitationSquareNumber.regEx.brc.txt" timestamp="1236712971650"/>
+<dataItem path="BibRefHandlerData/authorLastName.regEx.txt" timestamp="1288796696278"/>
+<dataItem path="BibRefHandlerData/authorLastNameFirst.regEx.txt" timestamp="1280332942047"/>
+<dataItem path="BibRefHandlerData/authorLastNameLast.regEx.txt" timestamp="1234450231416"/>
+<dataItem path="BibRefHandlerData/authorLastNameUpperCase.regEx.txt" timestamp="1180992665767"/>
+<dataItem path="BibRefHandlerData/authorLastNameUpperCaseFirst.regEx.txt" timestamp="1280333386750"/>
+<dataItem path="BibRefHandlerData/authorLastNameUpperCaseLast.regEx.txt" timestamp="1234450198154"/>
+<dataItem path="BibRefHandlerData/authorListLastNameFirstStart.regEx.txt" timestamp="1288972859546"/>
+<dataItem path="BibRefHandlerData/authorListSeparator.regEx.txt" timestamp="1288723106193"/>
+<dataItem path="BibRefHandlerData/authorListStart.regEx.txt" timestamp="1302782481950"/>
+<dataItem path="BibRefHandlerData/authorListUpperCaseStart.regEx.txt" timestamp="1280506973328"/>
+<dataItem path="BibRefHandlerData/authorListUpperCaseYearBracketsStart.regEx.txt" timestamp="1280506964562"/>
+<dataItem path="BibRefHandlerData/authorListUpperCaseYearStart.regEx.txt" timestamp="1280506959672"/>
+<dataItem path="BibRefHandlerData/authorListYearBracketsStart.regEx.txt" timestamp="1280506954187"/>
+<dataItem path="BibRefHandlerData/authorListYearStart.regEx.txt" timestamp="1280506992547"/>
+<dataItem path="BibRefHandlerData/de.uka.ipd.idaho.plugins.bibRefs.refParse.RefParseAutomatic.cnfg" timestamp="1338494015825"/>
+<dataItem path="BibRefHandlerData/de.uka.ipd.idaho.plugins.bibRefs.taggers.BibRefCitationTaggerOnline.cnfg" timestamp="1339786127744"/>
+<dataItem path="BibRefHandlerData/de.uka.ipd.idaho.plugins.bibRefs.taggers.BibRefTagger.cnfg" timestamp="1340304073261"/>
+<dataItem path="BibRefHandlerData/nobleTitleName.regEx.txt" timestamp="1365675850923"/>
+<dataItem path="BibRefHandlerData/numberAuthorListStart.regEx.txt" timestamp="1288360865742"/>
+<dataItem path="BibRefHandlerData/numberedAuthorLastNameFirst.regEx.txt" timestamp="1280319909859"/>
+<dataItem path="BibRefHandlerData/referenceNumber.regEx.txt" timestamp="1280332562562"/>
+<dataItem path="BibRefHandlerData/useBibRefCitationPatterns.cnfg" timestamp="1442598619329"/>
+<dataItem path="BibRefHandlerData/useBibRefPatterns.cnfg" timestamp="1317726745132"/>
+<dataItem path="BibRefHandlerData/year.regEx.txt" timestamp="1180989719086"/>
+<dataItem path="BibRefHandlerData/yearBracketStart.regEx.txt" timestamp="1288716835334"/>
+<dataItem path="BibRefHandlerData/yearStart.regEx.txt" timestamp="1280319799671"/>
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+</resource>
+<resource path="BRH.RefParseInteractive.analyzer" timestamp="1382026859574">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="RefParse.jar" timestamp="1442238470665"/>
+<dataItem path="RefParseData/RefClassifierTypeSystem.xml" timestamp="1338809309000"/>
+<dataItem path="RefParseData/authorFirstNameBase.regEx.txt" timestamp="1365675870678"/>
+<dataItem path="RefParseData/authorInitialsBase.regEx.txt" timestamp="1365673765912"/>
+<dataItem path="RefParseData/authorLastNameBase.regEx.txt" timestamp="1365675879758"/>
+<dataItem path="RefParseData/authorListSeparators.list.txt" timestamp="1417692087306"/>
+<dataItem path="RefParseData/authorNameAffix.regEx.txt" timestamp="1365675859347"/>
+<dataItem path="RefParseData/authorNameStopWords.list.txt" timestamp="1259675038234"/>
+<dataItem path="RefParseData/authorRepetitionMarker.regEx.txt" timestamp="1365675839311"/>
+<dataItem path="RefParseData/bookContentInfoNumberingInvalidatorsTailing.list.txt" timestamp="1365675383647"/>
+<dataItem path="RefParseData/conferenceSynonyms.list.txt" timestamp="1365675010623"/>
+<dataItem path="RefParseData/countries.list.txt" timestamp="1327866862751"/>
+<dataItem path="RefParseData/editorListTagBase.regEx.txt" timestamp="1365675938177"/>
+<dataItem path="RefParseData/journalPublisherStopWords.list.txt" timestamp="1365675664939"/>
+<dataItem path="RefParseData/knownAuthors.txt" timestamp="1442598619368"/>
+<dataItem path="RefParseData/knownJopWords.txt" timestamp="1442236542108"/>
+<dataItem path="RefParseData/knownJournalsAndPublishers.txt" timestamp="1442598619472"/>
+<dataItem path="RefParseData/knownNonAuthorNameStarts.list.txt" timestamp="1365674461883"/>
+<dataItem path="RefParseData/knownNonAuthorNames.list.txt" timestamp="1365674406834"/>
+<dataItem path="RefParseData/knownTitleCaseBlockPatterns.list.txt" timestamp="1365675917501"/>
+<dataItem path="RefParseData/nobleTitleName.regEx.txt" timestamp="1365675850923"/>
+<dataItem path="RefParseData/nobleTitleStarts.list.txt" timestamp="1365674207159"/>
+<dataItem path="RefParseData/numberingInvalidatorsLeading.list.txt" timestamp="1365691057385"/>
+<dataItem path="RefParseData/numberingInvalidatorsTailing.list.txt" timestamp="1365675535309"/>
+<dataItem path="RefParseData/page.regEx.txt" timestamp="1366019831290"/>
+<dataItem path="RefParseData/pageRangeArabic.regEx.txt" timestamp="1413813052153"/>
+<dataItem path="RefParseData/pageRangeRoman.regEx.txt" timestamp="1413813043629"/>
+<dataItem path="RefParseData/partDesignator.regEx.txt" timestamp="1349782926564"/>
+<dataItem path="RefParseData/relevantTypes.txt" timestamp="1382032338993"/>
+<dataItem path="RefParseData/titleCaseAbbreviation.regEx.txt" timestamp="1365675927456"/>
+<dataItem path="RefParseData/titleCaseAbbreviations.list.txt" timestamp="1347730975335"/>
+<dataItem path="RefParseData/titleCaseBlockStopWords.list.txt" timestamp="1347558362418"/>
+<dataItem path="RefParseData/titleCaseToken.regEx.txt" timestamp="1327860770824"/>
+<dataItem path="RefParseData/titleNumberPatterns.list.txt" timestamp="1417691627070"/>
+</resource>
+<resource path="DT.DateTagger.analyzer" timestamp="1216921321569">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="DateTagger.jar" timestamp="1413984350617"/>
+<dataItem path="DateTaggerData/day.txt" timestamp="1278421934758"/>
+<dataItem path="DateTaggerData/de.uka.ipd.idaho.plugins.dateTagger.DateTagger.cnfg" timestamp="1341676277421"/>
+<dataItem path="DateTaggerData/enumSeparators.txt" timestamp="1335357437843"/>
+<dataItem path="DateTaggerData/month.txt" timestamp="1399913470726"/>
+<dataItem path="DateTaggerData/patterns.txt" timestamp="1341270828766"/>
+<dataItem path="DateTaggerData/rangeIndicators.txt" timestamp="1413984172912"/>
+<dataItem path="DateTaggerData/units.txt" timestamp="1234539996964"/>
+</resource>
+<resource path="GR.GeoCoordinateTagger.analyzer" timestamp="1216921321569">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="GeoReferencer.jar" timestamp="1417480689722"/>
+<dataItem path="GeoReferencerData/DegMinPatterns.txt" timestamp="1417477583950"/>
+<dataItem path="GeoReferencerData/DegMinSecPatterns.txt" timestamp="1417477921954"/>
+<dataItem path="GeoReferencerData/DegPatterns.txt" timestamp="1417477647762"/>
+<dataItem path="GeoReferencerData/DirectionIndicatorPatterns.txt" timestamp="1415295957698"/>
+<dataItem path="GeoReferencerData/FallingRain.jar" timestamp="1403962677874"/>
+<dataItem path="GeoReferencerData/GeoLocate.jar" timestamp="1403962678428"/>
+<dataItem path="GeoReferencerData/GeoNames.jar" timestamp="1403962678957"/>
+<dataItem path="GeoReferencerData/GeoReferencerData.zip" timestamp="1343211135859"/>
+<dataItem path="GeoReferencerData/Getty.jar" timestamp="1403962679495"/>
+<dataItem path="GeoReferencerData/GoogleMaps.jar" timestamp="1403962680038"/>
+<dataItem path="GeoReferencerData/GoogleMapsData/config.cnfg" timestamp="1300368388992"/>
+<dataItem path="GeoReferencerData/de.uka.ipd.idaho.plugins.geoCoding.GeoCoordinateTagger.cnfg" timestamp="1341676277437"/>
+</resource>
+<resource path="LFAT.TaxonomicNameParserOnline.analyzer" timestamp="1234306114708">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="LexiconFAT.jar" timestamp="1423574285399"/>
+<dataItem path="LexiconFATData/BracketTestRegEx.regEx.txt" timestamp="1235998969742"/>
+<dataItem path="LexiconFATData/CapitalizedAbbreviation.regEx.txt" timestamp="1169211305506"/>
+<dataItem path="LexiconFATData/CapitalizedPart.regEx.txt" timestamp="1169211440786"/>
+<dataItem path="LexiconFATData/CapitalizedWord.regEx.txt" timestamp="1169211396584"/>
+<dataItem path="LexiconFATData/EnglishWord.txt" timestamp="1142365538622"/>
+<dataItem path="LexiconFATData/Forbidden.backup.txt" timestamp="1197414636273"/>
+<dataItem path="LexiconFATData/ForbiddenWordsLowerCase.list.txt" timestamp="1197414643272"/>
+<dataItem path="LexiconFATData/ForbiddenWordsUpperCase.list.txt" timestamp="1161852473813"/>
+<dataItem path="LexiconFATData/GenusSubgenus.regEx.txt" timestamp="1169224163189"/>
+<dataItem path="LexiconFATData/GenusSubgenusRecall.regEx.txt" timestamp="1277357526328"/>
+<dataItem path="LexiconFATData/GermanWord.txt" timestamp="1205506864893"/>
+<dataItem path="LexiconFATData/LabelRegExes.fat" timestamp="1161100350923"/>
+<dataItem path="LexiconFATData/LastName.regEx.txt" timestamp="1197411383903"/>
+<dataItem path="LexiconFATData/LastNameAbbreviation.regEx.txt" timestamp="1169212403655"/>
+<dataItem path="LexiconFATData/LastNameFull.regEx.txt" timestamp="1169212372406"/>
+<dataItem path="LexiconFATData/LexiconFATData.zip" timestamp="1192729392548"/>
+<dataItem path="LexiconFATData/LowerCaseAbbreviation.regEx.txt" timestamp="1161080373684"/>
+<dataItem path="LexiconFATData/LowerCaseFull.regEx.txt" timestamp="1169212825199"/>
+<dataItem path="LexiconFATData/LowerCaseOrCapitalizedFull.regEx.txt" timestamp="1197044996793"/>
+<dataItem path="LexiconFATData/LowerCasePart.regEx.txt" timestamp="1169214447580"/>
+<dataItem path="LexiconFATData/MetaRegEx.DONT_USE_DIRCTLY.regEx.txt" timestamp="1192711833998"/>
+<dataItem path="LexiconFATData/NoiseWord.list.txt" timestamp="1206052144086"/>
+<dataItem path="LexiconFATData/PersonName.regEx.txt" timestamp="1169217565747"/>
+<dataItem path="LexiconFATData/PrecisionRegExes.fat" timestamp="1161100488329"/>
+<dataItem path="LexiconFATData/RecallRegExes.fat" timestamp="1161113686463"/>
+<dataItem path="LexiconFATData/RegExesOld.rar" timestamp="1169146924176"/>
+<dataItem path="LexiconFATData/ScientificWord.txt" timestamp="1236010776960"/>
+<dataItem path="LexiconFATData/ScientistsNameNoiseWord.list.txt" timestamp="1206015964281"/>
+<dataItem path="LexiconFATData/SpeciesRecall-NoGenus.regEx.txt" timestamp="1196965592858"/>
+<dataItem path="LexiconFATData/SpeciesRecall.regEx.txt" timestamp="1192711837482"/>
+<dataItem path="LexiconFATData/SpeciesRecallBracket-NoGenus.regEx.txt" timestamp="1215768063034"/>
+<dataItem path="LexiconFATData/SubGenusLabel.regEx.txt" timestamp="1196960557971"/>
+<dataItem path="LexiconFATData/SubSpeciesPrecision.regEx.txt" timestamp="1192711842216"/>
+<dataItem path="LexiconFATData/SubSpeciesRecall-NoGenus.regEx.txt" timestamp="1197045037026"/>
+<dataItem path="LexiconFATData/SubSpeciesRecall-NoGenusSpecies.regEx.txt" timestamp="1197401311286"/>
+<dataItem path="LexiconFATData/SubSpeciesRecall.regEx.txt" timestamp="1197045048589"/>
+<dataItem path="LexiconFATData/SubSpeciesRepeatedPart.regEx.txt" timestamp="1192711849029"/>
+<dataItem path="LexiconFATData/SubgenusPrecision.regEx.txt" timestamp="1169216631644"/>
+<dataItem path="LexiconFATData/TaxonNameAuthor.regEx.txt" timestamp="1170789772951"/>
+<dataItem path="LexiconFATData/TaxonomicNameLabelRegExes.fat" timestamp="1169038474050"/>
+<dataItem path="LexiconFATData/TestRegEx.regEx.txt" timestamp="1192710817618"/>
+<dataItem path="LexiconFATData/TestVarietyPrecision.regEx.txt" timestamp="1192711856169"/>
+<dataItem path="LexiconFATData/TestVarietyRecall.regEx.txt" timestamp="1192711860075"/>
+<dataItem path="LexiconFATData/UsePrecision.cnfg" timestamp="1442598619549"/>
+<dataItem path="LexiconFATData/UseRecall.cnfg" timestamp="1442598619539"/>
+<dataItem path="LexiconFATData/VarietyPrecision.regEx.txt" timestamp="1192711863028"/>
+<dataItem path="LexiconFATData/VarietyRecall-NoGenus.regEx.txt" timestamp="1197045084869"/>
+<dataItem path="LexiconFATData/VarietyRecall-NoGenusSpecies.regEx.txt" timestamp="1197401374675"/>
+<dataItem path="LexiconFATData/VarietyRecall.regEx.txt" timestamp="1197045059791"/>
+<dataItem path="LexiconFATData/VarietyRepeatedPart.regEx.txt" timestamp="1192711868153"/>
+<dataItem path="LexiconFATData/ant_LowerCasePart.txt" timestamp="1195576028874"/>
+<dataItem path="LexiconFATData/ant_genus.txt" timestamp="1195575988188"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.DataRules.cnfg" timestamp="1339786157634"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.DynamicLexiconRules.cnfg" timestamp="1339786157712"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.HigherOrderNameTagger.cnfg" timestamp="1339786157806"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.KnownDataRules.cnfg" timestamp="1339786157900"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.LabelRules.cnfg" timestamp="1339786157993"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.LexiconRules.cnfg" timestamp="1339786158072"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.PrecisionRules.cnfg" timestamp="1339786158134"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.RecallRules.cnfg" timestamp="1339786158212"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.ScientistsNameRule.cnfg" timestamp="1339786158306"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.StemmingLookupFilter.cnfg" timestamp="1339786158384"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.SureNegativesFilter.cnfg" timestamp="1339786158478"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.TaxonomicNameAttributor.cnfg" timestamp="1341676280234"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.TaxonomicNameCompleter.cnfg" timestamp="1341676280250"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.TaxonomicNameParserOnline.cnfg" timestamp="1339786158697"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.TnCandidateFeedbackerOnline.cnfg" timestamp="1339786158806"/>
+<dataItem path="LexiconFATData/de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.TnCandidateScorer.cnfg" timestamp="1197412010262"/>
+<dataItem path="LexiconFATData/genus.list.txt" timestamp="1442598619652"/>
+<dataItem path="LexiconFATData/genus.reference.list.txt" timestamp="1206982581470"/>
+<dataItem path="LexiconFATData/genusLabel.list.txt" timestamp="1209502780973"/>
+<dataItem path="LexiconFATData/lowerCasePart.list.txt" timestamp="1328798734273"/>
+<dataItem path="LexiconFATData/lowerCasePart.reference.list.txt" timestamp="1206970789710"/>
+<dataItem path="LexiconFATData/negatives.list.txt" timestamp="1442598620684"/>
+<dataItem path="LexiconFATData/negativesDictionaryList.cnfg" timestamp="1442598619569"/>
+<dataItem path="LexiconFATData/newLabel.list.txt" timestamp="1206046028633"/>
+<dataItem path="LexiconFATData/otherLabel.list.txt" timestamp="1203596493279"/>
+<dataItem path="LexiconFATData/regExMaxTokens.cnfg" timestamp="1442598619560"/>
+<dataItem path="LexiconFATData/scientistsName.list.txt" timestamp="1442598620414"/>
+<dataItem path="LexiconFATData/scientistsName.reference.list.txt" timestamp="1206658117673"/>
+<dataItem path="LexiconFATData/species.list.txt" timestamp="1442598619987"/>
+<dataItem path="LexiconFATData/species.reference.list.txt" timestamp="1207067556996"/>
+<dataItem path="LexiconFATData/speciesLabel.list.txt" timestamp="1169138337840"/>
+<dataItem path="LexiconFATData/spider_LowerCasePart.txt" timestamp="1328798816476"/>
+<dataItem path="LexiconFATData/spider_genus.txt" timestamp="1195127042014"/>
+<dataItem path="LexiconFATData/subGenus.list.txt" timestamp="1442598619671"/>
+<dataItem path="LexiconFATData/subGenus.reference.list.txt" timestamp="1206658113642"/>
+<dataItem path="LexiconFATData/subGenusLabel.list.txt" timestamp="1169138314309"/>
+<dataItem path="LexiconFATData/subSpecies.list.txt" timestamp="1442598620010"/>
+<dataItem path="LexiconFATData/subSpecies.reference.list.txt" timestamp="1207067626448"/>
+<dataItem path="LexiconFATData/subSpeciesLabel.list.txt" timestamp="1200349206815"/>
+<dataItem path="LexiconFATData/taxonomicName.list.txt" timestamp="1442598620247"/>
+<dataItem path="LexiconFATData/upperCaseLowerCasePart.list.txt" timestamp="1442598620044"/>
+<dataItem path="LexiconFATData/upperCaseLowerCasePart.reference.list.txt" timestamp="1206658116251"/>
+<dataItem path="LexiconFATData/variety.list.txt" timestamp="1442598620030"/>
+<dataItem path="LexiconFATData/variety.reference.list.txt" timestamp="1206658116236"/>
+<dataItem path="LexiconFATData/varietyLabel.list.txt" timestamp="1174741784432"/>
+</resource>
+<resource path="MCT.CollectingCountryTagger.analyzer" timestamp="1331226577255">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="MaterialsCitationTagger.jar" timestamp="1436567584716"/>
+<dataItem path="MaterialsCitationTaggerData/collectingCountry.txt" timestamp="1202588892540"/>
+<dataItem path="MaterialsCitationTaggerData/collectingCounty.txt" timestamp="1210362606497"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.exclude.txt" timestamp="1212404709169"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.regEx.exclude.txt" timestamp="1248425853546"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.regEx.txt" timestamp="1210072779886"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.txt" timestamp="1210072779886"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegionExclude.txt" timestamp="1212404709169"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodes.txt" timestamp="1212346715896"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodesAdded.txt" timestamp="1425678711014"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodesExclude.txt" timestamp="1415921271938"/>
+<dataItem path="MaterialsCitationTaggerData/countries.xml" timestamp="1363686729957"/>
+<dataItem path="MaterialsCitationTaggerData/countries.zip" timestamp="1343211227296"/>
+<dataItem path="MaterialsCitationTaggerData/countyListBuilder.xslt" timestamp="1327692982808"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.CollectingCountryTagger.cnfg" timestamp="1339786159103"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationAbbreviationTransformer.cnfg" timestamp="1328549624695"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationParserOnline.cnfg" timestamp="1339786159165"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationTaggerOnline.cnfg" timestamp="1339786159228"/>
+<dataItem path="MaterialsCitationTaggerData/indicatorAnnotationTypes.txt" timestamp="1364987043029"/>
+<dataItem path="MaterialsCitationTaggerData/materialsCitationSeparators.txt" timestamp="1210094454418"/>
+<dataItem path="MaterialsCitationTaggerData/properNameForbidden.txt" timestamp="1331635161734"/>
+<dataItem path="MaterialsCitationTaggerData/properNamePart.gone.txt" timestamp="1242071910365"/>
+<dataItem path="MaterialsCitationTaggerData/properNamePart.txt" timestamp="1347371856782"/>
+<dataItem path="MaterialsCitationTaggerData/relevantTypeMappings.txt" timestamp="1308679892174"/>
+<dataItem path="MaterialsCitationTaggerData/relevantTypes.txt" timestamp="1436569625324"/>
+<dataItem path="MaterialsCitationTaggerData/sectionSelectors.txt" timestamp="1316679636640"/>
+<dataItem path="MaterialsCitationTaggerData/specimenCode.txt" timestamp="1222166256809"/>
+<dataItem path="MaterialsCitationTaggerData/specimenTypes.txt" timestamp="1436341248609"/>
+<dataItem path="MaterialsCitationTaggerData/typeStatus.txt" timestamp="1395742247590"/>
+</resource>
+<resource path="MCT.CollectionCodeTaggerOnline.analyzer" timestamp="1234950590718">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="MaterialsCitationTagger.jar" timestamp="1436567584716"/>
+<dataItem path="MaterialsCitationTaggerData/collectingCountry.txt" timestamp="1202588892540"/>
+<dataItem path="MaterialsCitationTaggerData/collectingCounty.txt" timestamp="1210362606497"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.exclude.txt" timestamp="1212404709169"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.regEx.exclude.txt" timestamp="1248425853546"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.regEx.txt" timestamp="1210072779886"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.txt" timestamp="1210072779886"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegionExclude.txt" timestamp="1212404709169"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodes.txt" timestamp="1212346715896"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodesAdded.txt" timestamp="1425678711014"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodesExclude.txt" timestamp="1415921271938"/>
+<dataItem path="MaterialsCitationTaggerData/countries.xml" timestamp="1363686729957"/>
+<dataItem path="MaterialsCitationTaggerData/countries.zip" timestamp="1343211227296"/>
+<dataItem path="MaterialsCitationTaggerData/countyListBuilder.xslt" timestamp="1327692982808"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.CollectingCountryTagger.cnfg" timestamp="1339786159103"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationAbbreviationTransformer.cnfg" timestamp="1328549624695"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationParserOnline.cnfg" timestamp="1339786159165"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationTaggerOnline.cnfg" timestamp="1339786159228"/>
+<dataItem path="MaterialsCitationTaggerData/indicatorAnnotationTypes.txt" timestamp="1364987043029"/>
+<dataItem path="MaterialsCitationTaggerData/materialsCitationSeparators.txt" timestamp="1210094454418"/>
+<dataItem path="MaterialsCitationTaggerData/properNameForbidden.txt" timestamp="1331635161734"/>
+<dataItem path="MaterialsCitationTaggerData/properNamePart.gone.txt" timestamp="1242071910365"/>
+<dataItem path="MaterialsCitationTaggerData/properNamePart.txt" timestamp="1347371856782"/>
+<dataItem path="MaterialsCitationTaggerData/relevantTypeMappings.txt" timestamp="1308679892174"/>
+<dataItem path="MaterialsCitationTaggerData/relevantTypes.txt" timestamp="1436569625324"/>
+<dataItem path="MaterialsCitationTaggerData/sectionSelectors.txt" timestamp="1316679636640"/>
+<dataItem path="MaterialsCitationTaggerData/specimenCode.txt" timestamp="1222166256809"/>
+<dataItem path="MaterialsCitationTaggerData/specimenTypes.txt" timestamp="1436341248609"/>
+<dataItem path="MaterialsCitationTaggerData/typeStatus.txt" timestamp="1395742247590"/>
+</resource>
+<resource path="MCT.MaterialsCitationParserOnline.analyzer" timestamp="1234308410384">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="MaterialsCitationTagger.jar" timestamp="1436567584716"/>
+<dataItem path="MaterialsCitationTaggerData/collectingCountry.txt" timestamp="1202588892540"/>
+<dataItem path="MaterialsCitationTaggerData/collectingCounty.txt" timestamp="1210362606497"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.exclude.txt" timestamp="1212404709169"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.regEx.exclude.txt" timestamp="1248425853546"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.regEx.txt" timestamp="1210072779886"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.txt" timestamp="1210072779886"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegionExclude.txt" timestamp="1212404709169"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodes.txt" timestamp="1212346715896"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodesAdded.txt" timestamp="1425678711014"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodesExclude.txt" timestamp="1415921271938"/>
+<dataItem path="MaterialsCitationTaggerData/countries.xml" timestamp="1363686729957"/>
+<dataItem path="MaterialsCitationTaggerData/countries.zip" timestamp="1343211227296"/>
+<dataItem path="MaterialsCitationTaggerData/countyListBuilder.xslt" timestamp="1327692982808"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.CollectingCountryTagger.cnfg" timestamp="1339786159103"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationAbbreviationTransformer.cnfg" timestamp="1328549624695"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationParserOnline.cnfg" timestamp="1339786159165"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationTaggerOnline.cnfg" timestamp="1339786159228"/>
+<dataItem path="MaterialsCitationTaggerData/indicatorAnnotationTypes.txt" timestamp="1364987043029"/>
+<dataItem path="MaterialsCitationTaggerData/materialsCitationSeparators.txt" timestamp="1210094454418"/>
+<dataItem path="MaterialsCitationTaggerData/properNameForbidden.txt" timestamp="1331635161734"/>
+<dataItem path="MaterialsCitationTaggerData/properNamePart.gone.txt" timestamp="1242071910365"/>
+<dataItem path="MaterialsCitationTaggerData/properNamePart.txt" timestamp="1347371856782"/>
+<dataItem path="MaterialsCitationTaggerData/relevantTypeMappings.txt" timestamp="1308679892174"/>
+<dataItem path="MaterialsCitationTaggerData/relevantTypes.txt" timestamp="1436569625324"/>
+<dataItem path="MaterialsCitationTaggerData/sectionSelectors.txt" timestamp="1316679636640"/>
+<dataItem path="MaterialsCitationTaggerData/specimenCode.txt" timestamp="1222166256809"/>
+<dataItem path="MaterialsCitationTaggerData/specimenTypes.txt" timestamp="1436341248609"/>
+<dataItem path="MaterialsCitationTaggerData/typeStatus.txt" timestamp="1395742247590"/>
+</resource>
+<resource path="MCT.MaterialsCitationTaggerOnline.analyzer" timestamp="1234950906265">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="MaterialsCitationTagger.jar" timestamp="1436567584716"/>
+<dataItem path="MaterialsCitationTaggerData/collectingCountry.txt" timestamp="1202588892540"/>
+<dataItem path="MaterialsCitationTaggerData/collectingCounty.txt" timestamp="1210362606497"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.exclude.txt" timestamp="1212404709169"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.regEx.exclude.txt" timestamp="1248425853546"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.regEx.txt" timestamp="1210072779886"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegion.txt" timestamp="1210072779886"/>
+<dataItem path="MaterialsCitationTaggerData/collectingRegionExclude.txt" timestamp="1212404709169"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodes.txt" timestamp="1212346715896"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodesAdded.txt" timestamp="1425678711014"/>
+<dataItem path="MaterialsCitationTaggerData/collectionCodesExclude.txt" timestamp="1415921271938"/>
+<dataItem path="MaterialsCitationTaggerData/countries.xml" timestamp="1363686729957"/>
+<dataItem path="MaterialsCitationTaggerData/countries.zip" timestamp="1343211227296"/>
+<dataItem path="MaterialsCitationTaggerData/countyListBuilder.xslt" timestamp="1327692982808"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.CollectingCountryTagger.cnfg" timestamp="1339786159103"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationAbbreviationTransformer.cnfg" timestamp="1328549624695"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationParserOnline.cnfg" timestamp="1339786159165"/>
+<dataItem path="MaterialsCitationTaggerData/de.uka.ipd.idaho.plugin.materialsCitations.MaterialsCitationTaggerOnline.cnfg" timestamp="1339786159228"/>
+<dataItem path="MaterialsCitationTaggerData/indicatorAnnotationTypes.txt" timestamp="1364987043029"/>
+<dataItem path="MaterialsCitationTaggerData/materialsCitationSeparators.txt" timestamp="1210094454418"/>
+<dataItem path="MaterialsCitationTaggerData/properNameForbidden.txt" timestamp="1331635161734"/>
+<dataItem path="MaterialsCitationTaggerData/properNamePart.gone.txt" timestamp="1242071910365"/>
+<dataItem path="MaterialsCitationTaggerData/properNamePart.txt" timestamp="1347371856782"/>
+<dataItem path="MaterialsCitationTaggerData/relevantTypeMappings.txt" timestamp="1308679892174"/>
+<dataItem path="MaterialsCitationTaggerData/relevantTypes.txt" timestamp="1436569625324"/>
+<dataItem path="MaterialsCitationTaggerData/sectionSelectors.txt" timestamp="1316679636640"/>
+<dataItem path="MaterialsCitationTaggerData/specimenCode.txt" timestamp="1222166256809"/>
+<dataItem path="MaterialsCitationTaggerData/specimenTypes.txt" timestamp="1436341248609"/>
+<dataItem path="MaterialsCitationTaggerData/typeStatus.txt" timestamp="1395742247590"/>
+</resource>
+<resource path="QT.QuantityTagger.analyzer" timestamp="1309366378225">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="QuantityTagger.jar" timestamp="1434538903073"/>
+<dataItem path="QuantityTaggerData/Units.csv" timestamp="1343668992601"/>
+<dataItem path="QuantityTaggerData/de.uka.ipd.idaho.plugins.quantityTagger.QuantityTagger.cnfg" timestamp="1339786162368"/>
+</resource>
+<resource path="TDS.TreatmentStructurerOnline.analyzer" timestamp="1247945643250">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="TaxonomicDocumentStructurer.jar" timestamp="1441487614889"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_biology_ecology.csv" timestamp="1442598620701"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_description.csv" timestamp="1442598620710"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_diagnosis.csv" timestamp="1442598620724"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_discussion.csv" timestamp="1442598620738"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_distribution.csv" timestamp="1442598620747"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_etymology.csv" timestamp="1442598620753"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_materials_examined.csv" timestamp="1442598620759"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_nomenclature.csv" timestamp="1442598620774"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_reference_group.csv" timestamp="1442598620792"/>
+<dataItem path="TaxonomicDocumentStructurerData/artifactAnnotationTypes.txt" timestamp="1228904782250"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TaxonListHandler.cnfg" timestamp="1339786162446"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TaxonomicDocumentStructurer.cnfg" timestamp="1339786164946"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentStructurerOnline.cnfg" timestamp="1339786165118"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentStructurerRuleBased.cnfg" timestamp="1203677152582"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentTagger.cnfg" timestamp="1339786165165"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentTaggerOnline.cnfg" timestamp="1362064545420"/>
+<dataItem path="TaxonomicDocumentStructurerData/numberPrefixes.txt" timestamp="1170174611677"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentStructurerRules.txt" timestamp="1362084958661"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentStructurerTypeColors.txt" timestamp="1241016574146"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentTaggerRules.complex.txt" timestamp="1427546298135"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentTaggerRules.simple.txt" timestamp="1228931902138"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentTaggerRules.txt" timestamp="1218472442832"/>
+</resource>
+<resource path="TDS.TreatmentStructurerStyled.analyzer" timestamp="1440373932970">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="TaxonomicDocumentStructurer.jar" timestamp="1441487614889"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_biology_ecology.csv" timestamp="1439210773546"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_description.csv" timestamp="1439210773555"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_diagnosis.csv" timestamp="1439210773568"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_discussion.csv" timestamp="1439210773581"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_distribution.csv" timestamp="1439210773589"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_etymology.csv" timestamp="1439210773594"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_materials_examined.csv" timestamp="1439210773599"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_nomenclature.csv" timestamp="1439210773613"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_reference_group.csv" timestamp="1439210773629"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/artifactAnnotationTypes.txt" timestamp="1228904782250"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TaxonListHandler.cnfg" timestamp="1339786162446"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TaxonomicDocumentStructurer.cnfg" timestamp="1339786164946"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentStructurerOnline.cnfg" timestamp="1339786165118"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentStructurerRuleBased.cnfg" timestamp="1203677152582"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentTagger.cnfg" timestamp="1339786165165"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentTaggerOnline.cnfg" timestamp="1362064545420"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/numberPrefixes.txt" timestamp="1170174611677"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentStructurerRules.txt" timestamp="1440411026623"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentStructurerTypeColors.txt" timestamp="1241016574146"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentTaggerRules.complex.txt" timestamp="1440399607665"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentTaggerRules.simple.txt" timestamp="1228931902138"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentTaggerRules.txt" timestamp="1218472442832"/>
+</resource>
+<resource path="TDS.TreatmentTaggerOnline.analyzer" timestamp="1234306125192">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="TaxonomicDocumentStructurer.jar" timestamp="1441487614889"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_biology_ecology.csv" timestamp="1442598620701"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_description.csv" timestamp="1442598620710"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_diagnosis.csv" timestamp="1442598620724"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_discussion.csv" timestamp="1442598620738"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_distribution.csv" timestamp="1442598620747"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_etymology.csv" timestamp="1442598620753"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_materials_examined.csv" timestamp="1442598620759"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_nomenclature.csv" timestamp="1442598620774"/>
+<dataItem path="TaxonomicDocumentStructurerData/TERMS_reference_group.csv" timestamp="1442598620792"/>
+<dataItem path="TaxonomicDocumentStructurerData/artifactAnnotationTypes.txt" timestamp="1228904782250"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TaxonListHandler.cnfg" timestamp="1339786162446"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TaxonomicDocumentStructurer.cnfg" timestamp="1339786164946"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentStructurerOnline.cnfg" timestamp="1339786165118"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentStructurerRuleBased.cnfg" timestamp="1203677152582"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentTagger.cnfg" timestamp="1339786165165"/>
+<dataItem path="TaxonomicDocumentStructurerData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentTaggerOnline.cnfg" timestamp="1362064545420"/>
+<dataItem path="TaxonomicDocumentStructurerData/numberPrefixes.txt" timestamp="1170174611677"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentStructurerRules.txt" timestamp="1362084958661"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentStructurerTypeColors.txt" timestamp="1241016574146"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentTaggerRules.complex.txt" timestamp="1427546298135"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentTaggerRules.simple.txt" timestamp="1228931902138"/>
+<dataItem path="TaxonomicDocumentStructurerData/treatmentTaggerRules.txt" timestamp="1218472442832"/>
+</resource>
+<resource path="TDS.TreatmentTaggerStyled.analyzer" timestamp="1440373910981">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="TaxonomicDocumentStructurer.jar" timestamp="1441487614889"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_biology_ecology.csv" timestamp="1439210773546"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_description.csv" timestamp="1439210773555"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_diagnosis.csv" timestamp="1439210773568"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_discussion.csv" timestamp="1439210773581"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_distribution.csv" timestamp="1439210773589"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_etymology.csv" timestamp="1439210773594"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_materials_examined.csv" timestamp="1439210773599"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_nomenclature.csv" timestamp="1439210773613"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/TERMS_reference_group.csv" timestamp="1439210773629"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/artifactAnnotationTypes.txt" timestamp="1228904782250"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TaxonListHandler.cnfg" timestamp="1339786162446"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TaxonomicDocumentStructurer.cnfg" timestamp="1339786164946"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentStructurerOnline.cnfg" timestamp="1339786165118"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentStructurerRuleBased.cnfg" timestamp="1203677152582"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentTagger.cnfg" timestamp="1339786165165"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/de.uka.ipd.idaho.plugins.treatmentSplitting.TreatmentTaggerOnline.cnfg" timestamp="1362064545420"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/numberPrefixes.txt" timestamp="1170174611677"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentStructurerRules.txt" timestamp="1440411026623"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentStructurerTypeColors.txt" timestamp="1241016574146"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentTaggerRules.complex.txt" timestamp="1440399607665"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentTaggerRules.simple.txt" timestamp="1228931902138"/>
+<dataItem path="TaxonomicDocumentStructurerStyledData/treatmentTaggerRules.txt" timestamp="1218472442832"/>
+</resource>
+<resource path="TFAT.TreeFAT.analyzer" timestamp="1422933743739">
+<dataItem path="Bin/BibRefUtils.DataSources.jar" timestamp="1354309542616"/>
+<dataItem path="Bin/BibRefUtils.jar" timestamp="1380116552938"/>
+<dataItem path="TreeFAT.jar" timestamp="1442594831912"/>
+<dataItem path="TreeFATData/Col.jar" timestamp="1442094973985"/>
+<dataItem path="TreeFATData/Gbif.jar" timestamp="1442094974693"/>
+<dataItem path="TreeFATData/Ipni.jar" timestamp="1442094975257"/>
+<dataItem path="TreeFATData/emptyResultLookups.txt" timestamp="1442236542138"/>
+<dataItem path="TreeFATData/morphologicalTerms.insects.txt" timestamp="1422652604654"/>
+<dataItem path="TreeFATData/nonCatalogBinomials.txt" timestamp="1427400166347"/>
+<dataItem path="TreeFATData/stopWords.authority.txt" timestamp="1442239358488"/>
+<dataItem path="TreeFATData/stopWords.backward.txt" timestamp="1436388463478"/>
+<dataItem path="TreeFATData/stopWords.selectors.txt" timestamp="1441739211659"/>
+<dataItem path="TreeFATData/stopWords.suffix.txt" timestamp="1422928261596"/>
+<dataItem path="TreeFATData/stopWords.trace.txt" timestamp="1427556208408"/>
+<dataItem path="TreeFATData/stopWords.txt" timestamp="1441801319124"/>
+</resource>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager" classPath="Plugins/Annotator.jar" timestamp="1436565587125" dataPath="Plugins/AnnotatorData">
+<dataItem path="help.html" timestamp="1156521312709"/>
+<resource path="BotanicCollectionCode.annotator" timestamp="1364991550714">
+<requiredResource name="BotanicCollectionCode.regEx" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.regExes.RegExManager"/>
+</resource>
+<resource path="BotanicCollectionCodeGroup.annotator" timestamp="1364991573558">
+<requiredResource name="BotanicCollectionCodeGroup.regEx" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.regExes.RegExManager"/>
+</resource>
+<resource path="FemaleSymbolAnnotator.annotator" timestamp="1381829027374">
+<requiredResource name="FemaleSymbolRegex.regEx" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.regExes.RegExManager"/>
+</resource>
+<resource path="MaleSymbolAnnotator.annotator" timestamp="1400523183932">
+<requiredResource name="MaleSymbolRegex.regEx" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.regExes.RegExManager"/>
+</resource>
+<resource path="SoldierSymbolAnnotator.annotator" timestamp="1400523439264">
+<requiredResource name="SoldierSymbolRegex.regEx" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.regExes.RegExManager"/>
+</resource>
+<resource path="SpecimenCount.annotator" timestamp="1400523643204">
+<requiredResource name="SpecimenCount.regEx" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.regExes.RegExManager"/>
+</resource>
+<resource path="TypeStatusAnnotator.annotator" timestamp="1242069935900">
+<requiredResource name="TypeStatusList.list" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.lists.ListManager"/>
+</resource>
+<resource path="WorkerSymbolAnnotator.annotator" timestamp="1400523429718">
+<requiredResource name="WorkerSymbolRegex.regEx" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.regExes.RegExManager"/>
+</resource>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.documentFormats.XsltOutputFormatter" classPath="Plugins/XsltDocFormat.jar" timestamp="1436565588697" dataPath="Plugins/XsltDocFormatData">
+<dataItem path="availableXsltNames.cnfg" timestamp="1381427399636"/>
+<dataItem path="gg2taxonx.bumpy.xsl" timestamp="1248770519375"/>
+<dataItem path="gg2taxonx.cdm.xsl" timestamp="1380035257000"/>
+<dataItem path="gg2taxonx.flattened.xsl" timestamp="1265384684281"/>
+<dataItem path="gg2taxonx.old.xsl" timestamp="1195593755499"/>
+<dataItem path="gg2taxonx.old2.xsl" timestamp="1239903237125"/>
+<dataItem path="gg2taxonx.old3.xsl" timestamp="1287076440705"/>
+<dataItem path="gg2taxonx.old4.xsl" timestamp="1380035141000"/>
+<dataItem path="gg2taxonx.old5.xsl" timestamp="1388959150996"/>
+<dataItem path="gg2taxonx.xsl" timestamp="1393340264067"/>
+<dataItem path="pensoftTaxpub2gg.xsl" timestamp="1381493241626"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager" classPath="Plugins/FilteredDP.jar" timestamp="1436565587415" dataPath="Plugins/FilteredDPData">
+<resource path="AbbreviatedMaterialsCitationAugmenter.filteredDp" timestamp="1328559924992">
+<requiredResource name="AH.AbbreviationAugmenter.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="MaterialsAndMethodsWithAbbreviations.gPath" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gPaths.GPathManager"/>
+</resource>
+<resource path="AbbreviatedMaterialsCitationTagger.filteredDp" timestamp="1316627288296">
+<requiredResource name="MaterialsAndMethodsWithAbbreviations.gPath" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gPaths.GPathManager"/>
+<requiredResource name="MaterialsCitationsPreprocessor.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+</resource>
+<resource path="BibliographyTagger.filteredDp" timestamp="1413741688725">
+<requiredResource name="BRH.BibRefTagger.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="NoBibiliographicReferences.gPath" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gPaths.GPathManager"/>
+</resource>
+<resource path="ImMaterialsCitationDetailMarker.filteredDp" timestamp="1415112969672">
+<requiredResource name="ImMaterialsCitationsPreprocessor.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+<requiredResource name="MaterialsCitationWithoutDetails.gPath" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gPaths.GPathManager"/>
+</resource>
+<resource path="MaterialsCitationsAbbreviationTagger.filteredDp" timestamp="1354532013501">
+<requiredResource name="AbbreviationTagging.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+<requiredResource name="MaterialsAndMethodsSelector.gPath" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gPaths.GPathManager"/>
+</resource>
+<resource path="MaterialsCitationsPreprocessor.filteredDp" timestamp="1328540537664">
+<requiredResource name="MaterialsCitationsPreprocessor.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+<requiredResource name="TreatmentSelector.gPath" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gPaths.GPathManager"/>
+</resource>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.gPaths.GPathManager" classPath="Plugins/GPath.jar" timestamp="1436565587519" dataPath="Plugins/GPathData">
+<dataItem path="help.html" timestamp="1216916825548"/>
+<dataItem path="null" timestamp="1242734814068"/>
+<resource path="MaterialsAndMethodsSelector.gPath" timestamp="1316627565312"/>
+<resource path="MaterialsAndMethodsWithAbbreviations.gPath" timestamp="1316627268171"/>
+<resource path="MaterialsCitationWithoutDetails.gPath" timestamp="1415112142851"/>
+<resource path="NoBibiliographicReferences.gPath" timestamp="1413741676065"/>
+<resource path="TreatmentSelector.gPath" timestamp="1247223357078"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.gScript.GScriptManager" classPath="Plugins/GScript.jar" timestamp="1436565587592" dataPath="Plugins/GScriptData">
+<dataItem path="help.html" timestamp="1216916825548"/>
+<resource path="AbbreviatedCollectingLocationTransformer.gScript" timestamp="1339785120616"/>
+<resource path="AbbreviatedMaterialsCitationAugmenter.gScript" timestamp="1328563919536"/>
+<resource path="SpecimenCountClassifier.gScript" timestamp="1400523095353"/>
+<resource path="TaxonListMaterialsCitationMarker.gScript" timestamp="1355334590220">
+<requiredResource name="SpecimenCount.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+</resource>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.lists.ListManager" classPath="Plugins/List.jar" timestamp="1436565587644" dataPath="Plugins/ListData">
+<dataItem path="help.html" timestamp="1156598569367"/>
+<resource path="TypeStatusList.list" timestamp="1340375507437"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager" classPath="Plugins/MarkupConverter.jar" timestamp="1436565587727" dataPath="Plugins/MarkupConverterData">
+<dataItem path="CollectingEventCleanup.markupConverter.bak" timestamp="1220910813815"/>
+<dataItem path="FAT.DuplicateRemover.markupConverter.bak" timestamp="1219959523967"/>
+<dataItem path="FAT.NonLabelledRemover.markupConverter.bak" timestamp="1219959523967"/>
+<dataItem path="FatCleanup.markupConverter.bak" timestamp="1219959523967"/>
+<dataItem path="LIT.KnownPersonNameRemover.markupConverter.bak" timestamp="1219959523967"/>
+<dataItem path="LIT.LocationIncludedInKnownPersonNameRemover.markupConverter.bak" timestamp="1219959523967"/>
+<dataItem path="LIT.LocationIncludingKnownPersonNameRemover.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="LIT.LocationOutsideTreatmentRemover.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="LIT.ProperNameRemover.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="MarkupConverterData.rar" timestamp="1224204486506"/>
+<dataItem path="MaterialsCitationCleanup.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="MaterialsCitationCleanupAfter.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="NestedTaxonRemover.markupConverter.bak" timestamp="1224205174774"/>
+<dataItem path="PageTagRemover.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="PersonNameCleanup.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="ProperNameEndFilterer.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="ProperNameInsideTaxonFilterer.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="ProperNameOutsideTreatmentFilterer.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="TableParagraphRemover.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="TaxonomicNameAttributeStripper.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="TreatmentStructureResetter.markupConverter.bak" timestamp="1219959523983"/>
+<dataItem path="help.html" timestamp="1157106442585"/>
+<resource path="AbbreviatedMaterialsCitationCleaner.markupConverter" timestamp="1328561434271"/>
+<resource path="AbbreviationFilter.markupConverter" timestamp="1354532008657"/>
+<resource path="BotanicCollectionCodeConverter.markupConverter" timestamp="1364992203428"/>
+<resource path="MaterialsCitationDetailCleanup.markupConverter" timestamp="1412261467494"/>
+<resource path="MaterialsCitationDetailDuplicateRemover.markupConverter" timestamp="1381841121866"/>
+<resource path="SpecimenCountCleanup.markupConverter" timestamp="1400523489143"/>
+<resource path="TreeFatCleanup.markupConverter" timestamp="1427406776994"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.multiLists.MultiListManager" classPath="Plugins/MultiList.jar" timestamp="1436565587776" dataPath="Plugins/MultiListData">
+<dataItem path="biogeographicalRegion-Germany.csv.bak" timestamp="1278058944203"/>
+<dataItem path="biotopTypes-Germany.csv.bak" timestamp="1278007636167"/>
+<dataItem path="crops.csv.bak" timestamp="1278059817125"/>
+<dataItem path="de.txt.csv" timestamp="1435252558057"/>
+<dataItem path="dominance.csv" timestamp="1278059857765"/>
+<dataItem path="en.txt" timestamp="1435251899475"/>
+<dataItem path="en.txt.csv" timestamp="1435252409665"/>
+<dataItem path="environments_tagger.tar.gz" timestamp="1433943025710"/>
+<dataItem path="plants.csv" timestamp="1340374939562"/>
+<dataItem path="plants.csv.bak" timestamp="1278008552530"/>
+<dataItem path="plants.list.raw.csv" timestamp="1344536033427"/>
+<dataItem path="soilTexture.csv.bak" timestamp="1278061988093"/>
+<dataItem path="soilType.csv.bak" timestamp="1278017648835"/>
+<dataItem path="states-Germany.csv.bak" timestamp="1278006635820"/>
+<requiredPlugin className="de.uka.ipd.idaho.goldenGate.plugin.lists.ListManager"/>
+<resource path="Traits.ENVO.multiList" timestamp="1435243523711">
+<dataItem path="EnvoTraitOntology.csv" timestamp="1435243398284"/>
+</resource>
+<resource path="Traits.HAO.multiList" timestamp="1435233756859">
+<dataItem path="HymenopteraAnatomyOntology.csv" timestamp="1434534103422"/>
+</resource>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager" classPath="Plugins/Pipeline.jar" timestamp="1436565587875" dataPath="Plugins/PipelineData">
+<dataItem path="help.html" timestamp="1156523159041"/>
+<resource path="AbbreviationTagging.pipeline" timestamp="1354532011954">
+<requiredResource name="AH.AbbreviationRangeTagger.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="AH.AbbreviationTaggerOnline.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="AbbreviationFilter.markupConverter" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager"/>
+</resource>
+<resource path="AttributeMaterialsCitations.pipeline" timestamp="1413385003404">
+<requiredResource name="AH.AbbreviationReferenceResolver.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="AbbreviatedCollectingLocationTransformer.gScript" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gScript.GScriptManager"/>
+<requiredResource name="AbbreviatedMaterialsCitationAugmenter.filteredDp" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager"/>
+<requiredResource name="AbbreviatedMaterialsCitationAugmenter.gScript" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gScript.GScriptManager"/>
+<requiredResource name="AbbreviatedMaterialsCitationCleaner.markupConverter" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager"/>
+<requiredResource name="MCT.MaterialsCitationParserOnline.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="MaterialsCitationDetailCleanup.markupConverter" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager"/>
+<requiredResource name="TaxonListMaterialsCitationMarker.gScript" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gScript.GScriptManager"/>
+</resource>
+<resource path="BibliographyHandler.pipeline" timestamp="1413741694885">
+<requiredResource name="BRH.RefParseInteractive.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="BibliographyTagger.filteredDp" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager"/>
+</resource>
+<resource path="BotanicCollectionCodeTagger.pipeline" timestamp="1364991707532">
+<requiredResource name="BotanicCollectionCode.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+<requiredResource name="BotanicCollectionCodeConverter.markupConverter" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager"/>
+<requiredResource name="BotanicCollectionCodeGroup.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+</resource>
+<resource path="ImAttributeMaterialsCitations.pipeline" timestamp="1415112997212">
+<dataItem path="BotanicCollectionCodeTagger.pipeline" timestamp="1364991707532"/>
+<dataItem path="ImMaterialsCitationsPreprocessor.pipeline" timestamp="1415112892911"/>
+<dataItem path="SpecimenCountMarker.pipeline" timestamp="1400523394443"/>
+<requiredResource name="AttributeMaterialsCitations.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+<requiredResource name="ImMaterialsCitationDetailMarker.filteredDp" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager"/>
+</resource>
+<resource path="ImMaterialsCitationsPreprocessor.pipeline" timestamp="1415112892911">
+<requiredResource name="BotanicCollectionCodeTagger.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+<requiredResource name="DT.DateTagger.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="GR.GeoCoordinateTagger.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="MCT.CollectingCountryTagger.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="MCT.CollectionCodeTaggerOnline.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="MaterialsCitationDetailDuplicateRemover.markupConverter" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager"/>
+<requiredResource name="QT.QuantityTagger.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="SpecimenCountMarker.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+<requiredResource name="TypeStatusAnnotator.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+</resource>
+<resource path="MaterialsCitations.pipeline" timestamp="1350052029109">
+<dataItem path="AbbreviationTagging.pipeline" timestamp="1354532011954"/>
+<dataItem path="BotanicCollectionCodeTagger.pipeline" timestamp="1364991707532"/>
+<dataItem path="MaterialsCitationsPreprocessor.pipeline" timestamp="1415112174518"/>
+<dataItem path="SpecimenCountMarker.pipeline" timestamp="1400523394443"/>
+<requiredResource name="AbbreviatedMaterialsCitationTagger.filteredDp" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager"/>
+<requiredResource name="MCT.MaterialsCitationTaggerOnline.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="MaterialsCitationsAbbreviationTagger.filteredDp" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager"/>
+<requiredResource name="MaterialsCitationsPreprocessor.filteredDp" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager"/>
+</resource>
+<resource path="MaterialsCitationsPreprocessor.pipeline" timestamp="1415112174518">
+<requiredResource name="BotanicCollectionCodeTagger.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+<requiredResource name="DT.DateTagger.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="GR.GeoCoordinateTagger.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="MCT.CollectionCodeTaggerOnline.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="MaterialsCitationDetailDuplicateRemover.markupConverter" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager"/>
+<requiredResource name="QT.QuantityTagger.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="SpecimenCountMarker.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+<requiredResource name="TypeStatusAnnotator.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+</resource>
+<resource path="SpecimenCountMarker.pipeline" timestamp="1400523394443">
+<requiredResource name="FemaleSymbolAnnotator.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+<requiredResource name="MaleSymbolAnnotator.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+<requiredResource name="SoldierSymbolAnnotator.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+<requiredResource name="SpecimenCount.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+<requiredResource name="SpecimenCountClassifier.gScript" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.gScript.GScriptManager"/>
+<requiredResource name="SpecimenCountCleanup.markupConverter" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager"/>
+<requiredResource name="WorkerSymbolAnnotator.annotator" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager"/>
+</resource>
+<resource path="TraitTagger.pipeline" timestamp="1436566600184">
+<requiredResource name="Traits.ENVO.multiList" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.multiLists.MultiListManager"/>
+<requiredResource name="Traits.HAO.multiList" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.multiLists.MultiListManager"/>
+</resource>
+<resource path="TreatmentTaggerStyled.pipeline" timestamp="1441487229394">
+<requiredResource name="TDS.TreatmentStructurerStyled.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="TDS.TreatmentTaggerStyled.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+</resource>
+<resource path="TreeFAT.pipeline" timestamp="1427406786555">
+<requiredResource name="TFAT.TreeFAT.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+<requiredResource name="TreeFatCleanup.markupConverter" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager"/>
+</resource>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugin.regExes.RegExManager" classPath="Plugins/RegEx.jar" timestamp="1436565587995" dataPath="Plugins/RegExData">
+<dataItem path="adHocRegExHistory.cnfg" timestamp="1442598620965"/>
+<dataItem path="help.html" timestamp="1156598592210"/>
+<requiredPlugin className="de.uka.ipd.idaho.goldenGate.plugin.lists.ListManager"/>
+<resource path="BotanicCollectionCode.regEx" timestamp="1364992148378"/>
+<resource path="BotanicCollectionCodeGroup.regEx" timestamp="1364991289959"/>
+<resource path="FemaleSymbolRegex.regEx" timestamp="1381828836904"/>
+<resource path="MaleSymbolRegex.regEx" timestamp="1381828809784"/>
+<resource path="SoldierSymbolRegex.regEx" timestamp="1400523373069"/>
+<resource path="SpecimenCount.regEx" timestamp="1400523616283"/>
+<resource path="WorkerSymbolRegex.regEx" timestamp="1400523303521"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugins.DefaultCustomFunctionManager" classPath="" timestamp="1441556786292" dataPath="CustomFunctions">
+<dataItem path="help.html" timestamp="1160980060000"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugins.DefaultCustomShortcutManager" classPath="" timestamp="1441556786292" dataPath="CustomShortcuts">
+<dataItem path="help.html" timestamp="1175273940425"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGate.plugins.DefaultTokenizerManager" classPath="" timestamp="1441556786292" dataPath="Tokenizers">
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGateServer.plazi.imagine.DwCADocumentExporter" classPath="Plugins/DwCADocumentExporter.jar" timestamp="1443974126472" dataPath="Plugins/DwCADocumentExporterData">
+<dataItem path="associatedParty.MagnoliaPress.xml" timestamp="1398353685800"/>
+<dataItem path="associatedParty.Pensoft.xml" timestamp="1398353163849"/>
+<dataItem path="associatedParty.Plazi.xml" timestamp="1398353535966"/>
+<dataItem path="collectionMappings.cnfg" timestamp="1398352961301"/>
+<dataItem path="config.cnfg" timestamp="1383183986647"/>
+<dataItem path="eml.annotated.xml" timestamp="1383231981762"/>
+<dataItem path="eml.original.xml" timestamp="1383053592000"/>
+<dataItem path="eml.xml" timestamp="1443801565259"/>
+<dataItem path="filters.cnfg" timestamp="1420813847912"/>
+<dataItem path="gg2html.xslt" timestamp="1384366041241"/>
+<dataItem path="meta.annotated.xml" timestamp="1400823803038"/>
+<dataItem path="meta.original.xml" timestamp="1383056378000"/>
+<dataItem path="meta.xml" timestamp="1400823864578"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGateServer.plazi.imagine.FigureTableDocumentExporter" classPath="Plugins/FigureTableDocumentExporter.jar" timestamp="1443974126975" dataPath="Plugins/FigureTableDocumentExporterData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGateServer.plazi.imagine.GgServerDocumentExporter" classPath="Plugins/GgServerDocumentExporter.jar" timestamp="1418158793471" dataPath="Plugins/GgServerDocumentExporterData">
+<requiredPlugin className="de.uka.ipd.idaho.goldenGateServer.uaa.client.AuthenticationManagerPlugin"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.goldenGateServer.uaa.client.AuthenticationManagerPlugin" classPath="Plugins/AuthManagerPlugin.jar" timestamp="1424449122584" dataPath="Plugins/AuthManagerPluginData">
+<resource path="135838808.account.cnfg" timestamp="1442598620869"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.basic.AnnotationActionProvider" classPath="Plugins/AnnotationActionProvider.jar" timestamp="1444011784321" dataPath="Plugins/AnnotationActionProviderData">
+<dataItem path="annotationTypes.cnfg" timestamp="1414265352777"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.basic.AttributeToolProvider" classPath="Plugins/AttributeToolProvider.jar" timestamp="1444011784360" dataPath="Plugins/AttributeToolProviderData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.basic.BasicImageEditToolProvider" classPath="Plugins/BasicImageEditToolProvider.jar" timestamp="1444011784405" dataPath="Plugins/BasicImageEditToolProviderData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.basic.NavigationActionProvider" classPath="Plugins/NavigationProvider.jar" timestamp="1444011784458" dataPath="Plugins/NavigationProviderData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.basic.RegionActionProvider" classPath="Plugins/RegionActionProvider.jar" timestamp="1444011784644" dataPath="Plugins/RegionActionProviderData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.basic.TextActionProvider" classPath="Plugins/TextActionProvider.jar" timestamp="1444011784673" dataPath="Plugins/TextActionProviderData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.basic.TextBlockActionProvider" classPath="Plugins/TextBlockActionProvider.jar" timestamp="1444011784707" dataPath="Plugins/TextBlockActionProviderData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.basic.TextStreamActionProvider" classPath="Plugins/TextStreamActionProvider.jar" timestamp="1444011784764" dataPath="Plugins/TextStreamActionProviderData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.doc.DocumentMetaDataEditorProvider" classPath="Plugins/DocumentMetaDataEditor.jar" timestamp="1444011784823" dataPath="Plugins/DocumentMetaDataEditorData">
+<dataItem path="config.cnfg" timestamp="1437661361762"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.doc.DocumentStructureDetectorProvider" classPath="Plugins/DocumentStructureDetector.jar" timestamp="1444011784878" dataPath="Plugins/DocumentStructureDetectorData">
+<dataItem path="captionStartPatterns.txt" timestamp="1421412428403"/>
+<dataItem path="footnoteStartPatterns.txt" timestamp="1427658183021"/>
+<dataItem path="pageNumberCharacters.txt" timestamp="1309428875515"/>
+<requiredPlugin className="de.uka.ipd.idaho.im.imagine.plugins.util.CaptionCitationHandler"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.doc.DocumentStyleManager" classPath="Plugins/DocumentStyleManager.jar" timestamp="1444011785376" dataPath="Plugins/DocumentStyleManagerData">
+<dataItem path="styleParameters.cnfg" timestamp="1442236542698"/>
+<requiredPlugin className="de.uka.ipd.idaho.im.imagine.plugins.doc.DocumentStyleProvider"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.doc.DocumentStyleProvider" classPath="Plugins/DocumentStyleProvider.jar" timestamp="1444011785306" dataPath="Plugins/DocumentStyleProviderData">
+<resource path="zootaxa.0000.journal_article.docStyle" timestamp="1442526621599"/>
+<resource path="zootaxa.2007.journal_article.docStyle" timestamp="1442501076291"/>
+<resource path="zootaxa.2007.monograph.docStyle" timestamp="1442595837317"/>
+<resource path="zootaxa.2013.journal_article.docStyle" timestamp="1442500732439"/>
+<resource path="zootaxa.2013.monograph.docStyle" timestamp="1442508553807"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.fonts.FontEditorProvider" classPath="Plugins/FontEditorProvider.jar" timestamp="1436473059425" dataPath="Plugins/FontEditorProviderData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.link.UrlDropHandler" classPath="Plugins/UrlDropLinker.jar" timestamp="1444011784991" dataPath="Plugins/UrlDropLinkerData">
+<dataItem path="config.cnfg" timestamp="1441903363303"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.ocr.BlockOcrProvider" classPath="Plugins/BlockOcrProvider.jar" timestamp="1444011784497" dataPath="Plugins/BlockOcrProviderData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.tables.TableActionProvider" classPath="Plugins/TableActionProvider.jar" timestamp="1444011785046" dataPath="Plugins/TableActionProviderData">
+<dataItem path="tableCleanupOptions.cnfg" timestamp="1442155711473"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.tools.ImageMarkupObjectListProvider" classPath="Plugins/ObjectListProvider.jar" timestamp="1444011785136" dataPath="Plugins/ObjectListProviderData">
+<dataItem path="customFilterHistory.cnfg" timestamp="1442598620953"/>
+<requiredPlugin className="de.uka.ipd.idaho.im.imagine.plugins.basic.AttributeToolProvider"/>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.tools.ImageMarkupToolManager" classPath="Plugins/DocumentProcessorImTools.jar" timestamp="1444011785231" dataPath="Plugins/DocumentProcessorImToolsData">
+<resource path="MarkMaterialsCitations.imTool" timestamp="1431127062550">
+<requiredResource name="MaterialsCitations.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+</resource>
+<resource path="MarkTaxonNames.imTool" timestamp="1431127078828">
+<requiredResource name="TreeFAT.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+</resource>
+<resource path="ParseBibRef.imTool" timestamp="1431127136611">
+<requiredResource name="BRH.RefParseInteractive.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+</resource>
+<resource path="ParseBibliography.imTool" timestamp="1431127104099">
+<requiredResource name="BibliographyHandler.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+</resource>
+<resource path="ParseMaterialsCitations.imTool" timestamp="1431127161060">
+<requiredResource name="ImAttributeMaterialsCitations.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+</resource>
+<resource path="ParseTaxonNames.imTool" timestamp="1431127171972">
+<requiredResource name="LFAT.TaxonomicNameParserOnline.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+</resource>
+<resource path="TraitTagger.imTool" timestamp="1436566613018">
+<requiredResource name="TraitTagger.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+</resource>
+<resource path="TreatmentStructurer.imTool" timestamp="1431127182805">
+<requiredResource name="TDS.TreatmentStructurerOnline.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+</resource>
+<resource path="TreatmentTagger.imTool" timestamp="1431127198766">
+<requiredResource name="TDS.TreatmentTaggerOnline.analyzer" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager"/>
+</resource>
+<resource path="TreatmentTaggerStyled.imTool" timestamp="1440398804417">
+<requiredResource name="TreatmentTaggerStyled.pipeline" managerClassName="de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager"/>
+</resource>
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.util.CaptionCitationHandler" classPath="Plugins/CaptionCitationHandler.jar" timestamp="1444011784914" dataPath="Plugins/CaptionCitationHandlerData">
+</plugin>
+<plugin className="de.uka.ipd.idaho.im.imagine.plugins.xml.XmlViewerProvider" classPath="Plugins/XmlViewerProvider.jar" timestamp="1431887747520" dataPath="Plugins/XmlViewerProviderData">
+</plugin>
+</plugins>
+</configuration>

@@ -1,0 +1,6 @@
+FILTER0 = "treatment";
+LABEL = "Mark Taxon Names";
+LOCATION = "Tools Menu & Selection Actions";
+PROCESSOR_NAME = "TreeFAT.pipeline@de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";
+TOOLTIP = "Mark taxonomic names in the document";
+XML_WRAPPER_FLAGS = "6";

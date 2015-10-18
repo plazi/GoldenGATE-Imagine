@@ -1,0 +1,3 @@
+CLASS = "de.uka.ipd.idaho.plugins.dateTagger.DateTagger";
+CLASS_PATH = "DateTagger.jar";
+DATA_PATH = "DateTaggerData/";

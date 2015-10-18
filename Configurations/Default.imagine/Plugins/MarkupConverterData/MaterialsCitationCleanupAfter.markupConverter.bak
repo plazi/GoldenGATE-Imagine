@@ -1,0 +1,10 @@
+FILTER0 = "collectionCode";
+FILTER1 = "geoCoordinate";
+FILTER2 = "date";
+FILTER3 = "collectingCountry";
+FILTER4 = "collectingRegion";
+TARGET0 = "#R-NCI treatment";
+TARGET1 = "#R-NCI treatment";
+TARGET2 = "#R-CI materialsCitation";
+TARGET3 = "#R-NCI treatment";
+TARGET4 = "#R-NCI treatment";

@@ -1,0 +1,22 @@
+not(./emphasis[./@START_INDEX = 0 and /.@bold]) ==> $category
+./heading[./@START_INDEX = 0 and ./taxonomicName[./@START_INDEX < 2]] ==> nomenclature
+./#first = 'Biology' ==> biology_ecology
+./#first = 'Diagnosis' ==> diagnosis
+./#first = 'Discussion' ==> discussion
+./#first = 'Distribution' ==> distribution
+./#first = 'Etymology' ==> etymology
+./#first = 'References' ==> reference_group
+./#first = 'Materials' ==> materials_examined
+./emphasis[./@START_INDEX = 0 and (./# = 'material' or ./# = 'materials' or ./# = 'specimens')] ==> materials_examined
+./#first = 'Type' or ./#first = 'Holotype' ==> materials_examined
+./#first = 'Remarks' ==> discussion
+./#first = 'Comments' ==> discussion
+./#first = 'Measurements' ==> description
+./#first = 'Nests' ==> biology_ecology
+./#first = 'Observation' and ./# = 'Nests' ==> biology_ecology
+./#first = 'Derivatio' and ./# = 'nominis' ==> etymology
+./#first = 'Description' or ./#first = 'Variation' ==> description
+./#first[matches(. , 'Worker|Queen|Soldier|Male')]and ./#[matches(. , '[Dd]escription')] ==> description
+./#[matches(., '[Mm]aterial(s)?')]and ./#[matches(., '[Ee]xamined')] ==> materials_examined
+$rule < 20 ==> $category
+$position = 1 ==> nomenclature

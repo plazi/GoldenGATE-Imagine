@@ -1,0 +1,4 @@
+FILTER0 = "materialsCitation/specimenCode/date";
+FILTER1 = "materialsCitation/date[matches(string(.), '[0-9]{5,}')]";
+TARGET0 = "";
+TARGET1 = "";

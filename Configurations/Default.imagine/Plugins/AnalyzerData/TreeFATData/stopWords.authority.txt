@@ -1,0 +1,770 @@
+//	terms frequent in publications in general
+journal
+bulletin
+article
+research
+
+author
+authors
+abstract
+keywords
+key
+words
+introduction
+abbreviation
+abbreviations
+acronym
+acronyms
+methods
+methodology
+analysis
+analyses
+result
+results
+remark
+remarks
+note
+notes
+acknowledgements
+acknowledgments
+reference
+references
+bibliography
+literature
+cited
+appendix
+
+diagram
+diagrams
+figure
+figures
+fig
+figs
+map
+maps
+table
+tables
+tab
+tabs
+
+copyright
+ISBN
+ISSN
+
+science
+nature
+
+qualitative
+quantitative
+
+received
+reviewed
+accepted
+updated
+
+//	geographic terms
+Africa
+African
+America
+American
+Asia
+Asian
+Australia
+Australian
+Europe
+European
+Greater
+
+North
+Northern
+Northeastern
+Northwestern
+South
+Southern
+Southeastern
+Southwestern
+East
+Eastern
+West
+Western
+Central
+Upper
+Lower
+
+Zoological
+Botanical
+Physical
+Chemical
+Geological
+Geographical
+
+road
+path
+highway
+intersection
+junction
+station
+railway
+
+//	terms frequent in taxonomic publications
+taxonomy
+taxonomic
+material
+materials
+examined
+diagnosis
+diagnostic
+description
+measurement
+measurements
+morphology
+morphological
+discussion
+variation
+biology
+biological
+biogeography
+biogeographical
+ecology
+ecological
+distribution
+entomology
+entomological
+etymology
+etymological
+environment
+environmental
+derivatio
+nominis
+synopsis
+synonymy
+synonymic
+environment
+environmental
+evolution
+evolutionary
+pattern
+patterns
+song
+songs
+threat
+threats
+level
+levels
+
+cladistic
+cladistics
+phylogeny
+phylogenetic
+relationship
+relationships
+interaction
+interactions
+
+taxon
+taxa
+
+fieldwork
+laboratory
+
+collection
+collections
+museum
+museums
+institute
+institutes
+institution
+institutions
+natural
+history
+university
+universities
+department
+departments
+school
+schools
+academy
+academies
+science
+sciences
+society
+
+
+//	rank names
+domain
+kingdom
+regnum
+phylum
+subphylum
+class
+classes
+classis
+subclass
+subclasses
+order
+orders
+ordo
+suborder
+suborders
+family
+families
+familia
+subfamily
+subfamilies
+tribe
+tribes
+subtribe
+subtribes
+genus
+genera
+subgenus
+subgenera
+species
+subspecies
+variety
+varieties
+
+group
+complex
+clade
+nova
+novus
+nov
+
+//	type status
+androtype
+androtypen
+androtypes
+androtypus
+
+gynotype
+gynotypen
+gynotypes
+gynotypus
+
+holotype
+holotypen
+holotypes
+holotypus
+
+lectotype
+lectotypen
+lectotypes
+lectotypus
+
+neotype
+neotypen
+neotypes
+neotypus
+
+nidotype
+nidotypen
+nidotypes
+nidotypus
+
+paralectotype
+paralectotypen
+paralectotypes
+paralectotypus
+
+paratype
+paratypen
+paratypes
+paratypus
+
+syntype
+syntypen
+syntypes
+syntypus
+
+type
+typen
+types
+typus
+
+
+//	morphological terms for insects (from http://en.wikipedia.org/wiki/Glossary_of_entomology_terms)
+abdomen
+acrostichal
+  bristles
+adeagus
+adipocytes
+admarginal
+aedeagus
+air
+  sac
+alar
+  squama
+alary
+  muscles
+alata
+  vividae
+alitrunk
+  thorax
+  propodeum
+alloparental
+allopatric
+alula
+anal
+anal
+  angle
+anal
+  fold
+anal
+  valves
+  clasper
+  claspers
+  abdomen
+androconium
+  androconia
+antennae
+  clubs
+antennomere
+  filiform
+  antennae
+  pedicel
+  flagellomere
+  antennomere
+antenodal
+  veins
+anus
+apex
+  apical
+  area
+apical
+  cell
+  anterior
+  crossvein
+arculus
+  crossvein
+  radius
+  cubitus
+areola
+arolium
+  median
+  lobe
+  tarsal
+  claws
+base
+  basal
+  area
+  wing
+  thorax
+brand
+  androconia
+capitulum
+catenulate
+  catenulated
+  antennae
+cell
+cervix
+chaeta
+chalaza
+cheta
+cilia
+clasper
+  clasp
+clava
+  clavus
+clavate
+claviform
+  stigma
+clavola
+  clavus
+  club
+clavus
+club
+clypeus
+  labrum
+compound
+  eye
+  ommatidia
+  ommatidium
+connexivum
+  connexiva
+  tergite
+  sternite
+costa
+  costal
+  area
+costal
+  break
+coronal
+  suture
+coxa
+  trochanter
+cremaster
+crenulate
+  scalloped
+cuneus
+dentate
+  crenulate
+disc
+  discal
+  area
+discoidal
+  cell
+dorsum
+  dorsal
+  area
+  tornus
+ectognathous
+empodium
+encapsulation
+epicranius
+  forehead.
+erect
+  palpi
+exarate
+eyespots
+  ocelli
+face
+  antennae
+  oral
+  margin
+  eyes
+  cheeks
+  gena
+fascia
+  fasciae
+femur
+  trochanter
+  tibia
+flagellomere
+  antennomere
+  flagellum
+flagellum
+  pedicel
+  flagellomeres
+foramen
+  magnum
+  cervix
+forewing
+frons
+  clypeus
+  antennae
+  pharyngeal
+  dilator
+  ocellus
+frontal
+  sutures
+  coroanal
+  sutures
+gena
+genitalia
+girdle
+hemocoel
+  hemocyte
+hemocyte
+  haemolymph
+hindwing
+hypopharynx
+interspace
+labium
+  labial
+  palps
+labrum
+  clypeus
+leg
+legs
+lines
+lunule
+macrochaete
+maxilla
+  mandibles
+  palps
+mesothorax
+  prothorax
+  metathorax
+metalmarks
+metathorax
+  thorax
+  mesothorax
+nervure
+  vein
+nodus
+obtect
+occipital
+  suture
+occiput
+ocular
+  structure
+  ocelli
+orbicular
+  stigma
+  reniform
+  stigma
+osmeterium
+pedicel
+  antennomere
+  antenna
+pedipalp
+  labial
+  palpi
+pleurite
+  tergite
+  sternite
+  pulmonarium
+porrect
+posterior
+postoccipital
+  suture
+proboscis
+proleg
+  abdominal
+  segments
+  crochets
+prothorax
+  mesothorax
+pterostigma
+  pterostigmata
+  stigma
+pterothorax
+  mesothorax
+  metathorax
+pulmonarium
+  pulmonaria
+reniform
+  stigma
+  forewing
+repugnatorial
+  glands
+  osmeterium
+  ozopores
+  odoriferous
+scape
+scolus
+seta
+  chitinous
+  sclerotised
+  chaeta
+  cheta
+setula
+spiracle
+  thorax
+  abdomen
+  trachea
+stigma
+  stigmata
+  forewings
+  pterostigma
+strigae
+subcosta
+  costa
+subgenal
+  suture
+  gena
+tarsus
+  tarsi
+  leg
+termen
+terminal
+  marginal
+thorax
+  head
+  abdomen
+  prothorax
+  mesothorax
+  metathorax
+tibia
+  femur
+  tarsus
+tomentum
+  pubescence
+  hairs
+  integument
+tornus
+  tornal
+  area
+trochanter
+  coxa
+  femur
+trophi
+  labrum
+  mandible
+  maxilla
+  labium
+trophus
+unguis
+  ungues
+  pretarsus
+  claws
+  pretarsi
+urite
+valve
+  ovipositor
+valvifer
+  abdominal
+  paratergites
+  valvulae
+valvula
+  blades
+  laciniate
+  ovipositor
+  ovipositing
+vein
+vertex
+  apex
+  head
+  ocelli
+wing
+wings
+
+//	morphological terms for spiders (from http://en.wikipedia.org/wiki/Spider_anatomy and http://en.wikipedia.org/wiki/Arachnid)
+chelicerae
+pedipalps
+  palps
+  palpi
+tagmata
+  prosoma
+  cephalothorax
+  opisthosoma
+  abdomen
+cephalon
+  carapace
+abdome
+  preabdomen
+  postabdomen
+distal
+  joints
+femur-patella
+  joints
+patella-tibia
+  joints
+neck
+coxae
+maxillae
+epigastric
+  plates
+  furrow
+
+
+
+//	specimen types
+specimen
+specimens
+worker
+workers
+soldier
+soldiers
+exuvia
+exuvias
+egg
+eggs
+male
+males
+female
+females
+queen
+queens
+adult
+adults
+subadult
+subadults
+juvenile
+juveniles
+nymphe
+nymphes
+pupa
+pupas
+larva
+larvas
+intercalary
+intercalaries
+
+
+//	geographic terms
+America
+Europe
+Asia
+Africa
+Australia
+
+Oceania
+Scandinavia
+Balkans
+Peninsula
+Colony
+Colonial
+
+Atlantic
+Pacific
+Mediterranean
+Tropic
+Tropics
+Tropical
+United
+Island
+
+state
+states
+province
+provinces
+district
+districts
+region
+regions
+hemisphere
+
+watershed
+watersheds
+divide
+divides
+continent
+continental
+coast
+coastal
+litoral
+
+Central
+North
+Northern
+Northeast
+Northeastern
+Northwest
+Northwestern
+South
+Southern
+Southeast
+Southeastern
+Southwest
+Southwestern
+East
+Eastern
+West
+Western
+
+National
+United
+
+//	month names
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+
+
+//	number words
+thirty
+forty
+fourty
+fifty
+sixty
+seventy
+eighty
+ninety
+ninty
+hundred
+hunderd
+thousand
+
+
+//	'classic' stop words (better not here, they _can_ be the starts of last names)

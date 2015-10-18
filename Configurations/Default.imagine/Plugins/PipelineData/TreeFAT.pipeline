@@ -1,0 +1,5 @@
+INTERACTIVITY_LEVEL = "No interactivity";
+PART_0.PART_NAME = "TFAT.TreeFAT.analyzer";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_1.PART_NAME = "TreeFatCleanup.markupConverter";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager";

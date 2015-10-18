@@ -1,0 +1,5 @@
+LABEL = "Parse Materials Citations";
+LOCATION = "Tools Menu & Selection Actions";
+PROCESSOR_NAME = "ImAttributeMaterialsCitations.pipeline@de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";
+TOOLTIP = "Parse out details of materials citations";
+XML_WRAPPER_FLAGS = "30";

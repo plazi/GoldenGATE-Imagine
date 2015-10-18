@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>GoldenGATE</title>
+</head>
+<body>
+
+
+<h3><font face="Verdana">The Window Menu</font></h3>
+<font size="2" face="Verdana">The Window menu allows editing the configurartion
+of the GoldenGATE editor. This includes access to some built-in resources.</font>
+
+<h4><font face="Verdana">Preferences</font></h4>
+<font face="Verdana" size="2">Edit the global settings of the GoldenGATE editor.
+In particular, these are:</font>
+<ul>
+<li><font face="Verdana" size="2"><b>Annotation Editor Default Settings:</b>&nbsp;The
+  upper part of the preferences affect the default settings for the Annotation
+  Editor. In particular there are:</font><ul>
+<li><font face="Verdana" size="2">The font style, size, and color for the textual content</font></li>
+<li><font face="Verdana" size="2">The font style, size, and color for the XML tags</font></li>
+<li><font face="Verdana" size="2">The behavior of the Annotation Editor when new Annotations or Document Parts
+  are created. Both can be highlighted with a colored background and / or
+  surrounded by newly created tags. While the former is convenient for detail
+  level tags (usually Annotations), the latter would disrupt the optical text
+  structure in most cases. For structural markup (usually Document Part), it is
+  just the other way round. Depending on the use case, however, other
+  configurations may be more convenient.</font></li>
+</ul>
+</li>
+<li><font face="Verdana" size="2"><b>Global Settings:</b>&nbsp;The initial and
+  maximum memory for the Java Virtual Machine the GoldenGATE editor runs in.
+  Since these settings are arguments to the Java Virtual Machine, changes to
+  them will take a restart of the editor to have any effect.</font></li>
+</ul>
+
+<h4><font face="Verdana">Document Readers</font></h4>
+<font face="Verdana" size="2">Document Readers affect the behavior of the
+GoldenGATE editor when loading a document. In marked-up data, they can filter
+and rename tags, and decide if a tag will be represented as a Document Part or
+as a plain Annotation.</font>
+
+<h4><font face="Verdana">Document Writers</font></h4>
+<font face="Verdana" size="2">Document Writers affect the way the GoldenGATE
+editor writes a document to disc. They allow filtering which Annotations are
+written to disc, and which are not. This is useful for documents that contain a
+lot of (maybe generic or intermediate) markup only a part of which are to be
+written to the file, e.g. the elements of a particular XML namespace.</font>
+
+<h4><font face="Verdana">Makros</font></h4>
+<font face="Verdana" size="2">Frequently used markup / editing sequences can be
+bundeled to Makros, which makes them one-click accessible via custom buttons in
+the Annotation Editor. A good example for a useful Makro is marking up the
+selected text as a paragraph and subsequently applying the structural
+normalization to the content of the newly created tag.</font></body>
+</html>

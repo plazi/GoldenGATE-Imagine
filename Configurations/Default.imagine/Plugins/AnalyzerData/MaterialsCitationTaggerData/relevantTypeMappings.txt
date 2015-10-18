@@ -1,0 +1,4 @@
+date collectingDate
+person collectorName
+quantity[(./@unit = 'km') or (./@unit = 'mi')] locationDeviation
+quantity[(./@unit = 'm') or (./@unit = 'ft')] elevation

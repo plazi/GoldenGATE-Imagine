@@ -1,0 +1,1 @@
+((<<LowerCaseAbbreviation>>|<<LowerCaseFull>>)\s(<<subSpeciesLabel>>\s<<LowerCaseOrCapitalizedFull>>(\,?\s<<TaxonNameAuthor>>)?))

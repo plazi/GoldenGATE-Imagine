@@ -1,0 +1,12 @@
+biology_ecology 80FF80
+description FFFF00
+diagnosis FFAFAF
+discussion FF8080
+distribution A0A0FF
+etymology FF00FF
+key E0E0E0
+materials_examined 00FFFF
+nomenclature FFC000
+reference_group B0B0B0
+synonymic_list FFE080
+multiple 808080

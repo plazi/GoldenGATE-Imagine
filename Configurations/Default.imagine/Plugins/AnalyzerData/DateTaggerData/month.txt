@@ -1,0 +1,12 @@
+01;1;01.;1.;i;i.;January;Jan;Jan.;Janvier;Jan;Jan.;Enero;Ene;Ene.;Gennaio;Gen;Gen.;Januar;Jan;Jan.
+02;2;02.;2.;ii;ii.;February;Feb;Feb.;Fevrier;Fev;Fev.;Febrero;Feb;Feb.;Febbraio;Feb;Feb.;Februar;Feb;Feb.
+03;3;03.;3.;iii;iii.;March;Mar;Mar.;Mars;Mar;Mar.;Marzo;Mar;Mar.;Marzo;Mar;Mar.;Maerz;Mae;Mae.
+04;4;04.;4.;iiii;iiii.;iv;iv.;April;Apr;Apr.;Avril;Avr;Avr.;Abril;Abr;Abr.;Aprile;Apr;Apr.;April;Apr;Apr.
+05;5;05.;5.;v;v.;May;;;Mai;;;Mayo;May;May.;Maggio;Mag;Mag.;Mai;;
+06;6;06.;6.;vi;vi.;June;Jun;Jun.;Juin;Jui;Jui.;Junio;Jun;Jun.;Giugno;Giu;Giu.;Juni;Jun;Jun.
+07;7;07.;7.;vii;vii.;July;Jul;Jul.;Juillet;Jui;Jui.;Julio;Jul;Jul.;Lùglio;Lùg;Lùg.;Juli;Jul;Jul.
+08;8;08.;8.;viii;viii.;August;Aug;Aug.;Aout;Aou;Aou.;Agosto;Ago;Ago.;Agosto;Ago;Ago.;August;Aug;Aug.
+09;9;09.;9.;viiii;viiii.;ix;ix.;September;Sept;Sept.;Sep;Sep.;Septembre;Sep;Sep.;Septiembre;Sep;Sep.;Settembre;Set;Set.;September;Sep;Sep.
+10;10;10.;10.;x;x.;October;Oct;Oct.;Octobre;Oct;Oct.;Octubre;Oct;Oct.;Ottagono;Ott;Ott.;Oktober;Okt;Okt.
+11;11;11.;11.;xi;xi.;November;Nov;Nov.;Novembre;Nov;Nov.;Noviembre;Nov;Nov.;Novembre;Nov;Nov.;November;Nov;Nov.
+12;12;12.;12.;xii;xii.;December;Dec;Dec.;Decembre;Dec;Dec.;Diciembre;Dic;Dic.;Dicembre;Dic;Dic.;Dezember;Dez;Dez.

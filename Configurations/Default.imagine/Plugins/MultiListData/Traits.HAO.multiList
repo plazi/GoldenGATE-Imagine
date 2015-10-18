@@ -1,0 +1,5 @@
+annotationType = "traitTerm";
+csvDataName = "HymenopteraAnatomyOntology.csv";
+Main Term URI.attributeName = "termUri";
+Main Term.attributeName = "normTerm";
+Term.lookupMode = "Token, Full Sequence (Exact Match)";

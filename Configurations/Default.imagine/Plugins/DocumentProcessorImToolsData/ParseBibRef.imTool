@@ -1,0 +1,6 @@
+FILTER0 = "bibRef";
+LABEL = "Parse Reference";
+LOCATION = "Selection Actions";
+PROCESSOR_NAME = "BRH.RefParseInteractive.analyzer@de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+TOOLTIP = "Parse bibliographic reference";
+XML_WRAPPER_FLAGS = "6";

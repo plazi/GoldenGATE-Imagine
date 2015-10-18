@@ -1,0 +1,1 @@
+((Mc|Mac|D\'|d\'|Da\s?|da\s|De\s?|de\s|Dalla\s?|dalla\s|Della\s?|della\s|Delle\s?|delle\s|O\'|o\'|Van\s?|van\s|Van\s?De\s?|van\sde\s|Van\s?Der\s?|van\sder\s|Von\s?|von\s|Von\s?Der\s?|von\sder\s)?([A-Z][a-z]{0,2}\.))

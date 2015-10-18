@@ -1,0 +1,26 @@
+//	common English
+ing
+tion
+ology
+rnal
+ical
+
+//	common German
+ung
+heit
+keit
+lich
+chen
+artig
+
+//	location names
+ville
+town
+port
+stadt
+dorf
+heim
+burg
+wood
+ham
+grad

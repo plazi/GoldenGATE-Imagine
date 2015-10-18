@@ -1,0 +1,6 @@
+pageBorder
+pageTitle
+pageNumber
+
+caption
+footnote

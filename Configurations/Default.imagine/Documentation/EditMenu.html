@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>GoldenGATE</title>
+</head>
+<body>
+
+
+<h3><font face="Verdana">The Edit Menu</font></h3>
+<font size="2" face="Verdana">The Edit menu provides functions for editing XML
+as well as textual content. This includes several operations for the automated
+generation of structural markup.</font>
+
+<h4><font face="Verdana">Edit Selection</font></h4>
+<font face="Verdana" size="2">Character wise edit the plain text currently
+selected in the Annotation Editor. Since the Annotation Editor treats words as
+atomic units in order to simplify manually creating XML markup, character wise
+editing has to be done in a separate dialog. This function exists to avoid
+switching to the Plain Text Editor for small corrections.</font>
+
+<h4><font face="Verdana">Find / Replace</font></h4>
+<font face="Verdana" size="2">Do find / replace operations in the document
+currently selected. This will automatically switch to the Plain Text Editor.</font>
+
+<h4><font face="Verdana">Annotate</font></h4>
+<font face="Verdana" size="2">Create an Annotation (XML tag) enclosing the text
+passage currently selected. Since the Annotation Editor treats words as atomic
+units, the selection is automatically extended to match word borders.</font>
+
+<h4><font face="Verdana">Annotate All</font></h4>
+<font face="Verdana" size="2">Create an Annotation (XML tag) enclosing every
+occurence of the text passage currently selected in the current document. Since
+the Annotation Editor treats words as atomic units, the selection is
+automatically extended to match word borders. This function is primarily
+intended for detail level markup (e.g. location or person names): Select the
+particular name once, annotate all its occurences in the entire document with a
+single click.</font>
+
+<h4><font face="Verdana">Create Document Part</font></h4>
+<font face="Verdana" size="2">Create a Document Part (XML tag, special type of
+Annotation) enclosing the text passage currently selected. Since the Annotation
+Editor treats words as atomic units, the selection is automatically extended to
+match word borders. Document Parts are editable individually, as if they were
+entire documents on their own. This special type of Annotation is primarily
+intended for structural markup. It allows, for instance, editing an individual
+section of a document as if it was a document on its own.</font>
+
+<h4><font face="Verdana">Merge Annotations</font></h4>
+<font face="Verdana" size="2">Merge neighbouring Annotations. Only Annotations
+of the same type can be merged. This function is intended for joining paragraphs
+that were errouniously split by OCR software, for instance. At least the end tag
+of the first Annotation to be merged, and at least the start tag of the last one,
+have to be selected for this function to work.</font><h4><font face="Verdana">Split
+Annotation</font></h4>
+<font face="Verdana" size="2">Split an Annotation into two. The inmost
+Annotation enclosing the currently selected text is determined the target of
+this operation. It is split at the word border before the selected text passage.
+Exacly one word or punctuation mark has to be selected for this function to work.</font><h4><font face="Verdana">Rename
+Annotations</font></h4>
+<font face="Verdana" size="2">Rename Annotations, change their XML element name.</font><h4><font face="Verdana">Transform
+Annotations</font></h4>
+<font face="Verdana" size="2">Transform Annotations to Document Part so that
+they gain the capabilities of the latter.</font><h4><font face="Verdana">Remove
+Annotations</font></h4>
+<font face="Verdana" size="2">Remove Annotations form the document. This
+operation will only remove the tags, not the textual content of the Annotation.
+To remove the latter as well, use Delete Annotations instead.</font><h4><font face="Verdana">Clear
+Annotations</font></h4>
+<font face="Verdana" size="2">Remove all Annotations from the current document.</font><h4><font face="Verdana">Delete
+Annotations</font></h4>
+<font face="Verdana" size="2">Delete Annotations, including their textual
+content. To remove only the XML tags, use Remove Annotations instead.</font><h4><font face="Verdana">Rename
+Annotation Attribute</font></h4>
+<font face="Verdana" size="2">Rename an XML element attribute. This function can
+be targeted at a particular type of Annotation, or at all Annotations.</font><h4><font face="Verdana">Remove
+Annotation Attribute</font></h4>
+<font face="Verdana" size="2">Remove an XML element attribute. This function can
+be targeted at a particular type of Annotation, or at all Annotations. It can,
+for instance, serve to remove alignment or other layout information from an HTML
+document, without deleting the structure implied by the tags themselves.</font><h4><font face="Verdana">Clear
+Annotation Attributes</font></h4>
+<font face="Verdana" size="2">Remove all XML element attributes. This function
+can be targeted at a particular type of Annotation, or at all Annotations.</font><h4><font face="Verdana">Split
+Document</font></h4>
+<font face="Verdana" size="2">Split the current document. Make each individual
+Document Part of a particular type a document of its own. This function is
+intended for, e.g., splitting up the chapters of a document.</font><h4><font face="Verdana">Annotate
+Sentences</font></h4>
+<font face="Verdana" size="2">Apply a built-in sentence splitter to the current
+document. Sentences are marked with Annotations of the type &quot;sentence&quot;.</font><h4><font face="Verdana">Annotate
+Paragraphs</font></h4>
+<font face="Verdana" size="2">Apply a built-in paragraph splitter to the current
+document. Paragraphs are marked with Document Parts of the type &quot;paragraph&quot;.</font><h4><font face="Verdana">Annotate
+Sections</font></h4>
+<font face="Verdana" size="2">Apply a built-in section splitter to the current
+document. Sections are marked with Document Parts of the type &quot;section&quot;,
+removing the section title from the text and making it an attribute of the
+section tag.</font><h4><font face="Verdana">Normalize Paragraphs</font></h4>
+<font face="Verdana" size="2">Apply a built-in paragraph normalizer to the
+current document. The text within paragraph Annotations is &quot;normalized&quot;,
+i.e. devided words are rejoined, and internal line breaks are converted into
+spaces.</font>
+<h4><font face="Verdana">Normalize Whitespace</font></h4>
+<font face="Verdana" size="2">Apply a built-in whitespace normalizer to the
+current document. This operation will remove, e.g., duplicate whitespaces and
+whitespaces before closing brackets and after opening ones. While this sounds
+sort of trivial, it is in fact pretty necessary to make the behavior of regular
+expressions predictable while still keeping them somewhat at least managable.</font></body>
+</html>

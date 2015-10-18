@@ -1,0 +1,27 @@
+specimenCode.0.attributeName = "httpUri";
+specimenCode.0.mimeType = "application/x-java-url";
+specimenCode.1.attributeName = "httpUri";
+specimenCode.1.mimeType = "text/plain";
+specimenCode.1.filterPattern = "http\\:\\/\\/.+";
+
+treatmentCitation.0.attributeName = "httpUri";
+treatmentCitation.0.mimeType = "application/x-java-url";
+treatmentCitation.1.attributeName = "httpUri";
+treatmentCitation.1.mimeType = "text/plain";
+treatmentCitation.1.filterPattern = "http\\:\\/\\/.+";
+
+taxonomicName.0.attributeName = "LSID";
+taxonomicName.0.mimeType = "text/plain";
+taxonomicName.0.filterPattern = "urn\\:lsid\\:";
+
+materialsCitation.0.attributeName = "httpUri";
+materialsCitation.0.mimeType = "application/x-java-url";
+materialsCitation.1.attributeName = "httpUri";
+materialsCitation.1.mimeType = "text/plain";
+materialsCitation.1.filterPattern = "http\\:\\/\\/.+";
+
+caption.0.attributeName = "httpUri";
+caption.0.mimeType = "application/x-java-url";
+caption.1.attributeName = "httpUri";
+caption.1.mimeType = "text/plain";
+caption.1.filterPattern = "http\\:\\/\\/.+";

@@ -1,0 +1,7 @@
+INTERACTIVITY_LEVEL = "Feedback only";
+PART_0.PART_NAME = "AH.AbbreviationTaggerOnline.analyzer";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_1.PART_NAME = "AH.AbbreviationRangeTagger.analyzer";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_2.PART_NAME = "AbbreviationFilter.markupConverter";
+PART_2.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager";

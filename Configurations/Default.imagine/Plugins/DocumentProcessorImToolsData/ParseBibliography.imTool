@@ -1,0 +1,5 @@
+LABEL = "Parse Bibliography";
+LOCATION = "Tools Menu";
+PROCESSOR_NAME = "BibliographyHandler.pipeline@de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";
+TOOLTIP = "Parse bibliographic references marked in the document";
+XML_WRAPPER_FLAGS = "30";

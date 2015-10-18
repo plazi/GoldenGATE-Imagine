@@ -1,0 +1,9 @@
+LABEL = "Mark Treatments (Headings Only)";
+LOCATION = "Tools Menu";
+PRECLUSION0FILTER = "not(./taxonomicName)";
+PRECLUSION0MESSAGE = "W:Taxonomic names are not marked in the document, so treatment detection might produce many errors";
+PRECLUSION1FILTER = "not(./heading)";
+PRECLUSION1MESSAGE = "No headings are marked in the document, run 'Detect Document Structure' first";
+PROCESSOR_NAME = "TreatmentTaggerStyled.pipeline@de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";
+TOOLTIP = "Mark taxonomic treatments, based on headings";
+XML_WRAPPER_FLAGS = "31";

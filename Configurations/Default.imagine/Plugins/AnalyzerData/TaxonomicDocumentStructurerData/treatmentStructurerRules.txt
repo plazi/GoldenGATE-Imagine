@@ -1,0 +1,42 @@
+./#first = 'Biology' ==> biology_ecology
+./#first = 'Diagnosis' ==> diagnosis
+./#first = 'Discussion' ==> discussion
+./#first = 'Distribution' ==> distribution
+./#first = 'Etymology' ==> etymology
+./#first = 'References' ==> reference_group
+./#first = 'Materials' ==> materials_examined
+./#first = 'Remarks' ==> discussion
+./#first = 'Comments' ==> discussion
+./#first = 'Measurements' ==> description
+./#first = 'Nests' ==> biology_ecology
+./#first = 'Observation' and ./# = 'Nests' ==> biology_ecology
+./#first = 'Derivatio' and ./# = 'nominis' ==> etymology
+./#first[matches(. , 'Worker|Queen|Soldier|Male')]and ./#[matches(. , '[Dd]escription')] ==> description
+./#[matches(., '[Mm]aterial(s)?')]and ./#[matches(., '[Ee]xamined')] ==> materials_examined
+./#first = 'Description' ==> description
+$rule < 17 ==> $category
+./# = 'holotype' ==> materials_examined
+./# = 'Holotype' ==> materials_examined
+./# = 'HOLOTYPE' ==> materials_examined
+./# = 'paratype' ==> materials_examined
+./# = 'Paratype' ==> materials_examined
+./# = 'PARATYPE' ==> materials_examined
+./# = 'diagnosis' ==> diagnosis
+./materialsCitation ==> materials_examined
+./collectionCode ==> materials_examined
+./abbreviationReference ==> materials_examined
+./geoCoordinate ==> materials_examined
+./taxonomicName and ./taxonomicNameLabel ==> nomenclature
+count(./taxonomicName) =(count(./taxonomicNameLabel) + 1) and count(./taxonomicNameLabel) > 0 ==> nomenclature
+count(./taxonomicName) > 1 ==> discussion
+./taxonomicName and $position = 1 ==> nomenclature
+./taxonomicName and ./#[matches(. , '[12][0-9]{3}')]and count (./#) < 15 ==> synonymic_list
+./taxonomicName and ./#[matches(., '[12][0-9]{3}')] ==> reference_group
+./taxonomicName ==> nomenclature
+./citation ==> reference_group
+./collectingEvent ==> materials_examined
+./geoCoordinate ==> materials_examined
+./collectionCode ==> materials_examined
+./location ==> materials_examined
+./bibRef ==> reference_group
+$position = 1 ==> nomenclature

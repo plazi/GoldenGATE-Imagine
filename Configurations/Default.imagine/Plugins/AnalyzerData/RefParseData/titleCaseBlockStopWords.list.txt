@@ -1,0 +1,50 @@
+// English
+and
+in
+of
+the
+on
+for
+
+// French
+de
+du
+le
+la
+les
+des
+un
+une
+et
+
+// German
+aus
+der
+die
+das
+des
+dem
+den
+ein
+eine
+einer
+eines
+und
+fur
+für
+zu
+
+// Italian
+do
+da
+di
+del
+della
+delle
+degli
+
+// Swedish
+foer
+
+// Dutch
+voor

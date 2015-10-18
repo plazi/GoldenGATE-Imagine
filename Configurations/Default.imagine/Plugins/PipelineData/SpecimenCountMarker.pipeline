@@ -1,0 +1,15 @@
+INTERACTIVITY_LEVEL = "No interactivity";
+PART_0.PART_NAME = "SpecimenCount.annotator";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager";
+PART_1.PART_NAME = "MaleSymbolAnnotator.annotator";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager";
+PART_2.PART_NAME = "FemaleSymbolAnnotator.annotator";
+PART_2.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager";
+PART_3.PART_NAME = "WorkerSymbolAnnotator.annotator";
+PART_3.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager";
+PART_4.PART_NAME = "SoldierSymbolAnnotator.annotator";
+PART_4.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager";
+PART_5.PART_NAME = "SpecimenCountClassifier.gScript";
+PART_5.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.gScript.GScriptManager";
+PART_6.PART_NAME = "SpecimenCountCleanup.markupConverter";
+PART_6.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager";

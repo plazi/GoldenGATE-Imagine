@@ -1,0 +1,4 @@
+FILTER_NAME = "NoBibiliographicReferences.gPath";
+FILTER_PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.gPaths.GPathManager";
+PROCESSOR_NAME = "BRH.BibRefTagger.analyzer";
+PROCESSOR_PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";

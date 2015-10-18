@@ -1,0 +1,1 @@
+([A-Z][a-z]{3,}\s)+(of|the|(of\sthe)|de|(de\sla)|von|van|(von\sder)|(van\sder)|vom|(von\sden)|(von\sdem)|(van\sde))+(\s[A-Z][a-z]{3,})+

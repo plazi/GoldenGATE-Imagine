@@ -1,0 +1,870 @@
+-
+--
+A. D. Leman
+A. KLUSSMANN-KOLB
+A. VALDES
+AGOSTI, D.
+ALFIERI, A.
+ALSINA, A.
+AMOR, F.
+ARIAS DE REYNA, L.
+ARON, S.
+AVILA, C.
+AXELROD , H . R.
+Adams, R.M.M.
+Aehnelt, E.
+Aellen, E.
+Aellen, P.
+Agosti, D.
+Aguirrezabalaga F.
+Albuquerque, N.L.
+Aldon, E. E
+Alexander RD
+Allegro G.
+Allgayer, R.
+Alonso, L.E.
+Alpert, G
+Amarante, S.T.P.
+Anderson, D.J.
+Andre, Ern
+Andreeva, E.M.
+Annenkova N.P.
+Anonymous
+Arango, A. Ma.
+Archibald, S.B.
+Arnold, G.
+Aronson J
+Arzee, T.
+Asay, K.H.
+Atkinson, G.F.
+Aurell, G.
+Ausserer, A.
+Axelrod, H.R.
+Ayensu, E.S.
+B J Meggers
+B. D. Burks
+B. J. Meggers
+B.E. Hendrixson
+BABA, K.
+BELLUOMINI, G.
+BILLEN, J.
+BOHLKE,J .
+BOLTON, B.
+BORJA, F.
+BOSCH, J.
+BOUDINOT, B.E.
+BOULAY, R.
+BOULAY, R.R.
+BOYER, M.
+BURGHARDT, I.
+BURGHARDT, I., M. SCHRODL
+Bacallado J.J.
+Baccaro, F.B.
+Bacelar, A.
+Baerg, W.J.
+Bailey WJ.
+Bailey, R.M.
+Baird, W. V.
+Balfour, E.
+Bamer, J.
+Barbanera F
+Barker, W. R.
+Baroni Urbani C
+Baroni Urbani, C.
+Baroni-Urbani, C.
+Barr, T.C. Jr.
+Barrows, W.M.
+Barth, R.
+Beamer, D.A.
+Behnke, H.-D.
+Bell, C.D.
+Bell, G.P.
+Belousov I. A.
+Benedict J.E.
+Benno, Y.
+Berland, L.
+Bernard, F.
+Bernstein, A.
+Bisalputra, T.
+Bisby, F. A.
+Bjorkman, O.
+Black, R. F.
+Blackwelder, R. E.
+Blackwell, W. H.
+Blackwell, W.H., Jr.
+Blanchard, R.
+Bleasel, K.
+Blondel J
+Bodenheimer, F. S.
+Bodiou JY
+Boeggemann M.
+Boeuf G.
+Bokhari, M.H.
+Bolton, B
+Bolton, B.
+Bond, J.E.
+Bonfiglio L
+Bonnet, P.
+Borgmeier, T.
+Borkowski, B.
+Bornkamm, R.
+Borowiec, M.L.
+Botschantzev, VR
+Botschantzev, YR
+Botschantzev, yR
+Boudinot, B.E.
+Boulard M.
+Brady, S.G.
+Brandao, C R
+Brandao, C.R.F.
+Brito M.C.
+Britz, R.
+Brothers, T.
+Brown, D.R.
+Brown, S.G.A.
+Brown, W L
+Brown, W. L., Jr.
+Brown, W.L.
+Brown, W.L. Jr.
+Browning, G.P.
+Bryce, S.
+Buchli, H.H.R.
+Buckley, S. B.
+Burgess, W.E.
+Burrett, F.
+CACERES, L.
+CARPINTERO, S.
+CERDA, X.
+CLEMENTE, L.
+COLLET, T.S.
+COLLETT, M.
+COLLINGWOOD, C. A.
+CROS, S.
+CUSTODIO, E.
+Cai, J.
+Caldwell, M. M.
+Campos, L.A.O.
+Cantor, C. R.
+Card, K.A.
+Carolin, R. C.
+Cartron, J.-L.E.
+Ceballos, G.
+Ceberio A.
+Chapman, J. W.
+Chappell, J.
+Chappill, J.A.
+Cheng, C.H.
+Chldek, M.
+Christensen, S.
+Christman, M.C.
+Chu
+Chu, G.-L.
+Cichla
+Claridge M
+Clark, J.
+Cole, C.J.
+Collins, M. D.
+Colomb el, P
+Commission for Environmental Cooperation
+Comstock, J.H.
+Cook, L.G.
+Cordoba, J. J.
+Cornuet, J.M.
+Cover, S.P.
+Coweeta LTER
+Coyle, F.A.
+Crawford, D.J.
+Crawley, W. C.
+Creighton, W. S.
+Creighton, W.S.
+Crosland, M.W.J.
+Crosland, M.W.L.
+Crozier, R.H.
+Cubas, A.
+Culver, D.C.
+Currie, C.R.
+D. AGOSTI
+D. Leston
+D. Ubick
+D. W. BEHRENS
+DABRIO, C.J.
+DARRAS, H.
+DASH, S.T.
+DE ANDRES, J.R.
+DE- NEUBOURG, J.L.
+DENEUBOURG, J.L.
+DONISTHORPE, H.
+DOUMS, C.
+Dahlgren T.G.
+Dahlstrom, P.
+Dalby, D. H.
+Dalby, D.H.
+Dambo, N.
+Darbyshire T.
+Day J.H.
+De Fraine, E.
+De Geer, C.
+DeBaca, R.S.
+DeSoete, G.
+Deharveng, L.
+Delabie, J.H.
+Delabie, J.H.C.
+Deuve T.
+Devi, H.M.
+Diehl-Fleig, E.
+Dini F.
+Diniz, J.L.M.
+Dobric, N.
+Donisthorpe, H.
+Donoso, D.A.
+Drosopoulos S
+Drost, K.
+Drummond, A.J.
+Duckworth, W.D.
+Duke, J.A.
+E O WILSON
+E S Ayensu
+E. F. Haskins
+E. O. Wilson
+E. S. Ayensu
+E. Sondheimer
+E. V. Enzmann
+ESRI
+ETTERSHANK, G.
+Eberhard, W.G.
+Eckardt, Th
+Ehlers E.
+Eisner, T.
+Elghamry, M.I.
+Elliott, W.R.
+Ellis, J. R.
+Emerton, J.H.
+Emery, C.
+Engler, A.
+Eschmeyer, W.N.
+Eskov, E.
+Evans, H. C.
+Evans, K.
+Evenari, M.
+Evenhuis, N.E.
+Ezaki, T.
+F. S. BODENHEIMER
+FINZI, B.
+FISHER, B.L.
+FOREL, A.
+Fabricius, J. C.
+Fahn, A.
+Farkac J.
+Farrow, J. A. E.
+Fasola M
+Fauchald K.
+Feitosa, R.M.
+Felger, R.S.
+Felsenstein, J.
+FernandezGarayzabal, J.
+Ferraris, Jr., C.J.
+Fiedler, F.
+Fiedler, K.
+Fischer, P.E.
+Fisher, B.L.
+FlNZI, B.
+Fontenla, J.L.
+Forel, A.
+Fossa, S.
+Frakes, L.A.
+Franken, E.P.
+Franklin, E.
+Freitas, A.V.L.
+Frey, H.
+Fricke, R.
+Froese, R.
+Fujisawa, T.
+G. BRODIE
+G. C. WILLIAMS
+G. JOHNSEN
+GALHOUM, A.M.M
+GONZALEZ DE CANALES, F.
+GOSLINE , W. A.
+GOSLINER, T. M.
+GOY, J.L.
+Gallardo, A.
+Garcia, P.
+Gasnier, T.R.
+Ge-Ling, C.
+Gentilli A
+George, A.S.
+Gerdemann, J.W.
+Gertsch, W.J.
+Gery, J.
+Gibert, J.
+Gioia, P.
+Goebel, B. M.
+Gomez-Hinostrosa, C.
+Gonzalez J.A.
+Goodall, D.W
+Goodfellow, M.
+Goodmann, P.J.
+Gotwald, W. H., Jr.
+Graur, D.
+Greenslade, RJ. M.
+Gregg, R.E.
+Griffith, G.
+Groth, I.
+Grunert, E.
+Guerrini M
+H Rembold
+H. FADL
+H. N. Munro
+H. W. Dunne
+H. WAGELE
+HARKNESS, R.D.
+HEFETZ, A.
+HETERICK, B. E.
+HOLLDOBLER, B
+Hagcmann, B.P
+Hakki, M.J.
+Halket, A. C.
+Hammond, P.M.
+Hanelt, P
+Harry, R.R.
+Hartley, D.A.
+Hartman O.
+Hartmann-Schroeder G.
+Harvey, M.S.
+Hasegawa, E.
+Haskins, C. P.
+Haskins, C.P.
+Haskins, E.F.
+Hebig, W.
+Hechler, H.C.
+Heddle, R.J.
+Hedin, M.C.
+Hensen, R.
+Hentz, N.M.
+Hernandez, H.M.
+Heterick, B.E.
+Heubel, K.U.
+Hindmarsh, G.J.
+Hippe, H.
+Hirai, H.
+Hirrel, M.C.
+Hobbs, H.H. III
+Hobbs, H.H. III.
+Hoedeman, J.J.
+Hoelldobler, B.
+Hogendoorn, K.
+Holloway, J.D.
+Hopper, S.D.
+Howard, L.O.
+Hoyt, C.A.
+Huelsenbeck, J.P.
+Hugg, L.
+Humphries, C. J.
+I. BURHARDT
+IMPROTA, S.
+Ikeda, T.
+Iljin, M. M.
+Iljin, M.M.
+Imai, H.T.
+Imajima M.
+Imber, W.E.
+Imperato, F.
+Isbrucker, I.J.H.
+Ishikawa, K.
+J Eder
+J. B. Simeone
+J. EVERTSEN
+J. G. Holt
+J. Liebherr
+J. Roux
+J. STARMER
+J. Wheeler
+JOWERS, M.J.
+Jacobs, S.W. L.
+Jaffe, K.
+James, L.E.
+Janata M.
+Janick, J.
+Japanese Ant Database Group
+Jarai-Komlodi, M.
+Jassem, B.
+Jerdon, T. C.
+Jones, D.
+Jukes, T. H.
+Jägerskiöld, L.A.
+K arawajew, W
+K. Lenko
+K. STEMMER
+K. V. Krombein
+KARAVAEIV, V.
+KARAVAIEV, V.
+KELLER, L.
+KEMPF, S. C.
+Kabak I.I.
+Kandler, O.
+Karawajew, W
+Karges, J.
+Karschon, R.
+Kassas, M.
+Katoh, K.
+Keast, A.
+Kellogg, E.A.
+Kempf, W. W.
+Kempf, W.W.
+Key, K.H.L.
+Kirby­Smith, H.T.
+Kirkegaard J.B.
+Kishida, K.
+Klee, A.J.
+Klieve, H..
+Knight, W.J.
+Knuth, R
+Koch, L.
+Kokko, H.
+Kosova, V
+Krieg, N. R.
+Kroppenstedt, R. M.
+Kubota, M.
+Kugler, C.
+Kuhn, U.
+Kullander, S.
+Kullander, S.O.
+Kuma, K.
+Kung
+Kusnezov, N.
+Kyhos, D. W
+L.
+L. A. JAEGERSKIOLD
+LARIO, J.
+LENHART, P.A.
+LENIAUD, L.
+LENOIR, A.
+LOERTSCHER, F.
+LOPEZ-DAVALILLO, J.
+LUQUE, L.
+LaPolla, J.S.
+Lambeck, K.
+Lana P.
+Langerhans P.
+Lanjouw, J.
+Latreille, P. A.
+Lattke, J.E.
+Laubier L.
+Laursen, K.K.
+Lavigne, R.J.
+Lawson, P. A.
+Ledoux, A.
+Lee, M.A. B.
+Lee, M.S.Y.
+Lehtinen, P K
+Lemee, A.M.V
+Levinsen G.M.R.
+Lewis, W.H.
+Liiderwaldt, H.
+Linnaeus, C.
+Lino-Neto, J.
+Llinas O.
+Lloyd, J. E.
+Lobl I.
+Longino, J.T.
+Lucena, C.A.S.
+Lucena, Z.M.S.
+Ludwig, W.
+Lyshede, O. B.
+M. BALLESTEROS
+M. E. Sharpe
+M. S. Blum
+M. SHARAF
+M. SLATTERY
+M.I. BASUONY
+MACKAY, W.P.
+MADDISON, D. R.
+MANFRA, L.
+MANGAN, M.
+MAYR, G.
+MEDIAVILLA, C.
+MENOZZI C
+MENZI, U.
+MERCIER, N.
+MOHAMED S.
+MOHAMMED, A. H.
+MOORE, E.
+MOORE, E. J.
+Mabry, T.J.
+MacKenzie, S. L.
+Maddison, D.R.
+Maddison, W.P.
+Main, A.R.
+Main, B.Y.
+Majer, J.
+Makino, S.
+Malabarba, L.R.
+Malloch, D.
+Mangano G
+Mann, W. M.
+Mann, W.M.
+Many, T.
+Marcus, H.
+Marra AC
+Marshall, D.C.
+Martin, K.
+Maruyama, T.
+Marx, G.
+Masini F
+Maslin, T.P.
+Master, L.L.
+Matsumura, S.
+Matthews, L.E.
+Mayr, G. L.
+McAreavey, J.
+McArthur, E.D.
+McCann, C.
+McGarity, A.C.
+McGowan, V.
+Meggers, B.J.
+Mehravaran, H.
+Meier, R.
+Meinken, H.
+Menozzi C.
+Menozzi, C.
+Mesbah, M.
+Meulengracht-Madsen, J.
+Meyer, C.P.
+Meyne, J.
+Michaelsen, W.
+Migula, W.
+Miller, J.A.
+Miller, L. T.
+Miller, R.M.
+Minnikin, D. E.
+Misawa, K.
+Mitsuoka, T.
+Miyata, T.
+Moffett, M.W.
+Monoszon, M. K.
+Montoya, J.A.
+Moore TE.
+Moore, W. E. C.
+Moreau, C.S.
+Morita, H.
+Mueller, U.G.
+Mullins, R.J.
+Muramatsu, M.
+Myers, G. S.
+N. ANTHES
+N. R. Krieg
+N. S. Mair
+NOAA
+Najera, S.
+Nakamura, M.
+Naranjo, R
+Nelson, E.C.
+Nelson, J.L.
+Niloufari, P
+Nowicke, J.W.
+Noy-Meir, I.
+Nunes, A.J.M.
+Nunes, A.M.
+Nunez J.
+Nutting, W.L.
+O'Connor B.D.S.
+O. THEODOR
+O. Theodor
+ORTEGA, P.
+ORTIZ, D. M.
+Ocana, O.
+Ogata K.
+Ogata, K.
+Ogura, K.
+Okada, Y.
+Oliveira V.
+Oliveira, P.Y.
+Olivier F.
+Omernik, J.
+Opell, B.D.
+Osmond, C. B.
+Ostendorf, F.W.
+P. Gerhardt
+P. H. A. Sneath
+P. Paquin
+P.E. Cushing
+PASTEELS, J.M.
+PEARCY, M.
+POLO, D.
+Paramonov, S. J.
+Parapar J.
+Patton, W. H.
+Paulay, G.
+Pauly, D.
+Pavia M
+Peck, S.B.
+Peeters, C
+Penkrot, T.A.
+Pereira, J.C.
+Petersen M.E.
+Petrik, F.
+Petrunkevitch, A.
+Petruso D.
+Philipson, W R.
+Piatelli, M.
+Pierce, N.E.
+Pijl, L. van der
+Pinter, H.
+Pirouz, T.
+Planchuelo, A.M.
+Platnick, N.I.
+Pleijel F.
+Ploeg, A.
+Pocock, R.I.
+Popov, M.G.
+Posada, D.
+Powell, M.J.
+Prantl, K.
+Pratov, U.
+Premachandran, U.
+Proudlove, G.
+Provancher, L.
+Puorto, G.
+Puy, R.
+Quezel, R
+Quinet, Y.
+R Crewe
+R. G. E. Murray
+R. W. Taylor
+REBOLLO, A.
+RETANA, J.
+REYES, J.
+RN1970
+RODRIGUEZ-RAMIREZ, A.
+RODRIGUEZ-VIDAL, J.
+ROQUERO, E.
+RUANO, F.
+RUDMAN, W. B.
+Rabeling, C.
+Rabesa, Z.
+Rainey, F. A.
+Ramanna, M.S.
+Rambaut, A.
+Ramirez, M.G.
+Rankin, D.J.
+Rao, M.S.R.
+Raven, R.J.
+Rea, J.
+Reis, R.E.
+Richardson, M.
+Richardson, P. M.
+Ridley, H.N.
+Riedl, W.A.
+Robins, C.R.
+Roewer, C.F.
+Roger, J.
+Rogers, A.
+Ronquist, F.
+Rueda M.J.
+Ruffo S
+Rutishauser, R.
+S. GADALLA
+S. R. Capeo
+S. ZALAT
+SALVANY, J.M.
+SANTSCHI
+SANTSCHI, F.
+SCHMID-HEMPEL, P.
+SCHULTZ , H.
+SHARAF, M. R.
+SILVA, P.G.
+SOLER, J.J.
+SOLER, V.
+SOMMER, S.
+STEINDACHNER, F.
+SWOFFORD, D. L.
+Sada, A.G.
+Salomão, M.D.G.
+San Martin G.
+Sanderson, S.C.
+Santos, H.G.P.
+Santos, I.A.
+Santschi, F.
+Sarasin, F.
+Sasser, M.
+Satta, Y.
+Sawada, T.
+Schafer, F.
+Scheel, J.J.
+Schiotz, A.
+Schleifer, K. H.
+Schoereder, J.H.
+Schraml, E.
+Schubert, K.
+Schultz, T.
+Schultz, T.R.
+Schumann, P.
+Schwarz, M.P.
+Sciaky R.
+Scott, A.J.
+Seidel, I.
+Semenov A. P.
+Serrao, J.E.
+Shattuck, S.O.
+Shchori, Y.
+Shiroishi, T.
+Shmida, A.
+Shuman, R. D.
+Sierwald, P.
+Silva Jr., N.J.
+Silva, P.
+Silva, P.R.
+Silva, R.R.
+Silvestre, R.
+Simon, E
+Simon, E.
+Simon. E.
+Simonds, N.W.
+Sjolander, S.
+Skerman, V. B. D.
+Skvarla, J.J.
+Smetana A.
+Smibert, R. M.
+Smith, D.R.
+Smith, F.
+Smith, H.M.
+Smith, M. R.
+Smith, M.A.
+Smith, R. B.
+Sneath, P. H. A.
+Snelling, R.R.
+Sokal, R.
+Solley, G.O.
+Soriano, A.
+Souza, J.L.P.
+Spinola, M.
+Stackebrandt, E.
+Staeck, W.
+Stahl, T.
+Stawikowski, R.
+Stawikowski, Rainer
+Stiles, C.W.
+Stitz, H.
+Strunk, O.
+Stutz, H.C.
+Sukopp, H.
+Suzuki, S.
+Swofford, D.L.
+T. GOSLINER
+T. J. Crovello
+T. M. GOSLINER
+TINAUT, A.
+Takahashi, T.
+Takeshi, K.
+Tamura, Y.
+Taylor, R. W.
+Taylor, R.W.
+Telwar, G.M.
+Texas State Historical Association
+Theakston, R.D.G.
+Thorell, T.
+Thorpe, R.S.
+Throughton, J.H.
+Tofanelli S
+Tomey, W.A.
+Townes, H.
+Turner, A.J.
+Ulbrich, E.
+Ungar, I.A.
+Urmi-Konig, K.
+V. J. PAUL
+V. Roth
+VIEHMEYER
+VIEHMEYER, H.
+Van Cotthem, W.
+Vari, R.P.
+Vaughan, J. G.
+Verhaagh, M.
+Vesk, M.
+Viehmeyer, H.
+Vieira, J.M.
+Vigna Taglianti A.
+Vila, R.
+Vilela, E.F.
+Vogel, B.R.
+Voirin, B.
+Volkens, G.
+W D Duckworth
+W. A. Wood
+W. D. Duckworth
+W. M. MANN
+W. M. Mann
+W. P. MADDISON
+WAGELE, H.
+WAGELE, H. W.
+WEBB, B.
+WEHNER, R.
+WHEELER, W. M.
+WHEELER, W. M. & W. M. MANN
+WILLAN, R. C.
+WILSON, E. O.
+Wada, M.Y.
+Wagensberg, J.
+Walker, F.
+Walsh, K.J.
+Ward, J. M.
+Ward, P.S.
+Ward-Rainey, N.
+Warrell, D.A.
+Weber, N. A.
+Webster H.E.
+Wehmer, C.
+Weiss, N.
+Wendelbo, R
+Werker, E.
+Werner, A.
+Westram, R.
+Wheeler, G. C.
+Wheeler, G.C.
+Wheeler, J.
+Wheeler, J. W.
+Wheeler, W. M.
+Wheeler, W.M.
+White, M.J.D.
+Whitman, W. B.
+Wickler, W.
+Wickman, A.
+Wiemers, M.
+Wiens, J.J.
+Wiese, M.D.
+Wilcox, T.P.
+Wild, A.L.
+Willems, A.
+Williams, S. E.
+Wilson, E. O.
+Wilson, E.O.
+Wilson, R G.
+Wilson, RG.
+Wohlpart, A.
+Wood, D.L.
+Wood, P.J.
+Wood, R. L.
+Woodward, T. E.
+Worsfold T.
+Wrught, C_A.
+Wytsman, P.
+Wüster, W.
+Yaginuma, T.
+Yamada, M.
+Yamamoto, C.
+Yamamoto, C.I.
+Yamamoto, M.T.
+Yanoff, S.
+Yasumatsu, K.
+Yoshimura, M.
+ZAZO, C.
+Zahran, M. A.
+Zandonella, P
+Zandonella. P
+Zanette, L.R.S.
+Zeh, D.W.
+Zeh, J.A.
+Zonshtein, S.
+Zuffi MAL
+Zwickl, D.J.
+van Eeden, P.

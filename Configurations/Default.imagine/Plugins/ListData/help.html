@@ -1,0 +1,77 @@
+<html><head><title>Lists</title></head><body><h3><font face="Verdana">The Lists</font></h3><font face="Verdana" size="2">Lists
+are Annotation sources intended as gazetteers for lookup-based annotation of documents, i.e.
+annotating all words / phrases in a document that are contained in a particular
+list.</font>
+<h4><font face="Verdana">The Lists Menu</font></h4>
+<font size="2" face="Verdana">The Lists menu provides access to functions for
+managing and applying gazetteer Lists:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Create:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new List by providing entry data.</font></li>
+  <li><b><font face="Verdana" size="2">Load:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new List loading a text file from the local file system.</font></li>
+  <li><b><font face="Verdana" size="2">Load URL:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new List by loading a text file from an arbitrary URL.</font></li>
+  <li><b><font face="Verdana" size="2">Extract</font></b><b><font face="Verdana" size="2">:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new List by extracting the values of a particular type of Annotations from
+    the document currently selected.</font></li>
+  <li><b><font face="Verdana" size="2">Edit:</font></b><font face="Verdana" size="2">&nbsp;Open
+    the List editor dialog.</font></li>
+  <li><font face="Verdana" size="2"><b>Apply:</b> Select a gazetteer list and
+    use it to annotate </font><font face="Verdana" size="2">all words / phrases
+    in a currently selected document that are contained in that List. This
+    function is also available through the&nbsp;<b>Apply List</b>&nbsp;option in the Tools
+    menu.</font></li>
+</ul>
+<h4><font face="Verdana">The Edit Lists Dialog</font></h4>
+<font face="Verdana" size="2">The dialog for List management is
+accessible through the Edit function in the Lists menu. On the right
+of the dialog, a list displays all existing Lists. In the middle, it
+displays the entries of the List currently selected in that list. Below the
+entries, three buttons provide functions for editing the List currently selected:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Union:</font></b><font face="Verdana" size="2">&nbsp;Opens
+    a dialog for selecting another List to be unioned with the one currently
+    being edited. Above the Union and Cancel buttons, that dialog has a checkbox
+    for specifying if the union operation should be case sensitive or not. The
+    second List will not be changed by this operation.</font></li>
+  <li><b><font face="Verdana" size="2">Intersect:</font></b><font face="Verdana" size="2">&nbsp;Opens
+    a dialog for selecting another List to be intersected with the one currently
+    being edited. Above the Union and Cancel buttons, that dialog has a checkbox
+    for specifying if the intersect operation should be case sensitive or not.
+    The second List will not be changed by this operation.</font></li>
+  <li><b><font face="Verdana" size="2">Subtract:</font></b><font face="Verdana" size="2">&nbsp;Opens
+    a dialog for selecting another List to be subtracted from the one currently
+    being edited. Above the Union and Cancel buttons, that dialog has a checkbox
+    for specifying if the subtraction operation should be case sensitive or not.
+    The second List will not be changed by this operation.</font></li>
+</ul>
+<font face="Verdana" size="2">At the top of the dialog, a line of buttons provides the functionality for managing the Lists:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Create:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new List.</font></li>
+  <li><b><font face="Verdana" size="2">Clone</font></b><b><font face="Verdana" size="2">:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new List, copying the entries of the one currently selected.</font></li>
+  <li><b><font face="Verdana" size="2">Load:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new List loading a text file from the local file system.</font></li>
+  <li><b><font face="Verdana" size="2">Load URL:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new List by loading a text file from an arbitrary URL.</font></li>
+  <li><b><font face="Verdana" size="2">Extract:</font></b><font face="Verdana" size="2">&nbsp;Create
+    a new List by extracting the values of a particular type of Annotations from
+    the document currently selected.</font></li>
+  <li><b><font face="Verdana" size="2">Delete:</font></b><font face="Verdana" size="2">&nbsp;Delete
+    the List currently selected.</font></li>
+</ul>
+<h4><font face="Verdana">Applying Lists</font></h4>
+<font size="2" face="Verdana">Whenever a List is to be applied, there are two
+checkboxes providing additional influence on the behavior of the List based
+annotation:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Case Sensitive:</font></b><font face="Verdana" size="2">&nbsp;If
+    checked, the List lookups are case sensitive, otherwise they are not.</font></li>
+  <li><b><font face="Verdana" size="2">Overlapping Matches:</font></b><font face="Verdana" size="2">&nbsp;If
+    checked, every word or phrase in the document is annotated if it is
+    contained in the List, regardless of overlaps. Otherwise, only the longest
+    match is annotated from each set of overlapping matches.</font></li>
+</ul>
+</body></html>

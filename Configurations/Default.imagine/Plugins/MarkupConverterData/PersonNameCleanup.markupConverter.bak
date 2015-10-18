@@ -1,0 +1,4 @@
+FILTER0 = "middleInitial";
+FILTER1 = "personname";
+TARGET0 = "#R";
+TARGET1 = "#R-D";

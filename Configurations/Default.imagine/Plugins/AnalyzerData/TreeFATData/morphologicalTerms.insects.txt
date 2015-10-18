@@ -1,0 +1,320 @@
+abdomen
+acrostichal
+  bristles
+adeagus
+adipocytes
+admarginal
+aedeagus
+air
+  sac
+alar
+  squama
+alary
+  muscles
+alata
+  vividae
+alitrunk
+  thorax
+  propodeum
+alloparental
+allopatric
+alula
+anal
+anal
+  angle
+anal
+  fold
+anal
+  valves
+  clasper
+  claspers
+  abdomen
+androconium
+  androconia
+antennae
+  clubs
+antennomere
+  filiform
+  antennae
+  pedicel
+  flagellomere
+  antennomere
+antenodal
+  veins
+anus
+apex
+  apical
+  area
+apical
+  cell
+  anterior
+  crossvein
+arculus
+  crossvein
+  radius
+  cubitus
+areola
+arolium
+  median
+  lobe
+  tarsal
+  claws
+base
+  basal
+  area
+  wing
+  thorax
+brand
+  androconia
+capitulum
+catenulate
+  catenulated
+  antennae
+cell
+cervix
+chaeta
+chalaza
+cheta
+cilia
+clasper
+  clasp
+clava
+  clavus
+clavate
+claviform
+  stigma
+clavola
+  clavus
+  club
+clavus
+club
+clypeus
+  labrum
+compound
+  eye
+  ommatidia
+  ommatidium
+connexivum
+  connexiva
+  tergite
+  sternite
+costa
+  costal
+  area
+costal
+  break
+coronal
+  suture
+coxa
+  trochanter
+cremaster
+crenulate
+  scalloped
+cuneus
+dentate
+  crenulate
+disc
+  discal
+  area
+discoidal
+  cell
+dorsum
+  dorsal
+  area
+  tornus
+ectognathous
+empodium
+encapsulation
+epicranius
+  forehead.
+erect
+  palpi
+exarate
+eyespots
+  ocelli
+face
+  antennae
+  oral
+  margin
+  eyes
+  cheeks
+  gena
+fascia
+  fasciae
+femur
+  trochanter
+  tibia
+flagellomere
+  antennomere
+  flagellum
+flagellum
+  pedicel
+  flagellomeres
+foramen
+  magnum
+  cervix
+forewing
+frons
+  clypeus
+  antennae
+  pharyngeal
+  dilator
+  ocellus
+frontal
+  sutures
+  coroanal
+  sutures
+gena
+girdle
+hemocoel
+  hemocyte
+hemocyte
+  haemolymph
+hindwing
+hypopharynx
+interspace
+labium
+  labial
+  palps
+labrum
+  clypeus
+lines
+lunule
+macrochaete
+maxilla
+  mandibles
+  palps
+mesothorax
+  prothorax
+  metathorax
+metalmarks
+metathorax
+  thorax
+  mesothorax
+nervure
+  vein
+nodus
+obtect
+occipital
+  suture
+occiput
+ocular
+  structure
+  ocelli
+orbicular
+  stigma
+  reniform
+  stigma
+osmeterium
+pedicel
+  antennomere
+  antenna
+pedipalp
+  labial
+  palpi
+pleurite
+  tergite
+  sternite
+  pulmonarium
+porrect
+posterior
+postoccipital
+  suture
+proboscis
+proleg
+  abdominal
+  segments
+  crochets
+prothorax
+  mesothorax
+pterostigma
+  pterostigmata
+  stigma
+pterothorax
+  mesothorax
+  metathorax
+pulmonarium
+  pulmonaria
+reniform
+  stigma
+  forewing
+repugnatorial
+  glands
+  osmeterium
+  ozopores
+  odoriferous
+scape
+scolus
+seta
+  chitinous
+  sclerotised
+  chaeta
+  cheta
+setula
+spiracle
+  thorax
+  abdomen
+  trachea
+stigma
+  stigmata
+  forewings
+  pterostigma
+strigae
+subcosta
+  costa
+subgenal
+  suture
+  gena
+tarsus
+  tarsi
+  leg
+termen
+terminal
+  marginal
+thorax
+  head
+  abdomen
+  prothorax
+  mesothorax
+  metathorax
+tibia
+  femur
+  tarsus
+tomentum
+  pubescence
+  hairs
+  integument
+tornus
+  tornal
+  area
+trochanter
+  coxa
+  femur
+trophi
+  labrum
+  mandible
+  maxilla
+  labium
+trophus
+unguis
+  ungues
+  pretarsus
+  claws
+  pretarsi
+urite
+valve
+  ovipositor
+valvifer
+  abdominal
+  paratergites
+  valvulae
+valvula
+  blades
+  laciniate
+  ovipositor
+  ovipositing
+vein
+vertex
+  apex
+  head
+  ocelli

@@ -1,0 +1,4 @@
+FILTER0 = "collectionCode";
+FILTER1 = "geoCoordinate";
+TARGET0 = "#R-NCI treatment";
+TARGET1 = "#R-NCI treatment";

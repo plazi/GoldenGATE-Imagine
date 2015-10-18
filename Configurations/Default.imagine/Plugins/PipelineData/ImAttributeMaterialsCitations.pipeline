@@ -1,0 +1,5 @@
+INTERACTIVITY_LEVEL = "Feedback only";
+PART_0.PART_NAME = "ImMaterialsCitationDetailMarker.filteredDp";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.filteredProcessor.FilteredDocumentProcessorManager";
+PART_1.PART_NAME = "AttributeMaterialsCitations.pipeline";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";

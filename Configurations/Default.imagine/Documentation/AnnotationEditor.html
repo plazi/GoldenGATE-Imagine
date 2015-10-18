@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>GoldenGATE</title>
+</head>
+<body>
+
+
+<h3><font face="Verdana">The Annotation Editor</font></h3>
+<font face="Verdana" size="2">The Annotation Editor is intended for handling the
+document markup. Since almost all markup goes betweeen words, it treats words as
+the atomic text units instead of individual characters. While this inhibits
+character wise text editing, it greatly simplifies creating XML tags because
+they are automatically placed at the word boundaries. An Annotation Editor has
+five different parts:</font><h4><font face="Verdana">The Editor (center)</font></h4>
+<font face="Verdana" size="2">The editor is the core part of the Annotation
+Editor. It displays the document text for markup editing, while the other parts
+(see below) provide options to make the editing process more convenient. However,
+the editor does not allow editing the text directly. All functions are based on
+selecting a part of the text and subsequently applying some action to it. These
+actions are accessible in several ways: Through the Edit menu of the main window,
+through the button panel of the Annotation Editor (see below), or through the
+context menu. The context menu is the only one of these ways that changes
+depending on the current selection. In particular, there are three different
+context menu states:</font>
+<ul>
+<li><font face="Verdana" size="2"><b>Part of the text selected:</b> When a part
+  of the text is selected, the context menu provides options for annotating it (<b>Annotate</b>,&nbsp;
+  <b>Annotate All</b>,&nbsp;<b> Document Part</b>),
+  including instant access to the most recently used annotation types. It also
+  provides functions for splitting the surrounding Annotation (<b>Split
+  Annotation</b>), or for
+  merging Annotations at least on tag of which is part of the selecion (<b>Merge
+  Annotations</b>). The last part of
+  the context menu allows editing the words of the text. This comprises the
+  following functions:</font>
+  <ul>
+  <li><font face="Verdana" size="2"><b>Edit Tokens:</b> Character wise edit the
+    plain text currently selected. This function exists to avoid switching to
+    the Text Editor for small corrections.</font></li>
+  <li><font face="Verdana" size="2"><b>Join Tokens:</b> Join the Tokens (i.e.
+    words, numbers, punctuation) currently selected. While this results in
+    subsequent words becoming one word, it will still split the text at clear
+    word boundaries, e.g. before or after punctuation marks.</font></li>
+  <li><font face="Verdana" size="2"><b>Copy Tokens:</b> Copy the currently
+    selected words to the clipbourd.</font></li>
+  <li><font face="Verdana" size="2"><b>Cut Tokens:</b> Cut the currently
+    selected words from the text and store them in the clipbourd.</font></li>
+  <li><font face="Verdana" size="2"><b>Swap Clipboard:</b> Replace the currently
+    selected words with the content of the clipboard, and move the replaced
+    words to the clipboard.</font></li>
+  <li><font face="Verdana" size="2"><b>Paste Tokens:</b> Replace the currently
+    selected words with the content of the clipboard.</font></li>
+  <li><font face="Verdana" size="2"><b>Delete Tokens:</b> Remove the selected
+    words from the document.</font></li>
+  </ul>
+  </li>
+  <li><font face="Verdana" size="2"><b>Nothing selected, clicked on XML tag:</b> When
+    opening the context menu on an XML tag, it provides funtions for opening the
+    Annotation for direct editing (<b>Edit</b>), for removing it (<b>Remove</b>), and for
+    transforming it to a Document Part (<b>Transform</b>). It also allows handling the
+    content of the Annotation:</font>
+      <ul>
+  <li><font face="Verdana" size="2"><b>Copy Tokens:</b> Copy the content of the
+    Annotation to the clipbourd.</font></li>
+  <li><font face="Verdana" size="2"><b>Cut Tokens:</b> Cut the content of the
+    Annotation from the text and store them in the clipbourd. Since the
+    Annotation itself is empty after this operation, it is removed.</font></li>
+  <li><font face="Verdana" size="2"><b>Delete Tokens:</b> Remove the content of
+    the Annotation from the document. Since the Annotation itself is empty after
+    this operation, it is removed.</font></li>
+  </ul>
+  </li>
+  <li><font face="Verdana" size="2"><b>Nothing selected:</b> When
+    opening the context menu in the text with nothing selected, it allows
+    pasting the content of the clipboard at this location (<b>Paste Tokens</b>).</font>
+  </li>
+</ul>
+
+<h4><font face="Verdana">The Button Panel (top)</font></h4>
+<font face="Verdana" size="2">The button panel is another way to access the most
+common functions of the Annotation Editor. In particular, it provides the basic
+functions for handeling Annotations:</font>
+<ul>
+  <li><font face="Verdana" size="2"><b>Edit Selection:</b> Character wise edit the plain text currently selected in the Annotation Editor. This function exists to avoid switching to the Plain Text Editor for small
+    corrections.</font></li>
+  <li><font face="Verdana" size="2"><b>Annotate:</b> Create an Annotation (XML tag) enclosing the text passage currently selected.</font></li>
+  <li><font face="Verdana" size="2"><b>Annotate All:</b> Create an Annotation (XML tag) enclosing every occurence of the text passage currently selected in the current document.
+    This function is primarily intended for detail level markup (e.g. location or person names): Select the particular name once, annotate all its occurences in the entire document with a single
+    click.</font></li>
+  <li><font face="Verdana" size="2"><b>Mark Document Part:</b> Create a Document Part (XML tag, special type of Annotation) enclosing the text passage currently selected.
+    This special type of Annotation is primarily intended for structural markup. It allows, for instance, editing an individual section of a document as if it was a document on its
+    own.</font></li>
+  <li><font face="Verdana" size="2"><b>Merge Annotations:</b> Merge neighbouring Annotations. Only Annotations of the same type can be merged.
+    At least the end tag of the first Annotation to be merged, and at least the start tag of the last one, have to be selected for this function to
+    work.</font></li>
+  <li><font face="Verdana" size="2"><b>Split Annotation:</b> Split an Annotation into two. The inmost Annotation enclosing the currently selected text is determined the target of this operation. It is split at the word border before the selected text passage. Exacly one word or punctuation mark has to be selected for this function to
+    work.</font></li>
+  <li><font face="Verdana" size="2"><b>Edit Fonts:</b> Edit the displaying font, font size, and color of the document currently selected. These settings are independent for textual content and XML tags. This is in favor of making content easier to distinguish from markup. The default values for these settings are accessible through Preferences in the Window
+    menu.</font></li>
+</ul>
+
+<h4><font face="Verdana">The Recent Action Panel (upper-left)</font></h4>
+<font face="Verdana" size="2">The recent action panel allows instantly repeating
+the most recently used actions, reusing the original parameters. This avoids,
+for instance, re-entering the Annotation type / XML element name when creating a
+new Annotation.</font>
+
+<h4><font face="Verdana">The Makro Panel (lower-left)</font></h4>
+<font face="Verdana" size="2">The makro panel provides access to Makros. A Makro
+consists of a an XML element name to annnotate selected text with, and some
+resource that is automatically applied to the newly created Annotation.
+Frequently used markup / editing sequences can be bundeled this way, making them
+one-click accessible. A good example for a useful Makro is marking up the
+selected text as a paragraph and subsequently applying the structural
+normalization to the content of the newly created tag.</font>
+
+<h4><font face="Verdana">The Layout Panel (right)</font></h4>
+<font face="Verdana" size="2">The layout panel allows showing / hiding the
+individual XML element tags contained in the document, and highlighting the tag
+content. This is in favor of clarity, e.g. for hiding detail level markup when
+working on the document structure. The left of the two checkboxes highlights the
+Annotation content, while the right one shows / hides the respective XML tags. A
+click on the XML element name / Annotation type will open a dialog for adjusting
+the color used for this type of Annotation.</font>
+
+</body>
+</html>

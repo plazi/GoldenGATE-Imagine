@@ -1,0 +1,2 @@
+refBankUrl = "http://plazi.cs.umb.edu/RefBank/rbk";
+refIdTypes = " DOI Handle ISBN ISSN ZooBank HNS-Pub";

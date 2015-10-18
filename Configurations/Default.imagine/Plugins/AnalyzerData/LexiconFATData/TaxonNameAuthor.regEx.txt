@@ -1,0 +1,1 @@
+((<<PersonName>>((\s\&\s|\-)<<PersonName>>)?)|(\(<<PersonName>>((\s\&\s|\-)<<PersonName>>)?(\,\s[12][0-9]{3})?\)))

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:md="eml://ecoinformatics.org/methods-2.0.1" xmlns:proj="eml://ecoinformatics.org/project-2.0.1" xmlns:d="eml://ecoinformatics.org/dataset-2.0.1" xmlns:res="eml://ecoinformatics.org/resource-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/terms/" system="Plazi" scope="system" packageId="@DUMMY">
+    <dataset>
+		<!-- PLAZI doc ID -->
+        <alternateIdentifier>@masterDocId</alternateIdentifier>
+		<!-- repeat for more identifiers such as DOI, etc.:
+        <alternateIdentifier>...</alternateIdentifier>
+		-->
+		@extIDs
+		
+		<!-- title from MODS header -->
+        <title>@title</title>
+		
+		<!-- one individualName per author in MODS header:
+            <individualName>
+                <givenName>Feitosa, R. M. &amp; Brand�o, C. R. F.</givenName>
+                <surName>Feitosa, R. M. &amp; Brand�o, C. R. F.</surName>
+            </individualName>
+		-->
+        <creator>@author</creator>
+				
+		<!-- date article was published in ISO format, e.g. 2008-03-21 -->
+		<!-- date from MODS header -->
+        <pubDate>@year</pubDate>
+
+		<!-- language of article -->
+        <language>en</language>
+
+        <abstract><para>UNAVAILABLE</para></abstract>
+
+        <intellectualRights>
+            <para>Public Domain</para>
+            <para>No known copyright restrictions apply. See Agosti, D., Egloff, W., 2009. Taxonomic information exchange and copyright: the Plazi approach. BMC Research Notes 2009, 2:53 for further explanation.</para>
+        </intellectualRights>
+
+		<!-- contact for questions about the dataset, email required. Could be fixed for Plazi or Pensoft -->
+        <contact>
+            <individualName>
+				<givenName>Guido</givenName>
+                <surName>Sautter</surName>
+            </individualName>
+            <electronicMailAddress>sautter@ipd.uka.de</electronicMailAddress>
+            <onlineUrl>http://plazi.org</onlineUrl>
+        </contact>
+		
+		<!-- credit to contributor -->
+		<associatedParty>
+			<organizationName>Pensoft via Plazi</organizationName>
+			<role>data provider</role>
+		</associatedParty>
+    </dataset>
+    <additionalMetadata>
+		<!-- slot for custom additions, ideally grouped under one main element and different namespace -->
+	    <plaziMods>@MODS</plaziMods>
+		<!-- we could add mods here -->
+		<!--mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+		<mods:titleInfo>
+		<mods:title>A taxonomic revision of the Neotropical myrmicine ant genus Lachnomyrmex Wheeler (Hymenoptera: Formicidae)</mods:title>
+		</mods:titleInfo>
+		<mods:name type="personal">
+		<mods:role>
+		<mods:roleTerm>Author</mods:roleTerm>
+		</mods:role>
+		<mods:namePart>Feitosa, R. M.</mods:namePart>
+		</mods:name>
+		<mods:name type="personal">
+		<mods:role>
+		<mods:roleTerm>Author</mods:roleTerm>
+		</mods:role>
+		<mods:namePart>Brandão, C. R. F.</mods:namePart>
+		</mods:name>
+		<mods:typeOfResource>text</mods:typeOfResource>
+		<mods:relatedItem type="host">
+		<mods:titleInfo>
+		<mods:title>Zootaxa</mods:title>
+		</mods:titleInfo>
+		<mods:part>
+		<mods:date>2008</mods:date>
+		<mods:detail type="volume">
+		<mods:number>1890</mods:number>
+		</mods:detail>
+		<mods:extent unit="page">
+		<mods:start>1</mods:start>
+		<mods:end>49</mods:end>
+		</mods:extent>
+		</mods:part>
+		</mods:relatedItem>
+		<mods:location>
+		<mods:url>http://hol.osu.edu/reference-full.html?id=21837</mods:url>
+		</mods:location>
+		<mods:classification>journal article</mods:classification>
+		<mods:identifier type="HNS-PUB">21837</mods:identifier>
+		</mods:mods-->
+    </additionalMetadata>
+</eml:eml>

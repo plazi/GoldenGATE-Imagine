@@ -1,0 +1,4 @@
+FILTER_NAME = "TreatmentSelector.gPath";
+FILTER_PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.gPaths.GPathManager";
+PROCESSOR_NAME = "MaterialsCitationsPreprocessor.pipeline";
+PROCESSOR_PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";

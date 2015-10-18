@@ -1,0 +1,12 @@
+//	options for individual annotation types (default is split):
+//	- split: split up annotation to smaller ones, each one inside a single table cell (good for annotations marking properties of underlying font, e.g. emphases)
+//	- remove: remove annotation altogether (good for annotations whose tokens make sense only in combination, e.g. dates)
+//	- cutToFirst: cut off annotation at end of table cell it starts in (good for annotations whose main semantic weight is at the start, e.g. proper names)
+//	- cutToLast: cut off annotation at start of table cell it ends in (good for annotations whose main semantic weight is at the end, e.g. noun phrases)
+
+date	remove
+quantity	remove
+geoCoordinate	remove
+
+taxonomicName	cutToStart
+

@@ -1,0 +1,1859 @@
+//	terms frequent in publications in general
+journal
+bulletin
+article
+
+author
+authors
+abstract
+summary
+keywords
+key
+words
+introduction
+abbreviation
+abbreviations
+acronym
+acronyms
+methods
+methodology
+analysis
+analyses
+result
+results
+remark
+remarks
+note
+notes
+acknowledgements
+acknowledgments
+reference
+references
+bibliography
+literature
+cited
+appendix
+
+illustration
+illustrations
+diagram
+diagrams
+figure
+figures
+fig
+figs
+map
+maps
+table
+tables
+tab
+tabs
+
+copyright
+ISBN
+ISSN
+
+science
+nature
+
+qualitative
+quantitative
+field
+fields
+study
+studies
+research
+endeavour
+endeavours
+general
+specific
+specifics
+
+received
+reviewed
+accepted
+updated
+
+program
+programs
+software
+source
+sources
+repository
+repositories
+
+
+//	geographic terms
+Africa
+African
+America
+American
+Asia
+Asian
+Australia
+Australian
+Europe
+European
+Greater
+Great
+Point
+Ferry
+
+road
+path
+highway
+intersection
+junction
+station
+railway
+lake
+lakes
+river
+rivers
+creek
+creeks
+mountain
+mountains
+hill
+hills
+field
+fields
+beach
+beaches
+
+
+//	terms frequent in taxonomic publications
+taxonomy
+taxonomic
+material
+materials
+examined
+diagnosis
+diagnostic
+description
+descriptions
+measurement
+measurements
+dimension
+dimensions
+morphology
+morphological
+discussion
+variation
+biology
+biological
+biogeography
+biogeographical
+ecology
+ecological
+distribution
+entomology
+entomological
+etymology
+etymological
+environment
+environmental
+derivatio
+nominis
+synopsis
+synonymy
+synonymic
+allergy
+allergies
+environment
+environmental
+evolution
+evolutionary
+pattern
+patterns
+song
+songs
+threat
+threats
+level
+levels
+status
+accession
+accessions
+reproduction
+reproductive
+
+cladistic
+cladistics
+phylogeny
+phylogenetic
+relationship
+relationships
+interaction
+interactions
+
+taxon
+taxa
+
+fieldwork
+laboratory
+
+collection
+collections
+museum
+museums
+institute
+institutes
+institution
+institutions
+natural
+history
+university
+universities
+department
+departments
+school
+schools
+academy
+academies
+science
+sciences
+society
+
+
+//	rank names
+domain
+kingdom
+regnum
+phylum
+subphylum
+class
+classes
+classis
+subclass
+subclasses
+order
+orders
+ordo
+suborder
+suborders
+family
+families
+familia
+subfamily
+subfamilies
+tribe
+tribes
+subtribe
+subtribes
+genus
+genera
+subgenus
+subgenera
+species
+subspecies
+variety
+varieties
+
+group
+complex
+clade
+nova
+novus
+nov
+
+//	type status
+androtype
+androtypen
+androtypes
+androtypus
+
+gynotype
+gynotypen
+gynotypes
+gynotypus
+
+holotype
+holotypen
+holotypes
+holotypus
+
+lectotype
+lectotypen
+lectotypes
+lectotypus
+
+neotype
+neotypen
+neotypes
+neotypus
+
+nidotype
+nidotypen
+nidotypes
+nidotypus
+
+paralectotype
+paralectotypen
+paralectotypes
+paralectotypus
+
+paratype
+paratypen
+paratypes
+paratypus
+
+syntype
+syntypen
+syntypes
+syntypus
+
+type
+typen
+types
+typus
+
+
+//	morphological terms for insects (from http://en.wikipedia.org/wiki/Glossary_of_entomology_terms)
+abdomen
+acrostichal
+  bristles
+adeagus
+adipocytes
+admarginal
+aedeagus
+air
+  sac
+alar
+  squama
+alary
+  muscles
+alata
+  vividae
+alitrunk
+  thorax
+  propodeum
+alloparental
+allopatric
+alula
+anal
+anal
+  angle
+anal
+  fold
+anal
+  valves
+  clasper
+  claspers
+  abdomen
+androconium
+  androconia
+antennae
+  clubs
+antennomere
+  filiform
+  antennae
+  pedicel
+  flagellomere
+  antennomere
+antenodal
+  veins
+anus
+apex
+  apical
+  area
+apical
+  cell
+  anterior
+  crossvein
+arculus
+  crossvein
+  radius
+  cubitus
+areola
+arolium
+  median
+  lobe
+  tarsal
+  claws
+base
+  basal
+  area
+  wing
+  thorax
+brand
+  androconia
+capitulum
+catenulate
+  catenulated
+  antennae
+cell
+cervix
+chaeta
+chalaza
+cheta
+cilia
+clasper
+  clasp
+clava
+  clavus
+clavate
+claviform
+  stigma
+clavola
+  clavus
+  club
+clavus
+club
+clypeus
+  labrum
+compound
+  eye
+  ommatidia
+  ommatidium
+connexivum
+  connexiva
+  tergite
+  sternite
+costa
+  costal
+  area
+costal
+  break
+coronal
+  suture
+coxa
+  trochanter
+cremaster
+crenulate
+  scalloped
+cuneus
+dentate
+  crenulate
+disc
+  discal
+  area
+discoidal
+  cell
+dorsum
+  dorsal
+  area
+  tornus
+ectognathous
+empodium
+encapsulation
+epicranius
+  forehead.
+erect
+  palpi
+exarate
+eyespots
+  ocelli
+face
+  antennae
+  oral
+  margin
+  eyes
+  cheeks
+  gena
+fascia
+  fasciae
+femur
+  trochanter
+  tibia
+flagellomere
+  antennomere
+  flagellum
+flagellum
+  pedicel
+  flagellomeres
+foramen
+  magnum
+  cervix
+forewing
+frons
+  clypeus
+  antennae
+  pharyngeal
+  dilator
+  ocellus
+frontal
+  sutures
+  coroanal
+  sutures
+gena
+genitalia
+girdle
+hemocoel
+  hemocyte
+hemocyte
+  haemolymph
+hindwing
+hypopharynx
+interspace
+labium
+  labial
+  palps
+labrum
+  clypeus
+leg
+legs
+lines
+lunule
+macrochaete
+maxilla
+  mandibles
+  palps
+mesothorax
+  prothorax
+  metathorax
+metalmarks
+metathorax
+  thorax
+  mesothorax
+nervure
+  vein
+nodus
+obtect
+occipital
+  suture
+occiput
+ocular
+  structure
+  ocelli
+orbicular
+  stigma
+  reniform
+  stigma
+osmeterium
+pedicel
+  antennomere
+  antenna
+pedipalp
+  labial
+  palpi
+pleurite
+  tergite
+  sternite
+  pulmonarium
+porrect
+posterior
+postoccipital
+  suture
+proboscis
+proleg
+  abdominal
+  segments
+  crochets
+prothorax
+  mesothorax
+pterostigma
+  pterostigmata
+  stigma
+pterothorax
+  mesothorax
+  metathorax
+pulmonarium
+  pulmonaria
+reniform
+  stigma
+  forewing
+repugnatorial
+  glands
+  osmeterium
+  ozopores
+  odoriferous
+scape
+scolus
+seta
+  chitinous
+  sclerotised
+  chaeta
+  cheta
+setula
+spiracle
+  thorax
+  abdomen
+  trachea
+stigma
+  stigmata
+  forewings
+  pterostigma
+strigae
+subcosta
+  costa
+subgenal
+  suture
+  gena
+tarsus
+  tarsi
+  leg
+termen
+terminal
+  marginal
+thorax
+  head
+  abdomen
+  prothorax
+  mesothorax
+  metathorax
+tibia
+  femur
+  tarsus
+tomentum
+  pubescence
+  hairs
+  integument
+tornus
+  tornal
+  area
+trochanter
+  coxa
+  femur
+trophi
+  labrum
+  mandible
+  maxilla
+  labium
+trophus
+unguis
+  ungues
+  pretarsus
+  claws
+  pretarsi
+urite
+valve
+  ovipositor
+valvifer
+  abdominal
+  paratergites
+  valvulae
+valvula
+  blades
+  laciniate
+  ovipositor
+  ovipositing
+vein
+vertex
+  apex
+  head
+  ocelli
+wing
+wings
+
+//	morphological terms for spiders (from http://en.wikipedia.org/wiki/Spider_anatomy and http://en.wikipedia.org/wiki/Arachnid)
+chelicerae
+pedipalps
+  palps
+  palpi
+tagmata
+  prosoma
+  cephalothorax
+  opisthosoma
+  abdomen
+cephalon
+  carapace
+abdome
+  preabdomen
+  postabdomen
+distal
+  joints
+femur-patella
+  joints
+patella-tibia
+  joints
+neck
+coxae
+maxillae
+epigastric
+  plates
+  furrow
+
+
+
+//	specimen types
+specimen
+specimens
+worker
+workers
+soldier
+soldiers
+exuvia
+exuvias
+egg
+eggs
+male
+males
+female
+females
+queen
+queens
+adult
+adults
+subadult
+subadults
+juvenile
+juveniles
+nymphe
+nymphes
+pupa
+pupas
+larva
+larvas
+intercalary
+intercalaries
+
+
+//	geographic terms
+America
+Europe
+Asia
+Africa
+Australia
+
+Oceania
+Scandinavia
+Balkans
+Peninsula
+Colony
+Colonial
+
+Atlantic
+Pacific
+Mediterranean
+Tropic
+Tropics
+Tropical
+United
+Island
+
+state
+states
+province
+provinces
+district
+districts
+region
+regions
+hemisphere
+
+watershed
+watersheds
+divide
+divides
+continent
+continental
+coast
+coastal
+litoral
+
+Central
+North
+Northern
+Northeast
+Northeastern
+Northwest
+Northwestern
+South
+Southern
+Southeast
+Southeastern
+Southwest
+Southwestern
+East
+Eastern
+West
+Western
+
+
+//	month names
+January
+February
+March
+April
+May
+June
+July
+August
+September
+October
+November
+December
+
+
+//	number words
+thirty
+forty
+fourty
+fifty
+sixty
+seventy
+eighty
+ninety
+ninty
+hundred
+hunderd
+thousand
+
+
+//	'classic' stop words
+a
+abbia
+abbiamo
+abbiano
+abbiate
+aber
+about
+above
+ad
+after
+again
+against
+agl
+agli
+ai
+aie
+aient
+aies
+ait
+al
+algo
+algunas
+algunos
+all
+alla
+alle
+allo
+along
+als
+also
+am
+among
+an
+anche
+and
+another
+ante
+antes
+any
+are
+aren't
+as
+at
+au
+auch
+auf
+aura
+aurai
+auraient
+aurais
+aurait
+auras
+aurez
+auriez
+aurions
+aurons
+auront
+aus
+aux
+avaient
+avais
+avait
+avec
+avemmo
+avendo
+avesse
+avessero
+avessi
+avessimo
+aveste
+avesti
+avete
+aveva
+avevamo
+avevano
+avevate
+avevi
+avevo
+avez
+aviez
+avions
+avons
+avrai
+avranno
+avrebbe
+avrebbero
+avrei
+avremmo
+avremo
+avreste
+avresti
+avrete
+avrà
+avrò
+avuta
+avute
+avuti
+avuto
+ayant
+ayante
+ayantes
+ayants
+ayez
+ayons
+back
+be
+because
+been
+before
+bei
+being
+below
+between
+bin
+bis
+bist
+both
+but
+by
+c
+came
+can
+can't
+cannot
+ce
+ces
+che
+chi
+ci
+coi
+col
+come
+como
+con
+contra
+contro
+could
+couldn't
+cual
+cuando
+cui
+d
+da
+dadurch
+dagl
+dagli
+daher
+dai
+dal
+dall
+dalla
+dalle
+dallo
+dans
+darum
+das
+dass
+daß
+de
+degl
+degli
+dei
+dein
+deine
+del
+dell
+della
+delle
+dello
+dem
+den
+der
+des
+desde
+deshalb
+dessen
+di
+did
+didn't
+die
+dies
+dieser
+dieses
+do
+doch
+does
+doesn't
+doing
+don't
+donde
+dort
+dov
+dove
+down
+du
+durante
+durch
+during
+e
+each
+ebbe
+ebbero
+ebbi
+ed
+eight
+ein
+eine
+einem
+einen
+einer
+eines
+el
+eleven
+ella
+ellas
+elle
+ellos
+en
+entre
+er
+era
+erais
+eran
+erano
+eras
+eravamo
+eravate
+eres
+eri
+ero
+es
+esa
+esas
+ese
+eso
+esos
+essendo
+est
+esta
+estaba
+estabais
+estaban
+estabas
+estad
+estada
+estadas
+estado
+estados
+estamos
+estando
+estar
+estaremos
+estará
+estarán
+estarás
+estaré
+estaréis
+estaría
+estaríais
+estaríamos
+estarían
+estarías
+estas
+este
+estemos
+esto
+estos
+estoy
+estuve
+estuviera
+estuvierais
+estuvieran
+estuvieras
+estuvieron
+estuviese
+estuvieseis
+estuviesen
+estuvieses
+estuvimos
+estuviste
+estuvisteis
+estuviéramos
+estuviésemos
+estuvo
+está
+estábamos
+estáis
+están
+estás
+esté
+estéis
+estén
+estés
+et
+eu
+eue
+euer
+eues
+eure
+eurent
+eus
+eusse
+eussent
+eusses
+eussiez
+eussions
+eut
+eux
+even
+ever
+every
+eûmes
+eût
+eûtes
+faccia
+facciamo
+facciano
+facciate
+faccio
+facemmo
+facendo
+facesse
+facessero
+facessi
+facessimo
+faceste
+facesti
+faceva
+facevamo
+facevano
+facevate
+facevi
+facevo
+fai
+fanno
+farai
+faranno
+farebbe
+farebbero
+farei
+faremmo
+faremo
+fareste
+faresti
+farete
+farà
+farò
+fece
+fecero
+feci
+few
+fifteen
+first
+five
+for
+fosse
+fossero
+fossi
+fossimo
+foste
+fosti
+four
+fourteen
+from
+fu
+fue
+fuera
+fuerais
+fueran
+fueras
+fueron
+fuese
+fueseis
+fuesen
+fueses
+fui
+fuimos
+fuiste
+fuisteis
+fummo
+furent
+furono
+further
+fus
+fusse
+fussent
+fusses
+fussiez
+fussions
+fut
+fuéramos
+fuésemos
+fûmes
+fût
+fûtes
+für
+get
+gli
+go
+goes
+got
+ha
+habida
+habidas
+habido
+habidos
+habiendo
+habremos
+habrá
+habrán
+habrás
+habré
+habréis
+habría
+habríais
+habríamos
+habrían
+habrías
+habéis
+había
+habíais
+habíamos
+habían
+habías
+had
+hadn't
+hai
+han
+hanno
+has
+hasn't
+hasta
+hatte
+hatten
+hattest
+hattet
+have
+haven't
+having
+hay
+haya
+hayamos
+hayan
+hayas
+hayáis
+he
+he'd
+he'll
+he's
+hemos
+her
+here
+here's
+hers
+herself
+het
+hier
+high
+him
+himself
+hinter
+his
+ho
+how
+how's
+however
+hube
+hubiera
+hubierais
+hubieran
+hubieras
+hubieron
+hubiese
+hubieseis
+hubiesen
+hubieses
+hubimos
+hubiste
+hubisteis
+hubiéramos
+hubiésemos
+hubo
+i
+i'd
+i'll
+i'm
+i've
+ich
+if
+ihr
+ihre
+il
+im
+in
+inside
+into
+io
+is
+isn't
+ist
+it
+it's
+its
+itself
+j
+ja
+je
+jede
+jedem
+jeden
+jeder
+jedes
+jener
+jenes
+jetzt
+just
+kann
+kannst
+können
+könnt
+l
+la
+las
+le
+least
+lei
+les
+less
+let's
+leur
+li
+like
+lo
+long
+loro
+los
+lui
+m
+ma
+machen
+made
+mais
+make
+many
+may
+me
+mein
+meine
+mes
+mi
+mia
+mie
+miei
+might
+mio
+mis
+mit
+moi
+mon
+more
+most
+much
+mucho
+muchos
+musst
+must
+mustn't
+muy
+muß
+mußt
+my
+myself
+más
+même
+mí
+mía
+mías
+mío
+míos
+müssen
+müßt
+n
+nach
+nachdem
+nada
+ne
+near
+negl
+negli
+nei
+nein
+nel
+nell
+nella
+nelle
+nello
+never
+new
+ni
+nicht
+nine
+nineteen
+no
+noi
+non
+nor
+nos
+nosotras
+nosotros
+nostra
+nostre
+nostri
+nostro
+not
+notre
+nous
+now
+nuestra
+nuestras
+nuestro
+nuestros
+nun
+o
+oder
+of
+off
+old
+on
+once
+one
+only
+ont
+or
+os
+other
+otra
+otras
+otro
+otros
+ou
+ought
+our
+ours
+ourselves
+out
+outside
+over
+own
+par
+para
+pas
+per
+perché
+pero
+più
+poco
+por
+porque
+pour
+put
+qu
+quale
+quanta
+quante
+quanti
+quanto
+que
+quella
+quelle
+quelli
+quello
+questa
+queste
+questi
+questo
+qui
+quien
+quienes
+qué
+s
+sa
+said
+same
+sarai
+saranno
+sarebbe
+sarebbero
+sarei
+saremmo
+saremo
+sareste
+saresti
+sarete
+sarà
+sarò
+say
+says
+se
+sea
+seamos
+sean
+seas
+second
+see
+seen
+sei
+seid
+sein
+seine
+sentid
+sentida
+sentidas
+sentido
+sentidos
+ser
+sera
+serai
+seraient
+serais
+serait
+seras
+seremos
+serez
+seriez
+serions
+serons
+seront
+será
+serán
+serás
+seré
+seréis
+sería
+seríais
+seríamos
+serían
+serías
+ses
+seven
+seventeen
+seáis
+shall
+shan't
+she
+she'd
+she'll
+she's
+should
+shouldn't
+si
+sia
+siamo
+siano
+siate
+sich
+sie
+siente
+siete
+sin
+since
+sind
+sintiendo
+six
+sixteen
+so
+sobre
+soient
+sois
+soit
+soll
+sollen
+sollst
+sollt
+some
+sommes
+somos
+son
+sono
+sonst
+sont
+soweit
+sowie
+soy
+soyez
+soyons
+sta
+stai
+stando
+stanno
+starai
+staranno
+starebbe
+starebbero
+starei
+staremmo
+staremo
+stareste
+staresti
+starete
+starà
+starò
+stava
+stavamo
+stavano
+stavate
+stavi
+stavo
+stemmo
+stesse
+stessero
+stessi
+stessimo
+steste
+stesti
+stette
+stettero
+stetti
+stia
+stiamo
+stiano
+stiate
+still
+sto
+su
+sua
+such
+sue
+sugl
+sugli
+sui
+suis
+sul
+sull
+sulla
+sulle
+sullo
+suo
+suoi
+sur
+sus
+suya
+suyas
+suyo
+suyos
+sí
+t
+ta
+take
+también
+tanto
+te
+ten
+tendremos
+tendrá
+tendrán
+tendrás
+tendré
+tendréis
+tendría
+tendríais
+tendríamos
+tendrían
+tendrías
+tened
+tenemos
+tenga
+tengamos
+tengan
+tengas
+tengo
+tengáis
+tenida
+tenidas
+tenido
+tenidos
+teniendo
+tenéis
+tenía
+teníais
+teníamos
+tenían
+tenías
+tes
+than
+that
+that's
+the
+their
+theirs
+them
+themselves
+then
+there
+there's
+these
+they
+they'd
+they'll
+they're
+they've
+thirteen
+this
+those
+three
+through
+ti
+tiene
+tienen
+tienes
+to
+todo
+todos
+toi
+ton
+too
+tra
+tu
+tua
+tue
+tuo
+tuoi
+tus
+tutti
+tutto
+tuve
+tuviera
+tuvierais
+tuvieran
+tuvieras
+tuvieron
+tuviese
+tuvieseis
+tuviesen
+tuvieses
+tuvimos
+tuviste
+tuvisteis
+tuviéramos
+tuviésemos
+tuvo
+tuya
+tuyas
+tuyo
+tuyos
+twelve
+twenty
+two
+tú
+un
+una
+und
+under
+une
+uno
+unos
+unser
+unsere
+unter
+until
+up
+us
+very
+vi
+voi
+vom
+von
+vor
+vos
+vosostras
+vosostros
+vostra
+vostre
+vostri
+vostro
+votre
+vous
+vuestra
+vuestras
+vuestro
+vuestros
+wann
+warum
+was
+wasn't
+way
+we
+we'd
+we'll
+we're
+we've
+weiter
+weitere
+well
+wenn
+wer
+werde
+werden
+werdet
+were
+weren't
+weshalb
+what
+what's
+when
+when's
+where
+where's
+whether
+which
+while
+who
+who's
+whom
+whose
+why
+why's
+wie
+wieder
+wieso
+will
+wir
+wird
+wirst
+with
+without
+wo
+woher
+wohin
+won't
+would
+wouldn't
+y
+ya
+yo
+you
+you'd
+you'll
+you're
+you've
+your
+yours
+yourself
+yourselves
+zu
+zum
+zur
+à
+è
+él
+éramos
+étaient
+étais
+était
+étant
+étante
+étantes
+étants
+étiez
+étions
+été
+étée
+étées
+étés
+êtes
+über

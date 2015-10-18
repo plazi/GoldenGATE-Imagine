@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>GoldenGATE</title>
+</head>
+<body>
+
+
+<h3><font face="Verdana">Resources</font></h3>
+<font face="Verdana" size="2">The functionality of the GoldenGATE editor can be
+extended with <b>resources</b>. Beside general-purpose resources (like the
+built-in Document Readers) providing an arbitrary type of functionality, there
+arre two specialized resource types that are intended to provide additional
+document editing functions (<b>Annotation sources</b> and <b>document processors</b>).
+All resources in the GoldenGATE editor are managed by <b>resoure providers</b>. </font>
+
+<h4><font face="Verdana">Resource Providers</font></h4>
+<font face="Verdana" size="2">Resource providers provide and manage
+general-purpose resources, e.g. Document Readers. They all extend the abstract
+superclass </font><font size="2" face="Courier New">de.goldenGate.resourceManagement.ResourceManager</font><font face="Verdana" size="2">.
+In order to create a new type of resources, write a new implementation of this
+abstract class, pack it into a jar file along with auxilliary classes, and
+deposit the jar in the Resources folder, which is a sub-folder of the GoldenGATE
+main folder. GoldenGATE will automatically include the new resource provider at
+the time of the next startup.</font>
+
+<h4><font face="Verdana">Annotation Source Providers</font></h4>
+<font face="Verdana" size="2">Annotation source providers manage and provide
+Annotation sources. They extend an abstract subclass of </font><font size="2" face="Courier New">de.goldenGate.resourceManagement.ResourceManager</font><font face="Verdana" size="2">,
+</font><font size="2" face="Courier New">de.goldenGate.resourceManagement.AnnotationSourceManager</font><font face="Verdana" size="2">.
+Annotation sources are resources that create Annotations marking some parts of a
+document. Whenever an Annotation source is applied, GoldenGATE will show the
+newly created Annotations in a dialog for manual checking before they are added
+to the document.</font>
+
+<h4><font face="Verdana">Document Processor Providers</font></h4>
+<font face="Verdana" size="2">Document processor providers manage and provide
+document processors. They extend an abstract subclass of </font><font size="2" face="Courier New">de.goldenGate.resourceManagement.ResourceManager</font><font face="Verdana" size="2">,
+</font><font size="2" face="Courier New">de.goldenGate.resourceManagement.DocumentProcessorManager</font><font face="Verdana" size="2">.
+Document processors are resources that can analyze and change a document in
+whatever way they deem sensible. This includes creating, changing and removing
+Annotations, and editing the document text. Spelling correction, for instance,
+could be done by some appropriate document processor. Document processors are
+capable of running autonomously, without user interaction, but can also interact
+with the user by showing dialogs.</font></body>
+</html>

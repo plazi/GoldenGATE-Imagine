@@ -1,0 +1,1 @@
+((of|the|(of\sthe)|de|(de\sla)|von|van|(von\sder)|(van\sder)|(van\sde)|vom|(von\sden)|(van\sden)|(von\sdem))\s)?(([A-Za-z]+\'?)?[A-Z][a-z]+)((\s|(\s?\-\s?))(([A-Za-z]+\'?)?[A-Z][a-z]+))*

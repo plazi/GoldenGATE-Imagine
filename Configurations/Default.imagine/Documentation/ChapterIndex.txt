@@ -1,0 +1,25 @@
+0:GoldenGATE
+1:Glossary
+2:Main Menus
+3:File
+4:View
+5:Edit
+6:Tools
+7:Window
+8:Help
+9:Document Editor
+10:Annotation Editor
+11:Document Formats
+12:Document Readers
+13:Document Writers
+14:XSLT Dynamic Document Format
+15:Document Viewers
+16:Slide Annotations
+17:Slide Annotations
+18:Tree View Annotations
+19:Document IO
+20:File Document IO
+21:Web Document IO
+22:Plug-In Resources
+23:Custom Functions
+24:Custom Shortcuts

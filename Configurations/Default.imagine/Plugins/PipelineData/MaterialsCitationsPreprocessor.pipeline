@@ -1,0 +1,17 @@
+INTERACTIVITY_LEVEL = "Feedback only";
+PART_0.PART_NAME = "GR.GeoCoordinateTagger.analyzer";
+PART_0.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_1.PART_NAME = "DT.DateTagger.analyzer";
+PART_1.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_2.PART_NAME = "MCT.CollectionCodeTaggerOnline.analyzer";
+PART_2.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_3.PART_NAME = "BotanicCollectionCodeTagger.pipeline";
+PART_3.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";
+PART_4.PART_NAME = "QT.QuantityTagger.analyzer";
+PART_4.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.analyzers.AnalyzerManager";
+PART_5.PART_NAME = "TypeStatusAnnotator.annotator";
+PART_5.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.annotators.AnnotatorManager";
+PART_6.PART_NAME = "SpecimenCountMarker.pipeline";
+PART_6.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";
+PART_7.PART_NAME = "MaterialsCitationDetailDuplicateRemover.markupConverter";
+PART_7.PROVIDER_CLASS = "de.uka.ipd.idaho.goldenGate.plugin.markupConverters.MarkupConverterManager";

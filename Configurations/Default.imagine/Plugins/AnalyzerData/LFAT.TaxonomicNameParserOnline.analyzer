@@ -1,0 +1,3 @@
+CLASS = "de.uka.ipd.idaho.plugins.taxonomicNames.fatLexicon.TaxonomicNameParserOnline";
+CLASS_PATH = "LexiconFAT.jar";
+DATA_PATH = "LexiconFATData/";

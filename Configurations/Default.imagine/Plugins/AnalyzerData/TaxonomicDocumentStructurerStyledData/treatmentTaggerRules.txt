@@ -1,0 +1,8 @@
+./#first = 'Abstract' ==> Start Other
+./#first = 'Introduction' ==> Start Other
+./#first = 'References' ==> Start Other
+./#first = 'Literature' ==> Start Other
+./#first = 'Acknowledgements' ==> Start Other
+$rule < 6 ==> Continue
+./taxonomicName[./@START_INDEX < 3] and ./taxonomicNameLabel ==> Start Treatment
+./taxonomicName[./@START_INDEX < 3]and not(./#[matches(., '[0-9]{4}')]) ==> Start Treatment

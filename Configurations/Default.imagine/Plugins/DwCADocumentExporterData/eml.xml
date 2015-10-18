@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:md="eml://ecoinformatics.org/methods-2.0.1" xmlns:proj="eml://ecoinformatics.org/project-2.0.1" xmlns:d="eml://ecoinformatics.org/dataset-2.0.1" xmlns:res="eml://ecoinformatics.org/resource-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/terms/" system="Plazi" scope="system" packageId="@DUMMY">
+  <dataset>
+    <alternateIdentifier>@docId</alternateIdentifier>
+    @extIDs
+    <citation>@citation</citation>
+    <title>@title</title>
+    <creator>@author</creator>
+    <pubDate>@year</pubDate>
+    <language>@language</language>
+    <abstract><para>UNAVAILABLE</para></abstract>
+    <intellectualRights>
+      <para>Public Domain</para>
+      <para>No known copyright restrictions apply. See Agosti, D., Egloff, W., 2009. Taxonomic information exchange and copyright: the Plazi approach. BMC Research Notes 2009, 2:53 for further explanation.</para>
+    </intellectualRights>
+    <!--distribution scope="document">
+      <online><url function="information">@pubSummaryUrl</url></online>
+    </distribution-->
+    <!--contact>
+      <individualName>
+        <givenName>Guido</givenName>
+        <surName>Sautter</surName>
+      </individualName>
+      <electronicMailAddress>sautter@ipd.uka.de</electronicMailAddress>
+      <onlineUrl>http://plazi.org</onlineUrl>
+    </contact-->
+    <!--associatedParty>
+      <organizationName>@contributor</organizationName>
+      <role>data provider</role>
+    </associatedParty-->
+    <!--@contributor-->
+  </dataset>
+  <additionalMetadata>
+    <plaziMods>@MODS</plaziMods>
+  </additionalMetadata>
+</eml:eml>

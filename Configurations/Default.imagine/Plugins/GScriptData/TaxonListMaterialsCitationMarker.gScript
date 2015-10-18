@@ -1,0 +1,19 @@
+for $tl {subSection[./@type = 'taxon_list']}
+
+  -- annotate specimen counts
+  run 'SpecimenCount.annotator' $tl
+
+  -- combine specimen counts and collecting locations
+  for $mcp {$tl/paragraph[./collectingLocation and ./specimenCount]}
+    for $mc {$mcp/specimenCount}
+      renameAttribute $mc 'type' 'specimenType'
+      copyAttributes {$mcp/collectingLocation[./@START_INDEX < $mc/@START_INDEX]} $mc
+      setAttribute $mc 'specimenCount' ($mc/#first)
+      rename $mc 'materialsCitation'
+    end $mc
+  end $mcp
+
+  -- clean up
+  remove {$tl/collectingLocation}
+end $tl
+

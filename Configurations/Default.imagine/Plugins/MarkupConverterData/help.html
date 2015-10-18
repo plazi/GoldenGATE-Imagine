@@ -1,0 +1,258 @@
+<html><head><title>Markup Converters</title></head><body><h3><font face="Verdana">The Markup Converters</font></h3><font face="Verdana" size="2">Markup
+Converters are document processors capable of converting and filtering the XML
+markup of documents.</font>
+<h4><font face="Verdana">The Markup Converters Menu</font></h4>
+<font face="Verdana" size="2">The Markup Converters menu provides access to
+functions for managing and applying Markup Converters, and access to a set of
+functions for direct markup conversion:</font>
+<ul>
+  <li><font face="Verdana" size="2"><b>Select Annotations:</b>&nbsp;Display Annotations of a particular type to
+    individually select them for removing or deleting.</font></li>
+  <li><font face="Verdana" size="2"><b>Transform Annotations:</b>&nbsp;Transform
+    Annotations of a particular type to Document Parts.</font></li>
+  <li><font face="Verdana" size="2"><b>Rename </b></font><font face="Verdana" size="2"><b>Annotations:</b>&nbsp;Rename
+    Annotations of a particular type to a new type.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove </b></font><font face="Verdana" size="2"><b>Annotations:</b>&nbsp;Remove
+    Annotations of a particular type from the document.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Duplicate </b></font><font face="Verdana" size="2"><b>Annotations:</b>&nbsp;Remove
+    duplicate Annotations. Two Annotations are considered equal if they have the
+    same type and mark the same part of the document text. The attributes of
+    duplicates will be unioned.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Self-Contained </b></font><font face="Verdana" size="2"><b>Annotations:</b>&nbsp;Remove
+    Annotations contained in another Annotation of the same type.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Self-Containing </b></font><font face="Verdana" size="2"><b>Annotations:</b>&nbsp;Remove
+    Annotations containing another Annotation of the same type.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove </b></font><font face="Verdana" size="2"><b>Annotations
+    Contained in ...:</b>&nbsp;Remove Annotations of a particular type if they
+    are contained in another Annotation of another particular type.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove </b></font><font face="Verdana" size="2"><b>Annotations</b></font><font face="Verdana" size="2"><b>
+    Containing </b></font><font face="Verdana" size="2"><b>:</b>&nbsp;Remove
+    Annotations of a particular type if they are containing an Annotation of
+    another particular type.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Annotations Not Contained in ...:</b>&nbsp;Remove Annotations of a particular type if they
+    are not contained in another Annotation of another particular type.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Annotations Not Containing :</b>&nbsp;Remove
+    Annotations of a particular type if they are not containing an Annotation of
+    another particular type.</font></li>
+  <li><font face="Verdana" size="2"><b>Delete </b></font><font face="Verdana" size="2"><b>Annotations:</b>&nbsp;Remove
+    Annotations of a particular type from the document, deleting the words they
+    mark.</font><font face="Verdana" size="2"> This is useful for removing
+    scripts from documents that originate from HTML pages.</font></li>
+  <li><font face="Verdana" size="2"><b>Rename </b></font><font face="Verdana" size="2"><b>Annotation
+    Attribute:</b>&nbsp;Rename an attribute of Annotations (of a particular type
+    or of all Annotations).</font></li>
+  <li><font face="Verdana" size="2"><b>Remove </b></font><font face="Verdana" size="2"><b>Annotation
+    Attribute:</b>&nbsp;Remove an attribute from Annotations (of a particular
+    type or of all Annotations).</font></li>
+  <li><font face="Verdana" size="2"><b>Create:</b>&nbsp;Create a new </font><font face="Verdana" size="2">Markup
+    Converter </font><font face="Verdana" size="2">by specifying some mappings.</font></li>
+  <li><font face="Verdana" size="2"><b>Edit:</b>&nbsp;Open the </font><font face="Verdana" size="2">Markup
+    Converter </font><font face="Verdana" size="2">management dialog.</font></li>
+  <li><font face="Verdana" size="2"><b>Apply:</b>&nbsp;Select a </font><font face="Verdana" size="2">Markup
+    Converter </font><font face="Verdana" size="2">from a list and apply it to
+    the document currently selected. This function is also available through the&nbsp;<b>Apply
+    Markup Converter </b>option in the Tools menu.</font></li>
+</ul>
+<h4><font face="Verdana">The Edit Markup Converters Dialog</font></h4>
+<font face="Verdana" size="2">The dialog for Markup Converter management is
+accessible through the Edit function in the Markup Converters menu. On the right
+of the dialog, a list displays all existing Markup Converters. In the middle, a
+table displays the mappings done by the Markup Converter currently selected in
+that list, where the element name in the &quot;Mapped Tag&quot; column is mapped
+to the element name in the &quot;Mapping Target&quot; column. Below the table,
+there are two buttons managing the mappings, and to the left of it, two further
+buttons allow manipulating the order in which the mappings are applied:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Add Mapping:</font></b><font face="Verdana" size="2">&nbsp;Add
+    a new mapping to the table. This will prompt for a &quot;Mapped Tag&quot;,
+    the &quot;Mapping Target&quot; can be entered in the table afterward.</font></li>
+  <li><b><font face="Verdana" size="2">Remove Mapping:</font></b><font face="Verdana" size="2">&nbsp;Remove
+    the mapping currently selected in the table.</font></li>
+  <li><font face="Verdana" size="2"><b>Up:</b>&nbsp;M</font><font face="Verdana" size="2">ove
+    the mapping currently selected in the table up by one row.</font></li>
+  <li><font face="Verdana" size="2"><b>Down:</b>&nbsp;</font><font face="Verdana" size="2">Move
+    the mapping currently selected in the table down by one row.</font></li>
+</ul>
+<font face="Verdana" size="2">At the top of the dialog, a line of buttons
+provides the functionality for managing the Markup Converters:</font>
+<ul>
+  <li><font face="Verdana" size="2"><b>Create:</b>&nbsp;Open a sub-dialog for
+    creating a new </font><font face="Verdana" size="2"> Markup Converter.</font></li>
+  <li><font face="Verdana" size="2"><b>Clone:</b>&nbsp;Clone the </font><font face="Verdana" size="2"> Markup
+    Converter </font><font face="Verdana" size="2">currently selected. This is pretty much the same as creating a new
+    one,
+    beside the fact that the mappings are copied.</font></li>
+  <li><font face="Verdana" size="2"><b>Delete:</b>&nbsp;Delete the </font><font face="Verdana" size="2"> Markup
+    Converter </font><font face="Verdana" size="2">currently selected.</font></li>
+</ul>
+<h4><font face="Verdana">Special Mappings</font></h4>
+<font face="Verdana" size="2">In order to keep them simple, Markup Converters
+exclusively consist of tag mapping. For accessing the other functions, like
+filtering, they provide some special syntax and prefixes for the mapped tags and
+the mapping targets, which trigger these extended functions:</font>
+<ul>
+  <li><b><font face="Verdana" size="2">Transform Annotation:</font></b><font face="Verdana" size="2">&nbsp;</font><font face="Verdana" size="2">Mapping
+    a tag name to &quot;#T&quot; (for Transform) will transform the Annotations
+    of that particular type to Document Parts.</font></li>
+  <li><font face="Verdana" size="2"><b>Rename Annotations:</b>&nbsp;Mapping a
+    tag name to &quot;#N &lt;newName&gt;&quot; (for reName) will rename the
+    Annotations of that particular type to &lt;newName&gt;</font><font face="Verdana" size="2">.
+    If &lt;newName&gt; is empty, the Annotations will be removed. Since renaming
+    is the default operation, the &quot;#N&quot; is optional.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Annotations:</b>&nbsp;</font><font face="Verdana" size="2">Mapping
+    a tag name to &quot;#R&quot; (for Remove) will remove the Annotations of
+    that particular type </font><font face="Verdana" size="2">from the document.
+    If the tag name is empty or &quot;*&quot;, all Annotations will be removed,
+    regardless of their type.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Duplicate Annotations:</b>&nbsp;</font><font face="Verdana" size="2">Mapping
+    a tag name to &quot;#R-D&quot; (for Remove Duplicates) will remove the
+    duplicate Annotations of that particular type </font><font face="Verdana" size="2">from
+    the document.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Self-Contained Annotations:</b>&nbsp;</font><font face="Verdana" size="2">Mapping
+    a tag name to &quot;#R-I&quot; (for Remove Inner) will remove </font><font face="Verdana" size="2">
+    Annotations of that particular type if they are contained in another Annotation of the same
+    type.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Self-Containing Annotations:</b>&nbsp;Mapping
+    a tag name to &quot;#R-O&quot; (for Remove Outer) will remove Annotations of
+    that particular type if they contain another Annotation of the same type.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Annotations
+    Contained in ...:</b>&nbsp;Mapping a tag name to "#R-CI &lt;outerType&gt;&quot;
+    (for Remove Contained In) will remove Annotations of
+    that particular type if they are contained in an Annotation of type &lt;outerType&gt;.
+    If &lt;outerType&gt; is empty, the mapping will do nothing.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Annotations
+    Containing :</b>&nbsp;</font><font face="Verdana" size="2">Mapping a tag name to
+    &quot;#R-CA &lt;innerType&gt;&quot; (for Remove Containing Annotation) will remove Annotations of
+    that particular type if they contain an Annotation of type &lt;innerType&gt;.
+    If &lt;innerType&gt; is empty, the mapping will do nothing.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Annotations Not Contained in ...:</b>&nbsp;Mapping a tag name to
+    &quot;#R-NCI &lt;outerType&gt;&quot; (for Remove Not Contained In) will remove Annotations of
+    that particular type if they are not contained in an Annotation of type &lt;outerType&gt;.
+    If &lt;outerType&gt; is empty, the mapping will do nothing.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Annotations Not Containing :</b>&nbsp;Mapping a tag name to
+    &quot;#R-NCA &lt;innerType&gt;&quot; (for Remove Not Containing Annotation) will remove Annotations of
+    that particular type if they do not contain an Annotation of type &lt;innerType&gt;.
+    If &lt;innerType&gt; is empty, the mapping will do nothing.</font></li>
+  <li><font face="Verdana" size="2"><b>Delete Annotations:</b>&nbsp;</font><font face="Verdana" size="2">Mapping
+    a tag name to &quot;#D&quot; (for Delete) will remove the Annotations of
+    that particular type </font><font face="Verdana" size="2">from the document,
+    deleting the text they enclosed.</font></li>
+  <li><font face="Verdana" size="2"><b>Rename Annotation
+    Attribute:</b>&nbsp;Mapping &quot;&lt;type&gt;.&lt;attributeName&gt;&quot;
+    to &quot;#NA &lt;newAttribute&gt;&quot; (for reName Attribute) will rename
+    the attribute &lt;attributeName&gt; to &lt;newAttribute&gt; for all
+    Annotations of type &lt;type&gt;, while the Annoations itself will not be
+    changed. If &lt;type&gt; is empty or &quot;*&quot;, the attribute will be
+    renamed in all Annotations, regardless of their type. If &lt;newAttribute&gt;
+    is empty, the attribute will be removed. Since remaing is the default
+    operation, the &quot;#NA&quot; is optional.</font></li>
+  <li><font face="Verdana" size="2"><b>Remove Annotation
+    Attribute:</b>&nbsp;</font><font face="Verdana" size="2">Mapping &quot;&lt;type&gt;.&lt;attributeName&gt;&quot;
+    to &quot;#RA&quot; (for Remove Attribute) will remove the attribute &lt;attributeName&gt;
+    from all Annotations of type &lt;type&gt;, while the Annoations itself will
+    not be changed. If &lt;type&gt; is empty or &quot;*&quot;, the attribute
+    will be renamed in all Annotations, regardless of their type. If &lt;attributeName&gt;
+    is empty or equal to &quot;*&quot;, all attributes will be removed,
+    regardless of their name. </font></li>
+</ul>
+<p><font face="Verdana" size="2">The table below provides a brief summary of the
+special mappings. &lt;type&gt; retresents any particular Annotation type. If
+&lt;type&gt; is empty or &quot;*&quot;, the operation affects all Annotations,
+regardless of their type. &lt;attribute&gt; retresents any particular attribute
+name. If &lt;attribute&gt; is empty or &quot;*&quot;, the operation affects all
+attributes, regardless of their name.</font></p>
+<div align="center">
+  <center>
+  <table border="1" width="100%">
+    <tr>
+      <td width="33%"><font face="Verdana" size="2"><b>Operation</b></font></td>
+      <td width="33%"><font face="Verdana" size="2"><b>Mapped Tag</b></font></td>
+      <td width="34%"><font face="Verdana" size="2"><b>Mapping Target</b></font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Transform Annotations of
+        type &lt;type&gt; to Document Part</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#T</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Rename Annotations</font><font face="Verdana" size="2">
+        of type &lt;type&gt;</font><font face="Verdana" size="2"> to &lt;newType&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#N &lt;newType&gt;</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Remove Annotations</font><font face="Verdana" size="2">
+        of type &lt;type&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#R</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Remove duplicate Annotations</font><font face="Verdana" size="2">
+        of type &lt;type&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#R-D</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Remove self-contained
+        Annotations</font><font face="Verdana" size="2"> of type &lt;type&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#R-I</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Remove self-containing
+        Annotations</font><font face="Verdana" size="2"> of type &lt;type&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#R-O</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Remove Annotations</font><font face="Verdana" size="2">
+        of type &lt;type&gt;</font><font face="Verdana" size="2"> contained in
+        Annotations of type &lt;containingType&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#R-CI &lt;containingType&gt;</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Remove Annotations</font><font face="Verdana" size="2">
+        of type &lt;type&gt;</font><font face="Verdana" size="2"> containing
+        Annotations of type &lt;containedType&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#R-CA &lt;containedType&gt;</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Remove Annotations
+        of type &lt;type&gt; not contained in
+        Annotations of type &lt;containingType&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#R-NCI &lt;containingType&gt;</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Remove Annotations
+        of type &lt;type&gt; not containing
+        Annotations of type &lt;containedType&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#R-NCA &lt;containedType&gt;</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Delete Annotations</font><font face="Verdana" size="2">
+        of type &lt;type&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#D</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Rename attribute &lt;attribute&gt;
+        to &lt;newAttribute&gt; in Annotations</font><font face="Verdana" size="2">
+        of type &lt;type&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;.&lt;attribute&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#NA &lt;newAttribute&gt;</font></td>
+    </tr>
+    <tr>
+      <td width="33%"><font face="Verdana" size="2">Remove attribute &lt;attribute&gt;
+        from Annotations</font><font face="Verdana" size="2"> of type &lt;type&gt;</font></td>
+      <td width="33%"><font face="Verdana" size="2">&lt;type&gt;.&lt;attribute&gt;</font></td>
+      <td width="34%"><font face="Verdana" size="2">#RA</font></td>
+    </tr>
+  </table>
+  </center>
+</div>
+</body></html>

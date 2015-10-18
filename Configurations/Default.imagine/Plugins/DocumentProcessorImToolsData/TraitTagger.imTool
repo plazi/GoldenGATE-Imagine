@@ -1,0 +1,5 @@
+LABEL = "Tag Traits (ENVO & HAO)";
+LOCATION = "Tools Menu";
+PROCESSOR_NAME = "TraitTagger.pipeline@de.uka.ipd.idaho.goldenGate.plugin.pipelines.PipelineManager";
+TOOLTIP = "Tag and link trait terms from ENVO and HAO";
+XML_WRAPPER_FLAGS = "7";

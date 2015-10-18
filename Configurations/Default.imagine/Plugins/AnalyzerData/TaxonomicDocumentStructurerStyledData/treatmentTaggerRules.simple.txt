@@ -1,0 +1,9 @@
+./#first = 'Abstract' ==> Start Other SubSection
+./#first = 'Introduction' ==> Start Other SubSection
+./#first = 'References' ==> Start Other SubSection
+./#first = 'Literature' ==> Start Other SubSection
+./#first = 'Acknowledgements' ==> Start Other SubSection
+$rule < 6 ==> Continue SubSection
+./taxonomicName[./@START_INDEX < 3] and ./taxonomicNameLabel ==> Start 'treatment' SubSection
+./taxonomicName[./@START_INDEX < 3]and not(./#[matches(., '[0-9]{4}')]) ==> Start 'treatment' SubSection
+$position = 1 ==> Start Other SubSection
