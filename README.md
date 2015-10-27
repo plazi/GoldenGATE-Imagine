@@ -63,8 +63,8 @@ Download the latest release at: https://github.com/plazi/GoldenGATE-Imagine/rele
 
 #### To Run
 
-On Windows: double-click GgImagine.exe
+On Windows: in the directory in which GoldenGATE-Imagine has been installed double-click `GgImagine.exe`
 
-On Mac and Linux run GGgImagine.sh or run java -jar GgImagineStarter.jar
+On Mac and Linux from the command line in the directory in which GoldenGATE-Imagine has been installed, run `GGgImagine.sh` or run `java -jar GgImagineStarter.jar`
 
 Consult the User Manual for further instructions.
