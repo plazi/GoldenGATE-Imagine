@@ -55,4 +55,14 @@ Java HotSpot(TM) 64-Bit Server VM (build 24.55-b03, mixed mode)</pre>
 
 It is NOT recommended to use "OpenJDK6" (IcedTea) and "GNU Compiler for Java" (GCJ) which are shipped by several Linux distributions.
 
-####
+#### To Deploy
+
+Download the latest release 
+
+#### To Run
+
+On Windows: double-click GgImagine.exe
+
+On Mac and Linux run GGgImagine.sh or run java -jar GgImagineStarter.jar
+
+Consult the User Manual for further instructions.
