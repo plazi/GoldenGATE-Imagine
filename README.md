@@ -17,4 +17,42 @@ GoldenGATE-Imagine opens PDF documents, extracting or rendering page images, per
 * detection, atomization, and reconciliation of taxonomic names, backed by Catalog of Life, GBIF, and IPNI
 * markup of taxonomic treatments and their inner structure
 * extraction and parsing of occurrence records
-* tagging of trait terms, backed by ontologies.
+* tagging of trait terms, backed by ontologies. 
+
+### Installation requirements
+
+
+####REQUIRED JAVA VERSION
+
+The program requires Java 1.6 and above, and uses the Oracle Java run time environment. 
+
+
+To determine your computers current Java version, do the following.
+
+*Windows*: go to “Command prompt” and type in `java -version`.
+
+<pre>C:\Users\Donat>java -version
+java version "1.8.0_31"
+Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
+Java HotSpot(TM) Client VM (build 25.31-b07, mixed mode)</pre>
+
+
+*Mac*: From terminal type `java /version` 
+
+The program requires Java 1.6 and above, and uses the Oracle Java run time environment. 
+
+*Linux*: 
+
+GoldenGate is built on Java, a free, cross-platform software development environment. Java comes in a number of versions, so it is important that you install the version that GoldenGate requires: Java 7 or 8. GoldenGate can run with both the Java "JRE" (Java Runtime Environment). For instructions about running Java on your operating system, see Oracle's Installing Java page.
+Linux users: Unfortunately, Oracle's own pages (such as the link above) focus on commercial Linux distributions. Users of other distributions are better served by distribution-specific instructions.
+Special note: It is recommended to use the Oracle Java VM, this is the safest choice. The OpenJDK 7 is a good open source alternative for the Oracle JVM.
+Details of the Java VM can be obtained via the following command (two results displayed):
+
+<pre>java -version
+java version "1.7.0_55"
+Java(TM) SE Runtime Environment (build 1.7.0_55-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 24.55-b03, mixed mode)</pre>
+
+It is NOT recommended to use "OpenJDK6" (IcedTea) and "GNU Compiler for Java" (GCJ) which are shipped by several Linux distributions.
+
+####
