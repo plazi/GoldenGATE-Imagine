@@ -29,7 +29,7 @@ The program requires Java 1.6 and above, and uses the Oracle Java run time envir
 
 To determine your computers current Java version, do the following.
 
-*Windows*: go to “Command prompt” and type in `java -version`.
+**Windows**: go to “Command prompt” and type in `java -version`.
 
 <pre>C:\Users\Donat>java -version
 java version "1.8.0_31"
@@ -37,11 +37,11 @@ Java(TM) SE Runtime Environment (build 1.8.0_31-b13)
 Java HotSpot(TM) Client VM (build 25.31-b07, mixed mode)</pre>
 
 
-*Mac*: From terminal type `java /version` 
+**Mac**: From terminal type `java /version` 
 
 The program requires Java 1.6 and above, and uses the Oracle Java run time environment. 
 
-*Linux*: 
+**Linux**: 
 
 GoldenGate is built on Java, a free, cross-platform software development environment. Java comes in a number of versions, so it is important that you install the version that GoldenGate requires: Java 7 or 8. GoldenGate can run with both the Java "JRE" (Java Runtime Environment). For instructions about running Java on your operating system, see Oracle's Installing Java page.
 Linux users: Unfortunately, Oracle's own pages (such as the link above) focus on commercial Linux distributions. Users of other distributions are better served by distribution-specific instructions.
@@ -57,7 +57,7 @@ It is NOT recommended to use "OpenJDK6" (IcedTea) and "GNU Compiler for Java" (G
 
 #### To Deploy
 
-Download the latest release 
+Download the latest release at: https://github.com/plazi/GoldenGATE-Imagine/releases
 
 #### To Run
 
