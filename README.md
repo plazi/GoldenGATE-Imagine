@@ -17,7 +17,9 @@ GoldenGATE-Imagine opens PDF documents, extracting or rendering page images, per
 * detection, atomization, and reconciliation of taxonomic names, backed by Catalog of Life, GBIF, and IPNI
 * markup of taxonomic treatments and their inner structure
 * extraction and parsing of occurrence records
-* tagging of trait terms, backed by ontologies. 
+* tagging of trait terms, backed by ontologies.
+
+At any stage of document processing, users can choose to export documents as XML. As soon as document metadata is extracted and taxon names and treatments are marked, they can also export a DarwinCore Archive or upload the document to the Plazi treatment repository, which allows them to share their markup work with the public. Further, users can export tables and figures, together with their captions
 
 ### Installation requirements
 
