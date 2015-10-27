@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+	Handles the compilation step itself. Especially the classpath is set up
+	here.
+-->
+
+<project name="javac">
+	
+	<!-- set up the classpath for compilation, this should always match the
+	     Eclipse configuration. -->
+	<path id="compile.classpath">
+		<!-- include all .jar in the lib/ directory -->
+	    <fileset dir="${lib.home}">
+	        <include name="*.jar" />
+	    </fileset>
+	</path>
+	
+	<!-- The task off all tasks -->
+	<target name="compile" description="Compile GoldenGATE Imagine Java sources">
+	
+	    <!-- Compile Java classes as necessary -->
+	    <javac  destdir="${build.home}/classes" includeantruntime="false" target="1.5" debug="true" debuglevel="lines,vars,source">
+	    	<src path="${src.home}" />
+	        <classpath refid="compile.classpath" />
+	    </javac>
+	</target>
+</project>

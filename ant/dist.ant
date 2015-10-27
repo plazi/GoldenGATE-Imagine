@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+	Does all the packing. That is, creates the files that live in dist/
+-->
+
+<project name="dist">
+	<target name="zips" depends="imaginezip,vpackerzip,imfdocio">
+	</target>
+	
+	<target name="imagine">
+		<delete file="${jar.imagine}" />
+		<jar destfile="${jar.imagine}" manifest="${file.home}/MANIFEST.imagine.MF">
+			<fileset dir="${build.home}/classes">
+				<include name="**/**.class" />
+				<exclude name="**/utilities/**.class" />
+				<exclude name="**/starter/**.class" />
+			</fileset>
+			<fileset dir="${src.home}">
+				<include name="**/**.java" />
+				<exclude name="**/utilities/**.java" />
+				<exclude name="**/starter/**.java" />
+			</fileset>
+			<fileset dir="." includes="LICENSE.txt"/>
+		</jar>
+	</target>
+	
+	<target name="configmanager">
+		<delete file="${jar.configmanager}" />
+		<jar destfile="${jar.configmanager}">
+			<fileset dir="${build.home}/classes" includes="**/GoldenGateImagineConfigurationManager.class"/>
+			<fileset dir="${build.home}/classes" includes="**/GoldenGateImagineConfigurationManager$**.class"/>
+			<fileset dir="${src.home}" includes="**/configuration/GoldenGateImagineConfigurationManager.java"/>
+			<fileset dir="." includes="LICENSE.txt"/>
+		</jar>
+	</target>
+	
+	<target name="starter">
+		<delete file="${jar.starter}"/>
+		<jar destfile="${jar.starter}" manifest="${file.home}/MANIFEST.starter.MF">
+			<fileset dir="${build.home}/classes" includes="**/GoldenGateImagineStarter.class"/>
+			<fileset dir="${build.home}/classes" includes="**/GoldenGateImagineStarter$**.class"/>
+			<fileset dir="${build.home}/classes" includes="**/GoldenGateImagineConstants.class"/>
+			<fileset dir="${build.home}/classes" includes="**/GoldenGateImagineConstants$**.class"/>
+			<fileset dir="${build.home}/classes" includes="**/UpdateUtils.class"/>
+			<fileset dir="${build.home}/classes" includes="**/UpdateUtils$**.class"/>
+			<fileset dir="${src.home}" includes="**/GoldenGateImagineStarter.java"/>
+			<fileset dir="${src.home}" includes="**/GoldenGateImagineConstants.java"/>
+			<fileset dir="${src.home}" includes="**/UpdateUtils.java"/>
+			<fileset dir="." includes="LICENSE.txt"/>
+		</jar>
+	</target>
+	
+	<target name="imaginezip" depends="imagine,configmanager,starter">
+		<delete file="${app.imagine}" />
+		<zip destfile="${app.imagine}">
+			<fileset dir="${lib.home}"/>
+			<fileset dir="${file.home}/imagine"/>
+			<fileset dir="${dist.home}/" includes="GgImagine.jar"/>
+			<fileset dir="${dist.home}/" includes="GgImagineStarter.jar"/>
+			<fileset dir="." includes="LICENSE.txt"/>
+		</zip>
+	</target>
+	
+	
+	<target name="vpacker">
+		<delete file="${jar.vpacker}"/>
+		<jar destfile="${jar.vpacker}" manifest="${file.home}/MANIFEST.versionpacker.MF">
+			<fileset dir="${build.home}/classes" includes="**/VersionPacker.class"/>
+			<fileset dir="${build.home}/classes" includes="**/VersionPacker$**.class"/>
+			<fileset dir="${build.home}/classes" includes="**/PackerUtils.class"/>
+			<fileset dir="${build.home}/classes" includes="**/PackerUtils$**.class"/>
+			<fileset dir="${src.home}" includes="**/VersionPacker.java"/>
+			<fileset dir="${src.home}" includes="**/PackerUtils.java"/>
+			<fileset dir="." includes="LICENSE.txt"/>
+		</jar>
+	</target>
+	
+	<target name="vpackerzip" depends="vpacker">
+		<delete file="${app.vpacker}"/>
+		<zip destfile="${app.vpacker}">
+			<fileset dir="${file.home}/versionpacker"/>
+			<fileset dir="${dist.home}/" includes="_VersionPacker.imagine.jar"/>
+			<fileset dir="." includes="LICENSE.txt"/>
+		</zip>
+	</target>
+	
+	<target name="imfdocio">
+		<delete file="${dist.home}/Plugins/ImfDocumentFormat.jar"/>
+		<jar destfile="${dist.home}/Plugins/ImfDocumentFormat.jar">
+			<fileset dir="${build.home}/classes" includes="**/ImfDocumentFormatProvider.class"/>
+			<fileset dir="${build.home}/classes" includes="**/ImfDocumentFormatProvider$**.class"/>
+			<fileset dir="${src.home}" includes="**/ImfDocumentFormatProvider.java"/>
+			<fileset dir="." includes="LICENSE.txt"/>
+		</jar>
+	</target>
+</project>

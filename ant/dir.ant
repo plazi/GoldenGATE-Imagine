@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- manages the directory structure for the build process.
+
+	This means it creates all the temporary directories and copies files between them.
+	It is also responsible for cleaning up the whole mess afterwards. -->
+
+<project name="dir">
+	
+	<!-- create the required directories -->
+	<target name="mkdirs">
+		<mkdir dir="${build.home}" />
+		<mkdir dir="${build.home}/classes" />
+		<mkdir dir="${dist.home}" />
+		<mkdir dir="${dist.home}/Plugins" />
+	</target>
+	
+	<!-- more or less the reverse of it, delete all the directories again -->
+	<target name="clean" description="remove all auto-generated files" >
+		<!--delete dir="${build.home}/classes" /-->
+		<delete includeemptydirs="true">
+			<fileset dir="${build.home}" includes="**/*.class"/>
+		</delete>
+		<!--delete dir="${dist.home}" /-->
+		<delete includeemptydirs="true">
+			<fileset dir="${dist.home}" includes="*.jar"/>
+		</delete>
+		<delete includeemptydirs="true">
+			<fileset dir="${dist.home}/Plugins" includes="*.jar"/>
+		</delete>
+		<delete includeemptydirs="true">
+			<fileset dir="${dist.home}" includes="*.zip"/>
+		</delete>
+	</target>
+	
+	
+	<!-- copy everything that needs to be in the distro -->
+	<target name="copy" depends="mkdirs" >
+		
+		<!-- copy required libraries -->
+		<copy todir="${dist.home}/Plugins/ImagineConfigurationManagerBin" overwrite="true" verbose="false">
+			<fileset dir="${lib.home}">
+				<include name="ImageMarkup.jar" />
+			</fileset>
+		</copy>
+	</target>
+</project>

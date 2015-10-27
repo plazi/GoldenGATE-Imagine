@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- the project global configuration for the build system.
+ 
+ Please: be very careful when modifing this, as this file lives in GIT and you can easily break
+ other peoples system when commiting changes to this file. -->
+
+<project name="config">
+	
+	<!-- =================================================================== -->
+	<!-- DIRECTORY CONFIGURATION -->
+	
+	<!-- root directory of the common source tree -->
+	<property name="src.home" value="src" />
+	
+	<!-- directory that contains all libraries that are required in the .war -->
+	<property name="lib.home" value="lib" />
+	
+	<!-- build directory that will contain all the .jars and what else is required for a .war -->
+	<property name="build.home" value="build" />
+	
+	<!-- build directory that contains all files to include in the .zips except for the .jars -->
+	<property name="file.home" value="files" />
+	
+	<!-- directory that contains packed archives, such as the .war -->
+	<property name="dist.home" value="dist" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.imagine" value="${dist.home}/GgImagine.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.configmanager" value="${dist.home}/Plugins/ImagineConfigurationManager.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.starter" value="${dist.home}/GgImagineStarter.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.vpacker" value="${dist.home}/_VersionPacker.imagine.jar" />
+	
+	<!-- path to the application .zip file that shall be created -->
+	<property name="app.imagine" value="${dist.home}/GoldenGateImagine.zip" />
+	
+	<!-- path to the application .zip file that shall be created -->
+	<property name="app.vpacker" value="${dist.home}/VersionPacker.imagine.zip" />
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- The main build file. It merely imports the other files in the 'ant' directory. -->
+
+<project name="GoldenGATE-Editor" default="all" basedir="." >
+	<include file="ant/config.ant" />
+	<include file="ant/dir.ant" />
+	<include file="ant/javac.ant" />
+	<include file="ant/dist.ant" />
+	<include file="ant/import.ant" />
+	
+	<target name="all" depends="dirs,clean,jars,compile,zips">
+		<!--<input message="Press Enter to start Tomcat.." />-->
+	</target>
+	
+	<target name="clean" description="remove all auto generated files" >
+		<antcall target="dir.clean" />
+	</target>
+	
+	<target name="jars" description="get base jar files" >
+		<antcall target="import.fetch" />
+	</target>
+	
+	<target name="dirs" description="remove all auto generated files" >
+		<antcall target="dir.mkdirs" />
+	</target>
+	
+	<target name="compile" description="do the compilation" >
+		<antcall target="javac.compile" />
+	</target>
+	
+	<target name="zips" description="pack the jar files" >
+		<antcall target="dir.copy" />
+		<antcall target="dist.zips" />
+	</target>
+</project>

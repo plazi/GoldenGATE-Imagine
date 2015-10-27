@@ -1,0 +1,37 @@
+// GoldenGATE Imagine component jar files
+EasyIO.jar
+  mail.jar
+Gamta.jar
+GoldenGATE.jar
+HtmlXmlUtil.jar
+StringUtils.jar
+GamtaImagingAPI.jar
+ImageMarkup.jar
+ImageMarkupOCR.jar
+ImageMarkupOCR.bin.jar
+ImageMarkupPDF.jar
+ImageMarkupPDF.bin.jar
+  icepdf-core.jar
+GgImagine.jar
+
+// facilities for starting GoldenGATE Imagine
+GgImagine.bat
+GgImagine.exe
+GgImagine.sh
+GgImagineStarter.jar
+
+// user information files
+License.txt
+README.txt
+
+// config files for local environment
+Parameters.cnfg
+ConfigHosts.cnfg
+UpdateHosts.cnfg
+
+// utility batches
+CleanupLogFiles.bat
+CleanupOldFiles.bat
+
+// additional data
+Data/GoldenGATE.logo.gif
