@@ -37,9 +37,76 @@
 	<!-- path to the .jar file that shall be created -->
 	<property name="jar.vpacker" value="${dist.home}/_VersionPacker.imagine.jar" />
 	
+	
+	
 	<!-- path to the application .zip file that shall be created -->
 	<property name="app.imagine" value="${dist.home}/GoldenGateImagine.zip" />
 	
 	<!-- path to the application .zip file that shall be created -->
 	<property name="app.vpacker" value="${dist.home}/VersionPacker.imagine.zip" />
+	
+	
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.annotations" value="${dist.home}/Plugins/AnnotationActionProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.attributes" value="${dist.home}/Plugins/AttributeToolProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.basicimageedit" value="${dist.home}/Plugins/BasicImageEditToolProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.navigation" value="${dist.home}/Plugins/NavigationProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.regions" value="${dist.home}/Plugins/RegionActionProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.text" value="${dist.home}/Plugins/TextActionProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.textblocks" value="${dist.home}/Plugins/TextBlockActionProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.textstreams" value="${dist.home}/Plugins/TextStreamActionProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.docmeatdata" value="${dist.home}/Plugins/DocumentMetaDataEditor.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.captioncitations" value="${dist.home}/Plugins/CaptionCitationHandler.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.docstructure" value="${dist.home}/Plugins/DocumentStructureDetector.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.fonts" value="${dist.home}/Plugins/FontEditor.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.urldroplinker" value="${dist.home}/Plugins/UrlDropLinker.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.tables" value="${dist.home}/Plugins/TableActionProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.dpimtools" value="${dist.home}/Plugins/DocumentProcessorImTools.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.objectlist" value="${dist.home}/Plugins/ObjectListProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.blockocr" value="${dist.home}/Plugins/BlockOcrProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.ocrcheck" value="${dist.home}/Plugins/OcrChecker.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.xmlview" value="${dist.home}/Plugins/XmlViewer.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.docstyleprov" value="${dist.home}/Plugins/DocumentStyleProvider.jar" />
+	
+	<!-- path to the .jar file that shall be created -->
+	<property name="jar.docstyleman" value="${dist.home}/Plugins/DocumentStyleManager.jar" />
 </project>

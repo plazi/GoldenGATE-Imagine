@@ -13,6 +13,7 @@
 		<mkdir dir="${build.home}/classes" />
 		<mkdir dir="${dist.home}" />
 		<mkdir dir="${dist.home}/Plugins" />
+		<mkdir dir="${dist.home}/Plugins/Bin" />
 	</target>
 	
 	<!-- more or less the reverse of it, delete all the directories again -->
@@ -41,6 +42,13 @@
 		<copy todir="${dist.home}/Plugins/ImagineConfigurationManagerBin" overwrite="true" verbose="false">
 			<fileset dir="${lib.home}">
 				<include name="ImageMarkup.jar" />
+			</fileset>
+		</copy>
+		
+		<!-- copy required libraries -->
+		<copy todir="${dist.home}/Plugins/Bin" overwrite="true" verbose="false">
+			<fileset dir="${lib.home}">
+				<include name="BibRefUtils.jar" />
 			</fileset>
 		</copy>
 	</target>

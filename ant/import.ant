@@ -11,30 +11,31 @@
 		<available property="ic.exists" file="../idaho-core/lib/mail.jar"/>
 	</target>
 	<target name="fetch-ic" depends="check-fetch-ic" if="${ic.exists}">
-    	<copy file="../idaho-core/lib/mail.jar" todir="${lib.home}" overwrite="true" verbose="false" />
-    	<copy file="../idaho-core/dist/StringUtils.jar" todir="${lib.home}" overwrite="true" verbose="false" />
-    	<copy file="../idaho-core/dist/HtmlXmlUtil.jar" todir="${lib.home}" overwrite="true" verbose="false" />
-    	<copy file="../idaho-core/dist/Gamta.jar" todir="${lib.home}" overwrite="true" verbose="false" />
-    	<copy file="../idaho-core/dist/EasyIO.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-core/lib/mail.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-core/dist/StringUtils.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-core/dist/HtmlXmlUtil.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-core/dist/Gamta.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-core/dist/EasyIO.jar" todir="${lib.home}" overwrite="true" verbose="false" />
 	</target>
 	
 	<target name="check-fetch-ie" unless="ie.exists">
 		<available property="ie.exists" file="../idaho-extensions/dist/GamtaImagingAPI.jar"/>
 	</target>
 	<target name="fetch-ie" depends="check-fetch-ie" if="${ie.exists}">
-    	<copy file="../idaho-extensions/dist/GamtaImagingAPI.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-extensions/dist/GamtaImagingAPI.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-extensions/dist/BibRefUtils.jar" todir="${lib.home}" overwrite="true" verbose="false" />
 	</target>
 	
 	<target name="check-fetch-im" unless="im.exists">
 		<available property="im.exists" file="../idaho-imagemarkup/dist/ImageMarkup.jar"/>
 	</target>
 	<target name="fetch-im" depends="check-fetch-im" if="${im.exists}">
-    	<copy file="../idaho-imagemarkup/lib/icepdf-core.jar" todir="${lib.home}" overwrite="true" verbose="false" />
-    	<copy file="../idaho-imagemarkup/dist/ImageMarkup.jar" todir="${lib.home}" overwrite="true" verbose="false" />
-    	<copy file="../idaho-imagemarkup/dist/ImageMarkupOCR.jar" todir="${lib.home}" overwrite="true" verbose="false" />
-    	<copy file="../idaho-imagemarkup/dist/ImageMarkupOCR.bin.jar" todir="${lib.home}" overwrite="true" verbose="false" />
-    	<copy file="../idaho-imagemarkup/dist/ImageMarkupPDF.jar" todir="${lib.home}" overwrite="true" verbose="false" />
-    	<copy file="../idaho-imagemarkup/dist/ImageMarkupPDF.bin.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-imagemarkup/lib/icepdf-core.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-imagemarkup/dist/ImageMarkup.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-imagemarkup/dist/ImageMarkupOCR.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-imagemarkup/dist/ImageMarkupOCR.bin.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-imagemarkup/dist/ImageMarkupPDF.jar" todir="${lib.home}" overwrite="true" verbose="false" />
+		<copy file="../idaho-imagemarkup/dist/ImageMarkupPDF.bin.jar" todir="${lib.home}" overwrite="true" verbose="false" />
 	</target>
 	
 	<target name="check-fetch-gg" unless="gg.exists">
