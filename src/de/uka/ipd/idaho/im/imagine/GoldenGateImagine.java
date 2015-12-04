@@ -110,7 +110,7 @@ public class GoldenGateImagine implements GoldenGateConstants {
 		"The easy way to mark up Documents\n" +
 		"Version Date: " + VERSION_DATE + "\n" +
 		"\n" +
-		"© by Guido Sautter 2006-" + yearTimestamper.format(new Date()) + "\n" +
+		"\u00A9 by Guido Sautter 2006-" + yearTimestamper.format(new Date()) + "\n" +
 		"IPD Boehm\n" +
 		"Karlsruhe Institute of Technology (KIT)";
 	
