@@ -51,15 +51,14 @@
 		</jar>
 	</target>
 	
-	<target name="imaginezip" depends="imagine,configmanager,starter">
+	<target name="imaginezip" depends="imagine,configmanager,starter,plugins">
 		<delete file="${app.imagine}"/>
 		<zip destfile="${app.imagine}">
-			<fileset dir="${lib.home}"/>
+			<fileset dir="${lib.home}" excludes="BibRefUtils.jar"/>
 			<fileset dir="${file.home}/imagine"/>
 			<fileset dir="${dist.home}/" includes="GgImagine.jar"/>
 			<fileset dir="${dist.home}/" includes="GgImagineStarter.jar"/>
 			<fileset dir="${dist.home}/" includes="Plugins/**" excludes="Plugins/ImfDocumentFormat.jar"/>
-			<fileset dir="${dist.home}/" includes="Plugins/Bin/**"/>
 			<fileset dir="." includes="LICENSE.txt"/>
 		</zip>
 	</target>
