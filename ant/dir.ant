@@ -46,10 +46,10 @@
 		</copy>
 		
 		<!-- copy required libraries -->
-		<copy todir="${dist.home}/Plugins/Bin" overwrite="true" verbose="false">
+		<!--copy todir="${dist.home}/Plugins/Bin" overwrite="true" verbose="false">
 			<fileset dir="${lib.home}">
 				<include name="BibRefUtils.jar" />
 			</fileset>
-		</copy>
+		</copy-->
 	</target>
 </project>
